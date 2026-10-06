@@ -182,6 +182,15 @@ export default defineConfig({
   ],
   server: {
     allowedHosts: [".hsyhhssyy.net"],
+    proxy: {
+      // 熵增 API（终末地官方蓝图码解析）开发期代理：浏览器同源访问 /entropy-api/*，
+      // 转发到 https://end-api.shallow.ink/*（生产由 EdgeOne Functions 等价转发）。
+      "/entropy-api": {
+        target: "https://end-api.shallow.ink",
+        changeOrigin: true,
+        rewrite: (path) => path.replace(/^\/entropy-api/, ""),
+      },
+    },
   },
   preview: {
     allowedHosts: [".hsyhhssyy.net"],

@@ -1,0 +1,4842 @@
+{
+  "code": 0,
+  "message": "成功",
+  "data": {
+    "cache": false,
+    "data": {
+      "bluePrintData": {
+        "creatorRoleId": "1004165508",
+        "creatorUserId": "1162203211",
+        "desc": "",
+        "icon": "blueprint_default_icon",
+        "iconColor": 101,
+        "name": "1.4武陵4",
+        "nodes": [
+          {
+            "bandwidth": 1,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_unloader_1",
+            "buildingName": "",
+            "buildingType": 11,
+            "coms": [
+              {
+                "comPos": 15,
+                "comType": 6,
+                "selector": {
+                  "selectedItemId": "item_originium_ore"
+                }
+              }
+            ],
+            "nodeId": 1,
+            "powerConsume": 0,
+            "productIcon": "item_originium_ore",
+            "templateId": "unloader_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 26.5,
+                  "y": 0,
+                  "z": 35.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 25,
+                "y": 0,
+                "z": 35
+              }
+            }
+          },
+          {
+            "bandwidth": 1,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_unloader_1",
+            "buildingName": "",
+            "buildingType": 11,
+            "coms": [
+              {
+                "comPos": 15,
+                "comType": 6,
+                "selector": {
+                  "selectedItemId": "item_plant_moss_3"
+                }
+              }
+            ],
+            "nodeId": 2,
+            "powerConsume": 0,
+            "productIcon": "item_plant_moss_3",
+            "templateId": "unloader_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 14.5,
+                  "y": 0,
+                  "z": 35.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 13,
+                "y": 0,
+                "z": 35
+              }
+            }
+          },
+          {
+            "bandwidth": 2,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_grinder_1",
+            "buildingName": "",
+            "buildingType": 6,
+            "coms": [
+              {
+                "comPos": 18,
+                "comType": 9,
+                "formulaMan": {
+                  "curMode": "normal"
+                }
+              }
+            ],
+            "nodeId": 3,
+            "powerConsume": 5,
+            "productIcon": "item_originium_powder",
+            "templateId": "grinder_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 26.5,
+                  "y": 0,
+                  "z": 32.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 25,
+                "y": 0,
+                "z": 31
+              }
+            }
+          },
+          {
+            "bandwidth": 1,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_unloader_1",
+            "buildingName": "",
+            "buildingType": 11,
+            "coms": [
+              {
+                "comPos": 15,
+                "comType": 6,
+                "selector": {
+                  "selectedItemId": "item_originium_ore"
+                }
+              }
+            ],
+            "nodeId": 4,
+            "powerConsume": 0,
+            "productIcon": "item_originium_ore",
+            "templateId": "unloader_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 35.5,
+                  "y": 0,
+                  "z": 35.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 34,
+                "y": 0,
+                "z": 35
+              }
+            }
+          },
+          {
+            "bandwidth": 2,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_grinder_1",
+            "buildingName": "",
+            "buildingType": 6,
+            "coms": [
+              {
+                "comPos": 18,
+                "comType": 9,
+                "formulaMan": {
+                  "curMode": "normal"
+                }
+              }
+            ],
+            "nodeId": 5,
+            "powerConsume": 5,
+            "productIcon": "item_originium_powder",
+            "templateId": "grinder_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 35.5,
+                  "y": 0,
+                  "z": 32.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 34,
+                "y": 0,
+                "z": 31
+              }
+            }
+          },
+          {
+            "bandwidth": 1,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_unloader_1",
+            "buildingName": "",
+            "buildingType": 11,
+            "coms": [
+              {
+                "comPos": 15,
+                "comType": 6,
+                "selector": {
+                  "selectedItemId": "item_originium_ore"
+                }
+              }
+            ],
+            "nodeId": 6,
+            "powerConsume": 0,
+            "productIcon": "item_originium_ore",
+            "templateId": "unloader_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 32.5,
+                  "y": 0,
+                  "z": 35.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 31,
+                "y": 0,
+                "z": 35
+              }
+            }
+          },
+          {
+            "bandwidth": 2,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_thickener_1",
+            "buildingName": "",
+            "buildingType": 6,
+            "coms": [
+              {
+                "comPos": 18,
+                "comType": 9,
+                "formulaMan": {
+                  "curMode": "normal"
+                }
+              }
+            ],
+            "nodeId": 7,
+            "powerConsume": 50,
+            "productIcon": "item_originium_enr_powder",
+            "templateId": "thickener_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 34,
+                  "y": 0,
+                  "z": 28
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 31,
+                "y": 0,
+                "z": 26
+              }
+            }
+          },
+          {
+            "bandwidth": 2,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_grinder_1",
+            "buildingName": "",
+            "buildingType": 6,
+            "coms": [
+              {
+                "comPos": 18,
+                "comType": 9,
+                "formulaMan": {
+                  "curMode": "normal"
+                }
+              }
+            ],
+            "nodeId": 8,
+            "powerConsume": 5,
+            "productIcon": "item_originium_powder",
+            "templateId": "grinder_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 11.5,
+                  "y": 0,
+                  "z": 32.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 10,
+                "y": 0,
+                "z": 31
+              }
+            }
+          },
+          {
+            "bandwidth": 2,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_grinder_1",
+            "buildingName": "",
+            "buildingType": 6,
+            "coms": [
+              {
+                "comPos": 18,
+                "comType": 9,
+                "formulaMan": {
+                  "curMode": "normal"
+                }
+              }
+            ],
+            "nodeId": 9,
+            "powerConsume": 5,
+            "productIcon": "item_plant_moss_powder_3",
+            "templateId": "grinder_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 14.5,
+                  "y": 0,
+                  "z": 32.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 13,
+                "y": 0,
+                "z": 31
+              }
+            }
+          },
+          {
+            "bandwidth": 1,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_unloader_1",
+            "buildingName": "",
+            "buildingType": 11,
+            "coms": [
+              {
+                "comPos": 15,
+                "comType": 6,
+                "selector": {
+                  "selectedItemId": "item_originium_ore"
+                }
+              }
+            ],
+            "nodeId": 10,
+            "powerConsume": 0,
+            "productIcon": "item_originium_ore",
+            "templateId": "unloader_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 11.5,
+                  "y": 0,
+                  "z": 35.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 10,
+                "y": 0,
+                "z": 35
+              }
+            }
+          },
+          {
+            "bandwidth": 1,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_unloader_1",
+            "buildingName": "",
+            "buildingType": 11,
+            "coms": [
+              {
+                "comPos": 15,
+                "comType": 6,
+                "selector": {
+                  "selectedItemId": "item_originium_ore"
+                }
+              }
+            ],
+            "nodeId": 11,
+            "powerConsume": 0,
+            "productIcon": "item_originium_ore",
+            "templateId": "unloader_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 23.5,
+                  "y": 0,
+                  "z": 35.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 22,
+                "y": 0,
+                "z": 35
+              }
+            }
+          },
+          {
+            "bandwidth": 1,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_power_pole_2",
+            "buildingName": "",
+            "buildingType": 23,
+            "coms": [],
+            "nodeId": 12,
+            "powerConsume": 0,
+            "productIcon": "",
+            "templateId": "power_diffuser_2",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 5,
+                  "y": 0,
+                  "z": 31
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 90,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 4,
+                "y": 0,
+                "z": 31
+              }
+            }
+          },
+          {
+            "bandwidth": 2,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_grinder_1",
+            "buildingName": "",
+            "buildingType": 6,
+            "coms": [
+              {
+                "comPos": 18,
+                "comType": 9,
+                "formulaMan": {
+                  "curMode": "normal"
+                }
+              }
+            ],
+            "nodeId": 13,
+            "powerConsume": 5,
+            "productIcon": "item_originium_powder",
+            "templateId": "grinder_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 44.5,
+                  "y": 0,
+                  "z": 19.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 90,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 43,
+                "y": 0,
+                "z": 20
+              }
+            }
+          },
+          {
+            "bandwidth": 2,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_thickener_1",
+            "buildingName": "",
+            "buildingType": 6,
+            "coms": [
+              {
+                "comPos": 18,
+                "comType": 9,
+                "formulaMan": {
+                  "curMode": "normal"
+                }
+              }
+            ],
+            "nodeId": 14,
+            "powerConsume": 50,
+            "productIcon": "item_originium_enr_powder",
+            "templateId": "thickener_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 40,
+                  "y": 0,
+                  "z": 18
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 90,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 38,
+                "y": 0,
+                "z": 20
+              }
+            }
+          },
+          {
+            "bandwidth": 1,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_power_pole_2",
+            "buildingName": "",
+            "buildingType": 23,
+            "coms": [],
+            "nodeId": 15,
+            "powerConsume": 0,
+            "productIcon": "",
+            "templateId": "power_diffuser_2",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 41,
+                  "y": 0,
+                  "z": 14
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 270,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 41,
+                "y": 0,
+                "z": 13
+              }
+            }
+          },
+          {
+            "bandwidth": 1,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_power_pole_2",
+            "buildingName": "",
+            "buildingType": 23,
+            "coms": [],
+            "nodeId": 16,
+            "powerConsume": 0,
+            "productIcon": "",
+            "templateId": "power_diffuser_2",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 41,
+                  "y": 0,
+                  "z": 28
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 270,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 41,
+                "y": 0,
+                "z": 27
+              }
+            }
+          },
+          {
+            "bandwidth": 1,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_unloader_1",
+            "buildingName": "",
+            "buildingType": 11,
+            "coms": [
+              {
+                "comPos": 15,
+                "comType": 6,
+                "selector": {
+                  "selectedItemId": "item_originium_ore"
+                }
+              }
+            ],
+            "nodeId": 17,
+            "powerConsume": 0,
+            "productIcon": "item_originium_ore",
+            "templateId": "unloader_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 47.5,
+                  "y": 0,
+                  "z": 22.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 90,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 47,
+                "y": 0,
+                "z": 23
+              }
+            }
+          },
+          {
+            "bandwidth": 1,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_unloader_1",
+            "buildingName": "",
+            "buildingType": 11,
+            "coms": [
+              {
+                "comPos": 15,
+                "comType": 6,
+                "selector": {
+                  "selectedItemId": "item_originium_ore"
+                }
+              }
+            ],
+            "nodeId": 18,
+            "powerConsume": 0,
+            "productIcon": "item_originium_ore",
+            "templateId": "unloader_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 47.5,
+                  "y": 0,
+                  "z": 25.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 90,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 47,
+                "y": 0,
+                "z": 26
+              }
+            }
+          },
+          {
+            "bandwidth": 2,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_grinder_1",
+            "buildingName": "",
+            "buildingType": 6,
+            "coms": [
+              {
+                "comPos": 18,
+                "comType": 9,
+                "formulaMan": {
+                  "curMode": "normal"
+                }
+              }
+            ],
+            "nodeId": 19,
+            "powerConsume": 5,
+            "productIcon": "item_originium_powder",
+            "templateId": "grinder_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 44.5,
+                  "y": 0,
+                  "z": 22.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 90,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 43,
+                "y": 0,
+                "z": 23
+              }
+            }
+          },
+          {
+            "bandwidth": 2,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_grinder_1",
+            "buildingName": "",
+            "buildingType": 6,
+            "coms": [
+              {
+                "comPos": 18,
+                "comType": 9,
+                "formulaMan": {
+                  "curMode": "normal"
+                }
+              }
+            ],
+            "nodeId": 20,
+            "powerConsume": 5,
+            "productIcon": "item_originium_powder",
+            "templateId": "grinder_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 44.5,
+                  "y": 0,
+                  "z": 25.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 90,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 43,
+                "y": 0,
+                "z": 26
+              }
+            }
+          },
+          {
+            "bandwidth": 1,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_unloader_1",
+            "buildingName": "",
+            "buildingType": 11,
+            "coms": [
+              {
+                "comPos": 15,
+                "comType": 6,
+                "selector": {
+                  "selectedItemId": "item_originium_ore"
+                }
+              }
+            ],
+            "nodeId": 21,
+            "powerConsume": 0,
+            "productIcon": "item_originium_ore",
+            "templateId": "unloader_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 47.5,
+                  "y": 0,
+                  "z": 31.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 90,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 47,
+                "y": 0,
+                "z": 32
+              }
+            }
+          },
+          {
+            "bandwidth": 2,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_grinder_1",
+            "buildingName": "",
+            "buildingType": 6,
+            "coms": [
+              {
+                "comPos": 18,
+                "comType": 9,
+                "formulaMan": {
+                  "curMode": "normal"
+                }
+              }
+            ],
+            "nodeId": 22,
+            "powerConsume": 5,
+            "productIcon": "item_plant_moss_powder_3",
+            "templateId": "grinder_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 44.5,
+                  "y": 0,
+                  "z": 28.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 90,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 43,
+                "y": 0,
+                "z": 29
+              }
+            }
+          },
+          {
+            "bandwidth": 2,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_grinder_1",
+            "buildingName": "",
+            "buildingType": 6,
+            "coms": [
+              {
+                "comPos": 18,
+                "comType": 9,
+                "formulaMan": {
+                  "curMode": "normal"
+                }
+              }
+            ],
+            "nodeId": 23,
+            "powerConsume": 5,
+            "productIcon": "item_originium_powder",
+            "templateId": "grinder_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 44.5,
+                  "y": 0,
+                  "z": 31.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 90,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 43,
+                "y": 0,
+                "z": 32
+              }
+            }
+          },
+          {
+            "bandwidth": 2,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_grinder_1",
+            "buildingName": "",
+            "buildingType": 6,
+            "coms": [
+              {
+                "comPos": 18,
+                "comType": 9,
+                "formulaMan": {
+                  "curMode": "normal"
+                }
+              }
+            ],
+            "nodeId": 24,
+            "powerConsume": 5,
+            "productIcon": "item_originium_powder",
+            "templateId": "grinder_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 44.5,
+                  "y": 0,
+                  "z": 34.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 90,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 43,
+                "y": 0,
+                "z": 35
+              }
+            }
+          },
+          {
+            "bandwidth": 2,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_grinder_1",
+            "buildingName": "",
+            "buildingType": 6,
+            "coms": [
+              {
+                "comPos": 18,
+                "comType": 9,
+                "formulaMan": {
+                  "curMode": "normal"
+                }
+              }
+            ],
+            "nodeId": 25,
+            "powerConsume": 5,
+            "productIcon": "item_originium_powder",
+            "templateId": "grinder_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 44.5,
+                  "y": 0,
+                  "z": 7.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 90,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 43,
+                "y": 0,
+                "z": 8
+              }
+            }
+          },
+          {
+            "bandwidth": 2,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_grinder_1",
+            "buildingName": "",
+            "buildingType": 6,
+            "coms": [
+              {
+                "comPos": 18,
+                "comType": 9,
+                "formulaMan": {
+                  "curMode": "normal"
+                }
+              }
+            ],
+            "nodeId": 26,
+            "powerConsume": 5,
+            "productIcon": "item_originium_powder",
+            "templateId": "grinder_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 44.5,
+                  "y": 0,
+                  "z": 10.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 90,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 43,
+                "y": 0,
+                "z": 11
+              }
+            }
+          },
+          {
+            "bandwidth": 2,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_thickener_1",
+            "buildingName": "",
+            "buildingType": 6,
+            "coms": [
+              {
+                "comPos": 18,
+                "comType": 9,
+                "formulaMan": {
+                  "curMode": "normal"
+                }
+              }
+            ],
+            "nodeId": 27,
+            "powerConsume": 50,
+            "productIcon": "item_originium_enr_powder",
+            "templateId": "thickener_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 40,
+                  "y": 0,
+                  "z": 24
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 90,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 38,
+                "y": 0,
+                "z": 26
+              }
+            }
+          },
+          {
+            "bandwidth": 2,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_thickener_1",
+            "buildingName": "",
+            "buildingType": 6,
+            "coms": [
+              {
+                "comPos": 18,
+                "comType": 9,
+                "formulaMan": {
+                  "curMode": "normal"
+                }
+              }
+            ],
+            "nodeId": 28,
+            "powerConsume": 50,
+            "productIcon": "item_originium_enr_powder",
+            "templateId": "thickener_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 40,
+                  "y": 0,
+                  "z": 33
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 90,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 38,
+                "y": 0,
+                "z": 35
+              }
+            }
+          },
+          {
+            "bandwidth": 2,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_grinder_1",
+            "buildingName": "",
+            "buildingType": 6,
+            "coms": [
+              {
+                "comPos": 18,
+                "comType": 9,
+                "formulaMan": {
+                  "curMode": "normal"
+                }
+              }
+            ],
+            "nodeId": 29,
+            "powerConsume": 5,
+            "productIcon": "item_plant_moss_powder_3",
+            "templateId": "grinder_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 44.5,
+                  "y": 0,
+                  "z": 13.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 90,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 43,
+                "y": 0,
+                "z": 14
+              }
+            }
+          },
+          {
+            "bandwidth": 1,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_unloader_1",
+            "buildingName": "",
+            "buildingType": 11,
+            "coms": [
+              {
+                "comPos": 15,
+                "comType": 6,
+                "selector": {
+                  "selectedItemId": "item_plant_moss_3"
+                }
+              }
+            ],
+            "nodeId": 30,
+            "powerConsume": 0,
+            "productIcon": "item_plant_moss_3",
+            "templateId": "unloader_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 47.5,
+                  "y": 0,
+                  "z": 13.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 90,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 47,
+                "y": 0,
+                "z": 14
+              }
+            }
+          },
+          {
+            "bandwidth": 2,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_thickener_1",
+            "buildingName": "",
+            "buildingType": 6,
+            "coms": [
+              {
+                "comPos": 18,
+                "comType": 9,
+                "formulaMan": {
+                  "curMode": "normal"
+                }
+              }
+            ],
+            "nodeId": 31,
+            "powerConsume": 50,
+            "productIcon": "item_originium_enr_powder",
+            "templateId": "thickener_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 40,
+                  "y": 0,
+                  "z": 10
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 90,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 38,
+                "y": 0,
+                "z": 12
+              }
+            }
+          },
+          {
+            "bandwidth": 1,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_unloader_1",
+            "buildingName": "",
+            "buildingType": 11,
+            "coms": [
+              {
+                "comPos": 15,
+                "comType": 6,
+                "selector": {
+                  "selectedItemId": "item_originium_ore"
+                }
+              }
+            ],
+            "nodeId": 32,
+            "powerConsume": 0,
+            "productIcon": "item_originium_ore",
+            "templateId": "unloader_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 47.5,
+                  "y": 0,
+                  "z": 34.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 90,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 47,
+                "y": 0,
+                "z": 35
+              }
+            }
+          },
+          {
+            "bandwidth": 1,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_unloader_1",
+            "buildingName": "",
+            "buildingType": 11,
+            "coms": [
+              {
+                "comPos": 15,
+                "comType": 6,
+                "selector": {
+                  "selectedItemId": "item_originium_ore"
+                }
+              }
+            ],
+            "nodeId": 33,
+            "powerConsume": 0,
+            "productIcon": "item_originium_ore",
+            "templateId": "unloader_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 47.5,
+                  "y": 0,
+                  "z": 19.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 90,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 47,
+                "y": 0,
+                "z": 20
+              }
+            }
+          },
+          {
+            "bandwidth": 1,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_unloader_1",
+            "buildingName": "",
+            "buildingType": 11,
+            "coms": [
+              {
+                "comPos": 15,
+                "comType": 6,
+                "selector": {
+                  "selectedItemId": "item_originium_ore"
+                }
+              }
+            ],
+            "nodeId": 34,
+            "powerConsume": 0,
+            "productIcon": "item_originium_ore",
+            "templateId": "unloader_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 47.5,
+                  "y": 0,
+                  "z": 16.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 90,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 47,
+                "y": 0,
+                "z": 17
+              }
+            }
+          },
+          {
+            "bandwidth": 1,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_unloader_1",
+            "buildingName": "",
+            "buildingType": 11,
+            "coms": [
+              {
+                "comPos": 15,
+                "comType": 6,
+                "selector": {
+                  "selectedItemId": "item_plant_moss_3"
+                }
+              }
+            ],
+            "nodeId": 35,
+            "powerConsume": 0,
+            "productIcon": "item_plant_moss_3",
+            "templateId": "unloader_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 47.5,
+                  "y": 0,
+                  "z": 28.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 90,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 47,
+                "y": 0,
+                "z": 29
+              }
+            }
+          },
+          {
+            "bandwidth": 1,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_unloader_1",
+            "buildingName": "",
+            "buildingType": 11,
+            "coms": [
+              {
+                "comPos": 15,
+                "comType": 6,
+                "selector": {
+                  "selectedItemId": "item_originium_ore"
+                }
+              }
+            ],
+            "nodeId": 36,
+            "powerConsume": 0,
+            "productIcon": "item_originium_ore",
+            "templateId": "unloader_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 47.5,
+                  "y": 0,
+                  "z": 10.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 90,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 47,
+                "y": 0,
+                "z": 11
+              }
+            }
+          },
+          {
+            "bandwidth": 1,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_unloader_1",
+            "buildingName": "",
+            "buildingType": 11,
+            "coms": [
+              {
+                "comPos": 15,
+                "comType": 6,
+                "selector": {
+                  "selectedItemId": "item_originium_ore"
+                }
+              }
+            ],
+            "nodeId": 37,
+            "powerConsume": 0,
+            "productIcon": "item_originium_ore",
+            "templateId": "unloader_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 47.5,
+                  "y": 0,
+                  "z": 7.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 90,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 47,
+                "y": 0,
+                "z": 8
+              }
+            }
+          },
+          {
+            "bandwidth": 2,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_grinder_1",
+            "buildingName": "",
+            "buildingType": 6,
+            "coms": [
+              {
+                "comPos": 18,
+                "comType": 9,
+                "formulaMan": {
+                  "curMode": "normal"
+                }
+              }
+            ],
+            "nodeId": 38,
+            "powerConsume": 5,
+            "productIcon": "item_originium_powder",
+            "templateId": "grinder_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 44.5,
+                  "y": 0,
+                  "z": 16.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 90,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 43,
+                "y": 0,
+                "z": 17
+              }
+            }
+          },
+          {
+            "bandwidth": 2,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_tools_asm_mc_1",
+            "buildingName": "",
+            "buildingType": 6,
+            "coms": [
+              {
+                "comPos": 18,
+                "comType": 9,
+                "formulaMan": {
+                  "curMode": "normal"
+                }
+              }
+            ],
+            "nodeId": 39,
+            "powerConsume": 20,
+            "productIcon": "item_proc_battery_5",
+            "templateId": "tools_assebling_mc_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 40,
+                  "y": 0,
+                  "z": 3
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 270,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 41,
+                "y": 0,
+                "z": 0
+              }
+            }
+          },
+          {
+            "bandwidth": 2,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_tools_asm_mc_1",
+            "buildingName": "",
+            "buildingType": 6,
+            "coms": [
+              {
+                "comPos": 18,
+                "comType": 9,
+                "formulaMan": {
+                  "curMode": "normal"
+                }
+              }
+            ],
+            "nodeId": 40,
+            "powerConsume": 20,
+            "productIcon": "item_proc_battery_5",
+            "templateId": "tools_assebling_mc_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 3,
+                  "y": 0,
+                  "z": 28
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 180,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 5,
+                "y": 0,
+                "z": 29
+              }
+            }
+          },
+          {
+            "bandwidth": 1,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_unloader_1",
+            "buildingName": "",
+            "buildingType": 11,
+            "coms": [
+              {
+                "comPos": 15,
+                "comType": 6,
+                "selector": {
+                  "selectedItemId": "item_xiranite_poly"
+                }
+              }
+            ],
+            "nodeId": 41,
+            "powerConsume": 0,
+            "productIcon": "item_xiranite_poly",
+            "templateId": "unloader_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 47.5,
+                  "y": 0,
+                  "z": 4.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 90,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 47,
+                "y": 0,
+                "z": 5
+              }
+            }
+          },
+          {
+            "bandwidth": 1,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_unloader_1",
+            "buildingName": "",
+            "buildingType": 11,
+            "coms": [
+              {
+                "comPos": 15,
+                "comType": 6,
+                "selector": {
+                  "selectedItemId": "item_xiranite_poly"
+                }
+              }
+            ],
+            "nodeId": 42,
+            "powerConsume": 0,
+            "productIcon": "item_xiranite_poly",
+            "templateId": "unloader_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 4.5,
+                  "y": 0,
+                  "z": 35.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 3,
+                "y": 0,
+                "z": 35
+              }
+            }
+          },
+          {
+            "bandwidth": 1,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_loader_1",
+            "buildingName": "",
+            "buildingType": 10,
+            "coms": [],
+            "nodeId": 43,
+            "powerConsume": 0,
+            "productIcon": "",
+            "templateId": "loader_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 47.5,
+                  "y": 0,
+                  "z": 1.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 270,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 47,
+                "y": 0,
+                "z": 0
+              }
+            }
+          },
+          {
+            "bandwidth": 1,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_power_pole_2",
+            "buildingName": "",
+            "buildingType": 23,
+            "coms": [],
+            "nodeId": 44,
+            "powerConsume": 0,
+            "productIcon": "",
+            "templateId": "power_diffuser_2",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 43,
+                  "y": 0,
+                  "z": 3
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 90,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 42,
+                "y": 0,
+                "z": 3
+              }
+            }
+          },
+          {
+            "bandwidth": 1,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_loader_1",
+            "buildingName": "",
+            "buildingType": 10,
+            "coms": [],
+            "nodeId": 45,
+            "powerConsume": 0,
+            "productIcon": "",
+            "templateId": "loader_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 1.5,
+                  "y": 0,
+                  "z": 35.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 180,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 2,
+                "y": 0,
+                "z": 35
+              }
+            }
+          },
+          {
+            "bandwidth": 2,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_grinder_1",
+            "buildingName": "",
+            "buildingType": 6,
+            "coms": [
+              {
+                "comPos": 18,
+                "comType": 9,
+                "formulaMan": {
+                  "curMode": "normal"
+                }
+              }
+            ],
+            "nodeId": 46,
+            "powerConsume": 5,
+            "productIcon": "item_originium_powder",
+            "templateId": "grinder_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 23.5,
+                  "y": 0,
+                  "z": 32.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 22,
+                "y": 0,
+                "z": 31
+              }
+            }
+          },
+          {
+            "bandwidth": 2,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_thickener_1",
+            "buildingName": "",
+            "buildingType": 6,
+            "coms": [
+              {
+                "comPos": 18,
+                "comType": 9,
+                "formulaMan": {
+                  "curMode": "normal"
+                }
+              }
+            ],
+            "nodeId": 47,
+            "powerConsume": 50,
+            "productIcon": "item_originium_enr_powder",
+            "templateId": "thickener_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 25,
+                  "y": 0,
+                  "z": 28
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 22,
+                "y": 0,
+                "z": 26
+              }
+            }
+          },
+          {
+            "bandwidth": 1,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_power_pole_2",
+            "buildingName": "",
+            "buildingType": 23,
+            "coms": [],
+            "nodeId": 48,
+            "powerConsume": 0,
+            "productIcon": "",
+            "templateId": "power_diffuser_2",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 30,
+                  "y": 0,
+                  "z": 29
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 180,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 30,
+                "y": 0,
+                "z": 29
+              }
+            }
+          },
+          {
+            "bandwidth": 1,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_power_pole_2",
+            "buildingName": "",
+            "buildingType": 23,
+            "coms": [],
+            "nodeId": 49,
+            "powerConsume": 0,
+            "productIcon": "",
+            "templateId": "power_diffuser_2",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 15,
+                  "y": 0,
+                  "z": 29
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 180,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 15,
+                "y": 0,
+                "z": 29
+              }
+            }
+          },
+          {
+            "bandwidth": 1,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_unloader_1",
+            "buildingName": "",
+            "buildingType": 11,
+            "coms": [
+              {
+                "comPos": 15,
+                "comType": 6,
+                "selector": {
+                  "selectedItemId": "item_originium_ore"
+                }
+              }
+            ],
+            "nodeId": 50,
+            "powerConsume": 0,
+            "productIcon": "item_originium_ore",
+            "templateId": "unloader_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 20.5,
+                  "y": 0,
+                  "z": 35.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 19,
+                "y": 0,
+                "z": 35
+              }
+            }
+          },
+          {
+            "bandwidth": 1,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_unloader_1",
+            "buildingName": "",
+            "buildingType": 11,
+            "coms": [
+              {
+                "comPos": 15,
+                "comType": 6,
+                "selector": {
+                  "selectedItemId": "item_originium_ore"
+                }
+              }
+            ],
+            "nodeId": 51,
+            "powerConsume": 0,
+            "productIcon": "item_originium_ore",
+            "templateId": "unloader_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 17.5,
+                  "y": 0,
+                  "z": 35.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 16,
+                "y": 0,
+                "z": 35
+              }
+            }
+          },
+          {
+            "bandwidth": 2,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_grinder_1",
+            "buildingName": "",
+            "buildingType": 6,
+            "coms": [
+              {
+                "comPos": 18,
+                "comType": 9,
+                "formulaMan": {
+                  "curMode": "normal"
+                }
+              }
+            ],
+            "nodeId": 52,
+            "powerConsume": 5,
+            "productIcon": "item_originium_powder",
+            "templateId": "grinder_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 20.5,
+                  "y": 0,
+                  "z": 32.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 19,
+                "y": 0,
+                "z": 31
+              }
+            }
+          },
+          {
+            "bandwidth": 2,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_grinder_1",
+            "buildingName": "",
+            "buildingType": 6,
+            "coms": [
+              {
+                "comPos": 18,
+                "comType": 9,
+                "formulaMan": {
+                  "curMode": "normal"
+                }
+              }
+            ],
+            "nodeId": 53,
+            "powerConsume": 5,
+            "productIcon": "item_originium_powder",
+            "templateId": "grinder_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 17.5,
+                  "y": 0,
+                  "z": 32.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 16,
+                "y": 0,
+                "z": 31
+              }
+            }
+          },
+          {
+            "bandwidth": 2,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_grinder_1",
+            "buildingName": "",
+            "buildingType": 6,
+            "coms": [
+              {
+                "comPos": 18,
+                "comType": 9,
+                "formulaMan": {
+                  "curMode": "normal"
+                }
+              }
+            ],
+            "nodeId": 54,
+            "powerConsume": 5,
+            "productIcon": "item_originium_powder",
+            "templateId": "grinder_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 8.5,
+                  "y": 0,
+                  "z": 32.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 7,
+                "y": 0,
+                "z": 31
+              }
+            }
+          },
+          {
+            "bandwidth": 2,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_grinder_1",
+            "buildingName": "",
+            "buildingType": 6,
+            "coms": [
+              {
+                "comPos": 18,
+                "comType": 9,
+                "formulaMan": {
+                  "curMode": "normal"
+                }
+              }
+            ],
+            "nodeId": 55,
+            "powerConsume": 5,
+            "productIcon": "item_originium_powder",
+            "templateId": "grinder_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 32.5,
+                  "y": 0,
+                  "z": 32.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 31,
+                "y": 0,
+                "z": 31
+              }
+            }
+          },
+          {
+            "bandwidth": 2,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_thickener_1",
+            "buildingName": "",
+            "buildingType": 6,
+            "coms": [
+              {
+                "comPos": 18,
+                "comType": 9,
+                "formulaMan": {
+                  "curMode": "normal"
+                }
+              }
+            ],
+            "nodeId": 56,
+            "powerConsume": 50,
+            "productIcon": "item_originium_enr_powder",
+            "templateId": "thickener_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 19,
+                  "y": 0,
+                  "z": 28
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 16,
+                "y": 0,
+                "z": 26
+              }
+            }
+          },
+          {
+            "bandwidth": 2,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_thickener_1",
+            "buildingName": "",
+            "buildingType": 6,
+            "coms": [
+              {
+                "comPos": 18,
+                "comType": 9,
+                "formulaMan": {
+                  "curMode": "normal"
+                }
+              }
+            ],
+            "nodeId": 57,
+            "powerConsume": 50,
+            "productIcon": "item_originium_enr_powder",
+            "templateId": "thickener_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 10,
+                  "y": 0,
+                  "z": 28
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 7,
+                "y": 0,
+                "z": 26
+              }
+            }
+          },
+          {
+            "bandwidth": 2,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_grinder_1",
+            "buildingName": "",
+            "buildingType": 6,
+            "coms": [
+              {
+                "comPos": 18,
+                "comType": 9,
+                "formulaMan": {
+                  "curMode": "normal"
+                }
+              }
+            ],
+            "nodeId": 58,
+            "powerConsume": 5,
+            "productIcon": "item_plant_moss_powder_3",
+            "templateId": "grinder_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 29.5,
+                  "y": 0,
+                  "z": 32.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 28,
+                "y": 0,
+                "z": 31
+              }
+            }
+          },
+          {
+            "bandwidth": 1,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_unloader_1",
+            "buildingName": "",
+            "buildingType": 11,
+            "coms": [
+              {
+                "comPos": 15,
+                "comType": 6,
+                "selector": {
+                  "selectedItemId": "item_plant_moss_3"
+                }
+              }
+            ],
+            "nodeId": 59,
+            "powerConsume": 0,
+            "productIcon": "item_plant_moss_3",
+            "templateId": "unloader_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 29.5,
+                  "y": 0,
+                  "z": 35.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 28,
+                "y": 0,
+                "z": 35
+              }
+            }
+          },
+          {
+            "bandwidth": 1,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_unloader_1",
+            "buildingName": "",
+            "buildingType": 11,
+            "coms": [
+              {
+                "comPos": 15,
+                "comType": 6,
+                "selector": {
+                  "selectedItemId": "item_originium_ore"
+                }
+              }
+            ],
+            "nodeId": 60,
+            "powerConsume": 0,
+            "productIcon": "item_originium_ore",
+            "templateId": "unloader_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 8.5,
+                  "y": 0,
+                  "z": 35.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 7,
+                "y": 0,
+                "z": 35
+              }
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 61,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 26,
+                  "y": 0,
+                  "z": 16
+                },
+                {
+                  "x": 26,
+                  "y": 0,
+                  "z": 16
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 62,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 25,
+                  "y": 0,
+                  "z": 17
+                },
+                {
+                  "x": 25,
+                  "y": 0,
+                  "z": 17
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 63,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 28,
+                  "y": 0,
+                  "z": 17
+                },
+                {
+                  "x": 28,
+                  "y": 0,
+                  "z": 15
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 64,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 28,
+                  "y": 0,
+                  "z": 12
+                },
+                {
+                  "x": 28,
+                  "y": 0,
+                  "z": 14
+                },
+                {
+                  "x": 24,
+                  "y": 0,
+                  "z": 14
+                },
+                {
+                  "x": 24,
+                  "y": 0,
+                  "z": 12
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 65,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 26,
+                  "y": 0,
+                  "z": 10
+                },
+                {
+                  "x": 26,
+                  "y": 0,
+                  "z": 9
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 66,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 7,
+                  "y": 0,
+                  "z": 25
+                },
+                {
+                  "x": 7,
+                  "y": 0,
+                  "z": 24
+                },
+                {
+                  "x": 4,
+                  "y": 0,
+                  "z": 24
+                },
+                {
+                  "x": 4,
+                  "y": 0,
+                  "z": 25
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 67,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 28,
+                  "y": 0,
+                  "z": 10
+                },
+                {
+                  "x": 28,
+                  "y": 0,
+                  "z": 8
+                },
+                {
+                  "x": 24,
+                  "y": 0,
+                  "z": 8
+                },
+                {
+                  "x": 24,
+                  "y": 0,
+                  "z": 10
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 68,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 27,
+                  "y": 0,
+                  "z": 15
+                },
+                {
+                  "x": 27,
+                  "y": 0,
+                  "z": 15
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 69,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 42,
+                  "y": 0,
+                  "z": 10
+                },
+                {
+                  "x": 42,
+                  "y": 0,
+                  "z": 10
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 70,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 42,
+                  "y": 0,
+                  "z": 22
+                },
+                {
+                  "x": 42,
+                  "y": 0,
+                  "z": 22
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 71,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 16,
+                  "y": 0,
+                  "z": 25
+                },
+                {
+                  "x": 16,
+                  "y": 0,
+                  "z": 23
+                },
+                {
+                  "x": 3,
+                  "y": 0,
+                  "z": 23
+                },
+                {
+                  "x": 3,
+                  "y": 0,
+                  "z": 25
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 72,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 28,
+                  "y": 0,
+                  "z": 7
+                },
+                {
+                  "x": 28,
+                  "y": 0,
+                  "z": 5
+                },
+                {
+                  "x": 26,
+                  "y": 0,
+                  "z": 5
+                },
+                {
+                  "x": 26,
+                  "y": 0,
+                  "z": 7
+                },
+                {
+                  "x": 24,
+                  "y": 0,
+                  "z": 7
+                },
+                {
+                  "x": 24,
+                  "y": 0,
+                  "z": 2
+                },
+                {
+                  "x": 26,
+                  "y": 0,
+                  "z": 2
+                },
+                {
+                  "x": 26,
+                  "y": 0,
+                  "z": 4
+                },
+                {
+                  "x": 28,
+                  "y": 0,
+                  "z": 4
+                },
+                {
+                  "x": 28,
+                  "y": 0,
+                  "z": 2
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 73,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 31,
+                  "y": 0,
+                  "z": 25
+                },
+                {
+                  "x": 31,
+                  "y": 0,
+                  "z": 21
+                },
+                {
+                  "x": 1,
+                  "y": 0,
+                  "z": 21
+                },
+                {
+                  "x": 1,
+                  "y": 0,
+                  "z": 25
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 74,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 46,
+                  "y": 0,
+                  "z": 22
+                },
+                {
+                  "x": 46,
+                  "y": 0,
+                  "z": 22
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 75,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 23,
+                  "y": 0,
+                  "z": 30
+                },
+                {
+                  "x": 23,
+                  "y": 0,
+                  "z": 30
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 76,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 26,
+                  "y": 0,
+                  "z": 34
+                },
+                {
+                  "x": 26,
+                  "y": 0,
+                  "z": 34
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 77,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 23,
+                  "y": 0,
+                  "z": 34
+                },
+                {
+                  "x": 23,
+                  "y": 0,
+                  "z": 34
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 78,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 30,
+                  "y": 0,
+                  "z": 30
+                },
+                {
+                  "x": 31,
+                  "y": 0,
+                  "z": 30
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 79,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 8,
+                  "y": 0,
+                  "z": 34
+                },
+                {
+                  "x": 8,
+                  "y": 0,
+                  "z": 34
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 80,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 15,
+                  "y": 0,
+                  "z": 30
+                },
+                {
+                  "x": 16,
+                  "y": 0,
+                  "z": 30
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 81,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 14,
+                  "y": 0,
+                  "z": 34
+                },
+                {
+                  "x": 14,
+                  "y": 0,
+                  "z": 34
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 82,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 20,
+                  "y": 0,
+                  "z": 30
+                },
+                {
+                  "x": 20,
+                  "y": 0,
+                  "z": 30
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 83,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 11,
+                  "y": 0,
+                  "z": 30
+                },
+                {
+                  "x": 11,
+                  "y": 0,
+                  "z": 30
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 84,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 8,
+                  "y": 0,
+                  "z": 30
+                },
+                {
+                  "x": 8,
+                  "y": 0,
+                  "z": 30
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 85,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 11,
+                  "y": 0,
+                  "z": 34
+                },
+                {
+                  "x": 11,
+                  "y": 0,
+                  "z": 34
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 86,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 35,
+                  "y": 0,
+                  "z": 34
+                },
+                {
+                  "x": 35,
+                  "y": 0,
+                  "z": 34
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 87,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 35,
+                  "y": 0,
+                  "z": 30
+                },
+                {
+                  "x": 35,
+                  "y": 0,
+                  "z": 30
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 88,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 32,
+                  "y": 0,
+                  "z": 34
+                },
+                {
+                  "x": 32,
+                  "y": 0,
+                  "z": 34
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 89,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 32,
+                  "y": 0,
+                  "z": 30
+                },
+                {
+                  "x": 32,
+                  "y": 0,
+                  "z": 30
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 90,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 29,
+                  "y": 0,
+                  "z": 34
+                },
+                {
+                  "x": 29,
+                  "y": 0,
+                  "z": 34
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 91,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 28,
+                  "y": 0,
+                  "z": 30
+                },
+                {
+                  "x": 27,
+                  "y": 0,
+                  "z": 30
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 92,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 26,
+                  "y": 0,
+                  "z": 30
+                },
+                {
+                  "x": 26,
+                  "y": 0,
+                  "z": 30
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 93,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 20,
+                  "y": 0,
+                  "z": 34
+                },
+                {
+                  "x": 20,
+                  "y": 0,
+                  "z": 34
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 94,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 17,
+                  "y": 0,
+                  "z": 30
+                },
+                {
+                  "x": 17,
+                  "y": 0,
+                  "z": 30
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 95,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 17,
+                  "y": 0,
+                  "z": 34
+                },
+                {
+                  "x": 17,
+                  "y": 0,
+                  "z": 34
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 96,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 13,
+                  "y": 0,
+                  "z": 30
+                },
+                {
+                  "x": 12,
+                  "y": 0,
+                  "z": 30
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 97,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 42,
+                  "y": 0,
+                  "z": 1
+                },
+                {
+                  "x": 46,
+                  "y": 0,
+                  "z": 1
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 98,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 22,
+                  "y": 0,
+                  "z": 25
+                },
+                {
+                  "x": 22,
+                  "y": 0,
+                  "z": 22
+                },
+                {
+                  "x": 2,
+                  "y": 0,
+                  "z": 22
+                },
+                {
+                  "x": 2,
+                  "y": 0,
+                  "z": 25
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 99,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 46,
+                  "y": 0,
+                  "z": 4
+                },
+                {
+                  "x": 42,
+                  "y": 0,
+                  "z": 4
+                },
+                {
+                  "x": 42,
+                  "y": 0,
+                  "z": 6
+                },
+                {
+                  "x": 37,
+                  "y": 0,
+                  "z": 6
+                },
+                {
+                  "x": 37,
+                  "y": 0,
+                  "z": 5
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 100,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 24,
+                  "y": 0,
+                  "z": 17
+                },
+                {
+                  "x": 24,
+                  "y": 0,
+                  "z": 15
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 101,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 4,
+                  "y": 0,
+                  "z": 34
+                },
+                {
+                  "x": 6,
+                  "y": 0,
+                  "z": 34
+                },
+                {
+                  "x": 6,
+                  "y": 0,
+                  "z": 25
+                },
+                {
+                  "x": 5,
+                  "y": 0,
+                  "z": 25
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 102,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 1,
+                  "y": 0,
+                  "z": 30
+                },
+                {
+                  "x": 1,
+                  "y": 0,
+                  "z": 34
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 103,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 42,
+                  "y": 0,
+                  "z": 16
+                },
+                {
+                  "x": 42,
+                  "y": 0,
+                  "z": 16
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 104,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 42,
+                  "y": 0,
+                  "z": 19
+                },
+                {
+                  "x": 42,
+                  "y": 0,
+                  "z": 19
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 105,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 46,
+                  "y": 0,
+                  "z": 16
+                },
+                {
+                  "x": 46,
+                  "y": 0,
+                  "z": 16
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 106,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 46,
+                  "y": 0,
+                  "z": 19
+                },
+                {
+                  "x": 46,
+                  "y": 0,
+                  "z": 19
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 107,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 42,
+                  "y": 0,
+                  "z": 14
+                },
+                {
+                  "x": 42,
+                  "y": 0,
+                  "z": 15
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 108,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 42,
+                  "y": 0,
+                  "z": 12
+                },
+                {
+                  "x": 42,
+                  "y": 0,
+                  "z": 11
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 109,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 46,
+                  "y": 0,
+                  "z": 7
+                },
+                {
+                  "x": 46,
+                  "y": 0,
+                  "z": 7
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 110,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 46,
+                  "y": 0,
+                  "z": 10
+                },
+                {
+                  "x": 46,
+                  "y": 0,
+                  "z": 10
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 111,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 46,
+                  "y": 0,
+                  "z": 13
+                },
+                {
+                  "x": 46,
+                  "y": 0,
+                  "z": 13
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 112,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 42,
+                  "y": 0,
+                  "z": 7
+                },
+                {
+                  "x": 42,
+                  "y": 0,
+                  "z": 7
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 113,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 37,
+                  "y": 0,
+                  "z": 7
+                },
+                {
+                  "x": 36,
+                  "y": 0,
+                  "z": 7
+                },
+                {
+                  "x": 36,
+                  "y": 0,
+                  "z": 4
+                },
+                {
+                  "x": 37,
+                  "y": 0,
+                  "z": 4
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 114,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 46,
+                  "y": 0,
+                  "z": 34
+                },
+                {
+                  "x": 46,
+                  "y": 0,
+                  "z": 34
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 115,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 42,
+                  "y": 0,
+                  "z": 29
+                },
+                {
+                  "x": 42,
+                  "y": 0,
+                  "z": 30
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 116,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 42,
+                  "y": 0,
+                  "z": 27
+                },
+                {
+                  "x": 42,
+                  "y": 0,
+                  "z": 26
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 117,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 37,
+                  "y": 0,
+                  "z": 21
+                },
+                {
+                  "x": 34,
+                  "y": 0,
+                  "z": 21
+                },
+                {
+                  "x": 34,
+                  "y": 0,
+                  "z": 2
+                },
+                {
+                  "x": 37,
+                  "y": 0,
+                  "z": 2
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 118,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 46,
+                  "y": 0,
+                  "z": 25
+                },
+                {
+                  "x": 46,
+                  "y": 0,
+                  "z": 25
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 119,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 46,
+                  "y": 0,
+                  "z": 28
+                },
+                {
+                  "x": 46,
+                  "y": 0,
+                  "z": 28
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 120,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 37,
+                  "y": 0,
+                  "z": 30
+                },
+                {
+                  "x": 37,
+                  "y": 0,
+                  "z": 25
+                },
+                {
+                  "x": 33,
+                  "y": 0,
+                  "z": 25
+                },
+                {
+                  "x": 33,
+                  "y": 0,
+                  "z": 1
+                },
+                {
+                  "x": 37,
+                  "y": 0,
+                  "z": 1
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 121,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 42,
+                  "y": 0,
+                  "z": 25
+                },
+                {
+                  "x": 42,
+                  "y": 0,
+                  "z": 25
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 122,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 42,
+                  "y": 0,
+                  "z": 31
+                },
+                {
+                  "x": 42,
+                  "y": 0,
+                  "z": 31
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 123,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 42,
+                  "y": 0,
+                  "z": 34
+                },
+                {
+                  "x": 42,
+                  "y": 0,
+                  "z": 34
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 124,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 46,
+                  "y": 0,
+                  "z": 31
+                },
+                {
+                  "x": 46,
+                  "y": 0,
+                  "z": 31
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 125,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 37,
+                  "y": 0,
+                  "z": 15
+                },
+                {
+                  "x": 35,
+                  "y": 0,
+                  "z": 15
+                },
+                {
+                  "x": 35,
+                  "y": 0,
+                  "z": 3
+                },
+                {
+                  "x": 37,
+                  "y": 0,
+                  "z": 3
+                }
+              ]
+            }
+          }
+        ],
+        "reviewStatus": 2,
+        "tags": [],
+        "xSize": 48,
+        "zSize": 36
+      },
+      "query": {
+        "code": "EF010819a91uOi12iE179"
+      }
+    }
+  }
+}

@@ -1,0 +1,5948 @@
+{
+  "code": 0,
+  "message": "成功",
+  "data": {
+    "cache": false,
+    "data": {
+      "bluePrintData": {
+        "creatorRoleId": "1004165508",
+        "creatorUserId": "1162203211",
+        "desc": "",
+        "icon": "blueprint_default_icon",
+        "iconColor": 101,
+        "name": "1.4武陵3",
+        "nodes": [
+          {
+            "coms": [],
+            "nodeId": 1,
+            "productIcon": "",
+            "templateId": "log_pipe_splitter",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 37.5,
+                  "y": 0,
+                  "z": 27.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 37,
+                "y": 0,
+                "z": 27
+              }
+            }
+          },
+          {
+            "bandwidth": 1,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_unloader_1",
+            "buildingName": "",
+            "buildingType": 11,
+            "coms": [
+              {
+                "comPos": 15,
+                "comType": 6,
+                "selector": {
+                  "selectedItemId": "item_xiranite_powder"
+                }
+              }
+            ],
+            "nodeId": 2,
+            "powerConsume": 0,
+            "productIcon": "item_xiranite_powder",
+            "templateId": "unloader_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 47.5,
+                  "y": 0,
+                  "z": 22.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 90,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 47,
+                "y": 0,
+                "z": 23
+              }
+            }
+          },
+          {
+            "bandwidth": 1,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_unloader_1",
+            "buildingName": "",
+            "buildingType": 11,
+            "coms": [
+              {
+                "comPos": 15,
+                "comType": 6,
+                "selector": {
+                  "selectedItemId": "item_xiranite_powder"
+                }
+              }
+            ],
+            "nodeId": 3,
+            "powerConsume": 0,
+            "productIcon": "item_xiranite_powder",
+            "templateId": "unloader_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 47.5,
+                  "y": 0,
+                  "z": 26.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 90,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 47,
+                "y": 0,
+                "z": 27
+              }
+            }
+          },
+          {
+            "bandwidth": 1,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_unloader_1",
+            "buildingName": "",
+            "buildingType": 11,
+            "coms": [
+              {
+                "comPos": 15,
+                "comType": 6,
+                "selector": {
+                  "selectedItemId": "item_plant_grass_2"
+                }
+              }
+            ],
+            "nodeId": 4,
+            "powerConsume": 0,
+            "productIcon": "item_plant_grass_2",
+            "templateId": "unloader_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 21.5,
+                  "y": 0,
+                  "z": 4.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 180,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 22,
+                "y": 0,
+                "z": 4
+              }
+            }
+          },
+          {
+            "bandwidth": 2,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_furnance_1",
+            "buildingName": "",
+            "buildingType": 6,
+            "coms": [
+              {
+                "comPos": 18,
+                "comType": 9,
+                "formulaMan": {
+                  "curMode": "liquid"
+                }
+              }
+            ],
+            "nodeId": 5,
+            "powerConsume": 5,
+            "productIcon": "item_copper_nugget",
+            "templateId": "furnance_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 44.5,
+                  "y": 0,
+                  "z": 30.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 90,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 43,
+                "y": 0,
+                "z": 31
+              }
+            }
+          },
+          {
+            "bandwidth": 1,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_unloader_1",
+            "buildingName": "",
+            "buildingType": 11,
+            "coms": [
+              {
+                "comPos": 15,
+                "comType": 6,
+                "selector": {
+                  "selectedItemId": "item_copper_ore"
+                }
+              }
+            ],
+            "nodeId": 6,
+            "powerConsume": 0,
+            "productIcon": "item_copper_ore",
+            "templateId": "unloader_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 47.5,
+                  "y": 0,
+                  "z": 29.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 90,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 47,
+                "y": 0,
+                "z": 30
+              }
+            }
+          },
+          {
+            "bandwidth": 2,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_storager_1",
+            "buildingName": "",
+            "buildingType": 4,
+            "coms": [],
+            "nodeId": 7,
+            "powerConsume": 5,
+            "productIcon": "",
+            "templateId": "storager_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 36.5,
+                  "y": 0,
+                  "z": 37.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 90,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 35,
+                "y": 0,
+                "z": 38
+              }
+            }
+          },
+          {
+            "bandwidth": 1,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_unloader_1",
+            "buildingName": "",
+            "buildingType": 11,
+            "coms": [
+              {
+                "comPos": 15,
+                "comType": 6,
+                "selector": {
+                  "selectedItemId": "item_xiranite_powder"
+                }
+              }
+            ],
+            "nodeId": 8,
+            "powerConsume": 0,
+            "productIcon": "item_xiranite_powder",
+            "templateId": "unloader_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 47.5,
+                  "y": 0,
+                  "z": 19.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 90,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 47,
+                "y": 0,
+                "z": 20
+              }
+            }
+          },
+          {
+            "bandwidth": 1,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_unloader_1",
+            "buildingName": "",
+            "buildingType": 11,
+            "coms": [
+              {
+                "comPos": 15,
+                "comType": 6,
+                "selector": {
+                  "selectedItemId": "item_xiranite_powder"
+                }
+              }
+            ],
+            "nodeId": 9,
+            "powerConsume": 0,
+            "productIcon": "item_xiranite_powder",
+            "templateId": "unloader_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 47.5,
+                  "y": 0,
+                  "z": 16.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 90,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 47,
+                "y": 0,
+                "z": 17
+              }
+            }
+          },
+          {
+            "bandwidth": 1,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_unloader_1",
+            "buildingName": "",
+            "buildingType": 11,
+            "coms": [
+              {
+                "comPos": 15,
+                "comType": 6,
+                "selector": {
+                  "selectedItemId": "item_iron_powder"
+                }
+              }
+            ],
+            "nodeId": 10,
+            "powerConsume": 0,
+            "productIcon": "item_iron_powder",
+            "templateId": "unloader_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 47.5,
+                  "y": 0,
+                  "z": 10.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 90,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 47,
+                "y": 0,
+                "z": 11
+              }
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 11,
+            "productIcon": "",
+            "templateId": "log_pipe_splitter",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 46.5,
+                  "y": 0,
+                  "z": 33.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 90,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 46,
+                "y": 0,
+                "z": 33
+              }
+            }
+          },
+          {
+            "bandwidth": 2,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_liquid_cleaner_1",
+            "buildingName": "",
+            "buildingType": 28,
+            "coms": [],
+            "nodeId": 12,
+            "powerConsume": 50,
+            "productIcon": "",
+            "templateId": "liquid_cleaner_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 33.5,
+                  "y": 0,
+                  "z": 37.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 32,
+                "y": 0,
+                "z": 36
+              }
+            }
+          },
+          {
+            "bandwidth": 2,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_liquid_cleaner_1",
+            "buildingName": "",
+            "buildingType": 28,
+            "coms": [],
+            "nodeId": 13,
+            "powerConsume": 50,
+            "productIcon": "",
+            "templateId": "liquid_cleaner_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 33.5,
+                  "y": 0,
+                  "z": 34.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 32,
+                "y": 0,
+                "z": 33
+              }
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 14,
+            "productIcon": "",
+            "templateId": "log_pipe_converger",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 44.5,
+                  "y": 0,
+                  "z": 12.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 44,
+                "y": 0,
+                "z": 12
+              }
+            }
+          },
+          {
+            "bandwidth": 1,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_power_pole_2",
+            "buildingName": "",
+            "buildingType": 23,
+            "coms": [],
+            "nodeId": 15,
+            "powerConsume": 0,
+            "productIcon": "",
+            "templateId": "power_diffuser_2",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 39,
+                  "y": 0,
+                  "z": 5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 90,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 38,
+                "y": 0,
+                "z": 5
+              }
+            }
+          },
+          {
+            "bandwidth": 0,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_log_hongs_bus",
+            "buildingName": "",
+            "buildingType": 32,
+            "coms": [],
+            "nodeId": 16,
+            "powerConsume": 0,
+            "productIcon": "",
+            "templateId": "log_hongs_bus",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 28,
+                  "y": 0,
+                  "z": 2
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 90,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 24,
+                "y": 0,
+                "z": 3
+              }
+            }
+          },
+          {
+            "bandwidth": 0,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_log_hongs_bus",
+            "buildingName": "",
+            "buildingType": 32,
+            "coms": [],
+            "nodeId": 17,
+            "powerConsume": 0,
+            "productIcon": "",
+            "templateId": "log_hongs_bus",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 12,
+                  "y": 0,
+                  "z": 2
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 90,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 8,
+                "y": 0,
+                "z": 3
+              }
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 18,
+            "productIcon": "",
+            "templateId": "log_pipe_splitter",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 31.5,
+                  "y": 0,
+                  "z": 37.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 180,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 31,
+                "y": 0,
+                "z": 37
+              }
+            }
+          },
+          {
+            "bandwidth": 2,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_liquid_cleaner_1",
+            "buildingName": "",
+            "buildingType": 28,
+            "coms": [],
+            "nodeId": 19,
+            "powerConsume": 50,
+            "productIcon": "",
+            "templateId": "liquid_cleaner_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 33.5,
+                  "y": 0,
+                  "z": 5.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 90,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 32,
+                "y": 0,
+                "z": 6
+              }
+            }
+          },
+          {
+            "bandwidth": 1,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_power_pole_2",
+            "buildingName": "",
+            "buildingType": 23,
+            "coms": [],
+            "nodeId": 20,
+            "powerConsume": 0,
+            "productIcon": "",
+            "templateId": "power_diffuser_2",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 39,
+                  "y": 0,
+                  "z": 34
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 90,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 38,
+                "y": 0,
+                "z": 34
+              }
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 21,
+            "productIcon": "",
+            "templateId": "log_pipe_splitter",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 33.5,
+                  "y": 0,
+                  "z": 27.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 270,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 33,
+                "y": 0,
+                "z": 27
+              }
+            }
+          },
+          {
+            "bandwidth": 2,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_seedcol_1",
+            "buildingName": "",
+            "buildingType": 6,
+            "coms": [
+              {
+                "comPos": 18,
+                "comType": 9,
+                "formulaMan": {
+                  "curMode": "normal"
+                }
+              }
+            ],
+            "nodeId": 22,
+            "powerConsume": 10,
+            "productIcon": "item_plant_grass_seed_2",
+            "templateId": "seedcollector_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 21.5,
+                  "y": 0,
+                  "z": 28.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 180,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 23,
+                "y": 0,
+                "z": 30
+              }
+            }
+          },
+          {
+            "bandwidth": 2,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_seedcol_1",
+            "buildingName": "",
+            "buildingType": 6,
+            "coms": [
+              {
+                "comPos": 18,
+                "comType": 9,
+                "formulaMan": {
+                  "curMode": "normal"
+                }
+              }
+            ],
+            "nodeId": 23,
+            "powerConsume": 10,
+            "productIcon": "item_plant_grass_seed_2",
+            "templateId": "seedcollector_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 21.5,
+                  "y": 0,
+                  "z": 15.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 180,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 23,
+                "y": 0,
+                "z": 17
+              }
+            }
+          },
+          {
+            "bandwidth": 2,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_planter_1",
+            "buildingName": "",
+            "buildingType": 6,
+            "coms": [
+              {
+                "comPos": 18,
+                "comType": 9,
+                "formulaMan": {
+                  "curMode": "liquid"
+                }
+              }
+            ],
+            "nodeId": 24,
+            "powerConsume": 20,
+            "productIcon": "item_plant_grass_2",
+            "templateId": "planter_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 21.5,
+                  "y": 0,
+                  "z": 21.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 180,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 23,
+                "y": 0,
+                "z": 23
+              }
+            }
+          },
+          {
+            "coms": [
+              {
+                "comPos": 141,
+                "comType": 42,
+                "fluidValve": {
+                  "selectedItemId": "item_liquid_water",
+                  "valveEnable": false,
+                  "valvePassed": 0
+                }
+              }
+            ],
+            "nodeId": 25,
+            "productIcon": "item_liquid_water",
+            "templateId": "log_pipe_conditioner",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 26.5,
+                  "y": 3,
+                  "z": 39.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 26,
+                "y": 3,
+                "z": 39
+              }
+            }
+          },
+          {
+            "bandwidth": 2,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_mix_pool_2",
+            "buildingName": "",
+            "buildingType": 27,
+            "coms": [
+              {
+                "comPos": 64,
+                "comType": 6,
+                "selector": {
+                  "selectedItemId": ""
+                }
+              },
+              {
+                "comPos": 63,
+                "comType": 6,
+                "selector": {
+                  "selectedItemId": "item_liquid_xiranite_lowpoly"
+                }
+              },
+              {
+                "comPos": 62,
+                "comType": 6,
+                "selector": {
+                  "selectedItemId": "item_liquid_xiranite_poly"
+                }
+              },
+              {
+                "comPos": 61,
+                "comType": 6,
+                "selector": {
+                  "selectedItemId": ""
+                }
+              },
+              {
+                "comPos": 37,
+                "comType": 35
+              },
+              {
+                "comPos": 18,
+                "comType": 9,
+                "formulaMan": {
+                  "curMode": "liquid"
+                }
+              },
+              {
+                "comPos": 66,
+                "comType": 6,
+                "selector": {
+                  "selectedItemId": ""
+                }
+              },
+              {
+                "comPos": 65,
+                "comType": 6,
+                "selector": {
+                  "selectedItemId": ""
+                }
+              }
+            ],
+            "nodeId": 26,
+            "powerConsume": 100,
+            "productIcon": "",
+            "templateId": "mix_pool_2",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 36.5,
+                  "y": 0,
+                  "z": 24
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 90,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 34,
+                "y": 0,
+                "z": 26
+              }
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 27,
+            "productIcon": "",
+            "templateId": "log_pipe_connector",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 24.5,
+                  "y": 0,
+                  "z": 34.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 24,
+                "y": 0,
+                "z": 34
+              }
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 28,
+            "productIcon": "",
+            "templateId": "log_pipe_splitter",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 18.5,
+                  "y": 0,
+                  "z": 31.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 90,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 18,
+                "y": 0,
+                "z": 31
+              }
+            }
+          },
+          {
+            "bandwidth": 1,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_power_pole_2",
+            "buildingName": "",
+            "buildingType": 23,
+            "coms": [],
+            "nodeId": 29,
+            "powerConsume": 0,
+            "productIcon": "",
+            "templateId": "power_diffuser_2",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 40,
+                  "y": 0,
+                  "z": 22
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 90,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 39,
+                "y": 0,
+                "z": 22
+              }
+            }
+          },
+          {
+            "bandwidth": 1,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_power_pole_2",
+            "buildingName": "",
+            "buildingType": 23,
+            "coms": [],
+            "nodeId": 30,
+            "powerConsume": 0,
+            "productIcon": "",
+            "templateId": "power_diffuser_2",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 29,
+                  "y": 0,
+                  "z": 32
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 90,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 28,
+                "y": 0,
+                "z": 32
+              }
+            }
+          },
+          {
+            "bandwidth": 1,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_unloader_1",
+            "buildingName": "",
+            "buildingType": 11,
+            "coms": [
+              {
+                "comPos": 15,
+                "comType": 6,
+                "selector": {
+                  "selectedItemId": "item_copper_ore"
+                }
+              }
+            ],
+            "nodeId": 31,
+            "powerConsume": 0,
+            "productIcon": "item_copper_ore",
+            "templateId": "unloader_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 47.5,
+                  "y": 0,
+                  "z": 35.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 90,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 47,
+                "y": 0,
+                "z": 36
+              }
+            }
+          },
+          {
+            "bandwidth": 1,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_unloader_1",
+            "buildingName": "",
+            "buildingType": 11,
+            "coms": [
+              {
+                "comPos": 15,
+                "comType": 6,
+                "selector": {
+                  "selectedItemId": "item_iron_powder"
+                }
+              }
+            ],
+            "nodeId": 32,
+            "powerConsume": 0,
+            "productIcon": "item_iron_powder",
+            "templateId": "unloader_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 47.5,
+                  "y": 0,
+                  "z": 13.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 90,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 47,
+                "y": 0,
+                "z": 14
+              }
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 33,
+            "productIcon": "",
+            "templateId": "log_pipe_splitter",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 31.5,
+                  "y": 0,
+                  "z": 34.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 180,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 31,
+                "y": 0,
+                "z": 34
+              }
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 34,
+            "productIcon": "",
+            "templateId": "log_pipe_splitter",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 44.5,
+                  "y": 0,
+                  "z": 38.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 90,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 44,
+                "y": 0,
+                "z": 38
+              }
+            }
+          },
+          {
+            "bandwidth": 2,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_furnance_1",
+            "buildingName": "",
+            "buildingType": 6,
+            "coms": [
+              {
+                "comPos": 18,
+                "comType": 9,
+                "formulaMan": {
+                  "curMode": "liquid"
+                }
+              }
+            ],
+            "nodeId": 35,
+            "powerConsume": 5,
+            "productIcon": "item_copper_nugget",
+            "templateId": "furnance_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 41.5,
+                  "y": 0,
+                  "z": 37.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 90,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 40,
+                "y": 0,
+                "z": 38
+              }
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 36,
+            "productIcon": "",
+            "templateId": "log_pipe_converger",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 41.5,
+                  "y": 0,
+                  "z": 35.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 90,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 41,
+                "y": 0,
+                "z": 35
+              }
+            }
+          },
+          {
+            "bandwidth": 2,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_furnance_1",
+            "buildingName": "",
+            "buildingType": 6,
+            "coms": [
+              {
+                "comPos": 18,
+                "comType": 9,
+                "formulaMan": {
+                  "curMode": "liquid"
+                }
+              }
+            ],
+            "nodeId": 37,
+            "powerConsume": 5,
+            "productIcon": "item_copper_nugget",
+            "templateId": "furnance_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 44.5,
+                  "y": 0,
+                  "z": 36.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 90,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 43,
+                "y": 0,
+                "z": 37
+              }
+            }
+          },
+          {
+            "bandwidth": 2,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_mix_pool_2",
+            "buildingName": "",
+            "buildingType": 27,
+            "coms": [
+              {
+                "comPos": 64,
+                "comType": 6,
+                "selector": {
+                  "selectedItemId": ""
+                }
+              },
+              {
+                "comPos": 63,
+                "comType": 6,
+                "selector": {
+                  "selectedItemId": "item_liquid_xiranite_lowpoly"
+                }
+              },
+              {
+                "comPos": 62,
+                "comType": 6,
+                "selector": {
+                  "selectedItemId": ""
+                }
+              },
+              {
+                "comPos": 61,
+                "comType": 6,
+                "selector": {
+                  "selectedItemId": "item_xiranite_poly"
+                }
+              },
+              {
+                "comPos": 37,
+                "comType": 35
+              },
+              {
+                "comPos": 18,
+                "comType": 9,
+                "formulaMan": {
+                  "curMode": "liquid"
+                }
+              },
+              {
+                "comPos": 66,
+                "comType": 6,
+                "selector": {
+                  "selectedItemId": ""
+                }
+              },
+              {
+                "comPos": 65,
+                "comType": 6,
+                "selector": {
+                  "selectedItemId": ""
+                }
+              }
+            ],
+            "nodeId": 38,
+            "powerConsume": 100,
+            "productIcon": "",
+            "templateId": "mix_pool_2",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 43.5,
+                  "y": 0,
+                  "z": 16
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 90,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 41,
+                "y": 0,
+                "z": 18
+              }
+            }
+          },
+          {
+            "bandwidth": 2,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_mix_pool_2",
+            "buildingName": "",
+            "buildingType": 27,
+            "coms": [
+              {
+                "comPos": 64,
+                "comType": 6,
+                "selector": {
+                  "selectedItemId": ""
+                }
+              },
+              {
+                "comPos": 63,
+                "comType": 6,
+                "selector": {
+                  "selectedItemId": "item_liquid_xiranite_lowpoly"
+                }
+              },
+              {
+                "comPos": 62,
+                "comType": 6,
+                "selector": {
+                  "selectedItemId": ""
+                }
+              },
+              {
+                "comPos": 61,
+                "comType": 6,
+                "selector": {
+                  "selectedItemId": "item_xiranite_poly"
+                }
+              },
+              {
+                "comPos": 37,
+                "comType": 35
+              },
+              {
+                "comPos": 18,
+                "comType": 9,
+                "formulaMan": {
+                  "curMode": "liquid"
+                }
+              },
+              {
+                "comPos": 66,
+                "comType": 6,
+                "selector": {
+                  "selectedItemId": ""
+                }
+              },
+              {
+                "comPos": 65,
+                "comType": 6,
+                "selector": {
+                  "selectedItemId": ""
+                }
+              }
+            ],
+            "nodeId": 39,
+            "powerConsume": 100,
+            "productIcon": "",
+            "templateId": "mix_pool_2",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 36.5,
+                  "y": 0,
+                  "z": 16
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 90,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 34,
+                "y": 0,
+                "z": 18
+              }
+            }
+          },
+          {
+            "bandwidth": 2,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_liquid_purifier_1",
+            "buildingName": "",
+            "buildingType": 6,
+            "coms": [
+              {
+                "comPos": 18,
+                "comType": 9,
+                "formulaMan": {
+                  "curMode": "liquid"
+                }
+              }
+            ],
+            "nodeId": 40,
+            "powerConsume": 50,
+            "productIcon": "item_liquid_xiranite_poly",
+            "templateId": "liquid_purifier_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 43.5,
+                  "y": 0,
+                  "z": 8.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 90,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 41,
+                "y": 0,
+                "z": 10
+              }
+            }
+          },
+          {
+            "bandwidth": 2,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_mix_pool_1",
+            "buildingName": "",
+            "buildingType": 27,
+            "coms": [
+              {
+                "comPos": 61,
+                "comType": 6,
+                "selector": {
+                  "selectedItemId": "item_xiranite_poly"
+                }
+              },
+              {
+                "comPos": 37,
+                "comType": 35
+              },
+              {
+                "comPos": 18,
+                "comType": 9,
+                "formulaMan": {
+                  "curMode": "liquid"
+                }
+              },
+              {
+                "comPos": 64,
+                "comType": 6,
+                "selector": {
+                  "selectedItemId": ""
+                }
+              },
+              {
+                "comPos": 63,
+                "comType": 6,
+                "selector": {
+                  "selectedItemId": "item_liquid_sewage"
+                }
+              },
+              {
+                "comPos": 62,
+                "comType": 6,
+                "selector": {
+                  "selectedItemId": ""
+                }
+              }
+            ],
+            "nodeId": 41,
+            "powerConsume": 50,
+            "productIcon": "",
+            "templateId": "mix_pool_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 37.5,
+                  "y": 0,
+                  "z": 8.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 180,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 39,
+                "y": 0,
+                "z": 10
+              }
+            }
+          },
+          {
+            "bandwidth": 1,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_unloader_1",
+            "buildingName": "",
+            "buildingType": 11,
+            "coms": [
+              {
+                "comPos": 15,
+                "comType": 6,
+                "selector": {
+                  "selectedItemId": "item_iron_powder"
+                }
+              }
+            ],
+            "nodeId": 42,
+            "powerConsume": 0,
+            "productIcon": "item_iron_powder",
+            "templateId": "unloader_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 36.5,
+                  "y": 0,
+                  "z": 4.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 180,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 37,
+                "y": 0,
+                "z": 4
+              }
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 43,
+            "productIcon": "",
+            "templateId": "log_pipe_converger",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 37.5,
+                  "y": 0,
+                  "z": 32.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 90,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 37,
+                "y": 0,
+                "z": 32
+              }
+            }
+          },
+          {
+            "bandwidth": 2,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_mix_pool_2",
+            "buildingName": "",
+            "buildingType": 27,
+            "coms": [
+              {
+                "comPos": 66,
+                "comType": 6,
+                "selector": {
+                  "selectedItemId": ""
+                }
+              },
+              {
+                "comPos": 65,
+                "comType": 6,
+                "selector": {
+                  "selectedItemId": ""
+                }
+              },
+              {
+                "comPos": 64,
+                "comType": 6,
+                "selector": {
+                  "selectedItemId": ""
+                }
+              },
+              {
+                "comPos": 63,
+                "comType": 6,
+                "selector": {
+                  "selectedItemId": "item_liquid_xiranite_poly"
+                }
+              },
+              {
+                "comPos": 62,
+                "comType": 6,
+                "selector": {
+                  "selectedItemId": "item_liquid_xiranite_lowpoly"
+                }
+              },
+              {
+                "comPos": 61,
+                "comType": 6,
+                "selector": {
+                  "selectedItemId": "item_xiranite_powder"
+                }
+              },
+              {
+                "comPos": 37,
+                "comType": 35
+              },
+              {
+                "comPos": 18,
+                "comType": 9,
+                "formulaMan": {
+                  "curMode": "liquid"
+                }
+              }
+            ],
+            "nodeId": 44,
+            "powerConsume": 100,
+            "productIcon": "",
+            "templateId": "mix_pool_2",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 43.5,
+                  "y": 0,
+                  "z": 24
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 90,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 41,
+                "y": 0,
+                "z": 26
+              }
+            }
+          },
+          {
+            "bandwidth": 2,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_liquid_cleaner_1",
+            "buildingName": "",
+            "buildingType": 28,
+            "coms": [],
+            "nodeId": 45,
+            "powerConsume": 50,
+            "productIcon": "",
+            "templateId": "liquid_cleaner_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 29.5,
+                  "y": 0,
+                  "z": 34.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 180,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 30,
+                "y": 0,
+                "z": 35
+              }
+            }
+          },
+          {
+            "bandwidth": 0,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_log_hongs_bus",
+            "buildingName": "",
+            "buildingType": 32,
+            "coms": [],
+            "nodeId": 46,
+            "powerConsume": 0,
+            "productIcon": "",
+            "templateId": "log_hongs_bus",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 36,
+                  "y": 0,
+                  "z": 2
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 90,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 32,
+                "y": 0,
+                "z": 3
+              }
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 47,
+            "productIcon": "",
+            "templateId": "log_pipe_splitter",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 36.5,
+                  "y": 0,
+                  "z": 32.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 90,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 36,
+                "y": 0,
+                "z": 32
+              }
+            }
+          },
+          {
+            "bandwidth": 2,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_storager_1",
+            "buildingName": "",
+            "buildingType": 4,
+            "coms": [],
+            "nodeId": 48,
+            "powerConsume": 5,
+            "productIcon": "",
+            "templateId": "storager_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 33.5,
+                  "y": 0,
+                  "z": 9.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 32,
+                "y": 0,
+                "z": 8
+              }
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 49,
+            "productIcon": "",
+            "templateId": "log_pipe_converger",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 41.5,
+                  "y": 0,
+                  "z": 28.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 90,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 41,
+                "y": 0,
+                "z": 28
+              }
+            }
+          },
+          {
+            "coms": [
+              {
+                "comPos": 141,
+                "comType": 42,
+                "fluidValve": {
+                  "selectedItemId": "item_liquid_water",
+                  "valveEnable": false,
+                  "valvePassed": 0
+                }
+              }
+            ],
+            "nodeId": 50,
+            "productIcon": "item_liquid_water",
+            "templateId": "log_pipe_conditioner",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 46.5,
+                  "y": 3,
+                  "z": 39.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 46,
+                "y": 3,
+                "z": 39
+              }
+            }
+          },
+          {
+            "coms": [
+              {
+                "comPos": 141,
+                "comType": 42,
+                "fluidValve": {
+                  "selectedItemId": "item_liquid_water",
+                  "valveEnable": false,
+                  "valvePassed": 0
+                }
+              }
+            ],
+            "nodeId": 51,
+            "productIcon": "item_liquid_water",
+            "templateId": "log_pipe_conditioner",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 47.5,
+                  "y": 3,
+                  "z": 39.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 47,
+                "y": 3,
+                "z": 39
+              }
+            }
+          },
+          {
+            "coms": [
+              {
+                "boxValve": {
+                  "selectedItemId": "item_plant_grass_2",
+                  "valveEnable": true,
+                  "valvePassed": 50
+                },
+                "comPos": 131,
+                "comType": 41
+              }
+            ],
+            "nodeId": 52,
+            "productIcon": "item_plant_grass_2",
+            "templateId": "log_conditioner",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 21.5,
+                  "y": 0,
+                  "z": 5.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 180,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 21,
+                "y": 0,
+                "z": 5
+              }
+            }
+          },
+          {
+            "bandwidth": 0,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_log_hongs_bus",
+            "buildingName": "",
+            "buildingType": 32,
+            "coms": [],
+            "nodeId": 53,
+            "powerConsume": 0,
+            "productIcon": "",
+            "templateId": "log_hongs_bus",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 4,
+                  "y": 0,
+                  "z": 2
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 90,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 0,
+                "y": 0,
+                "z": 3
+              }
+            }
+          },
+          {
+            "bandwidth": 2,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_storager_1",
+            "buildingName": "",
+            "buildingType": 4,
+            "coms": [],
+            "nodeId": 54,
+            "powerConsume": 5,
+            "productIcon": "",
+            "templateId": "storager_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 8.5,
+                  "y": 0,
+                  "z": 38.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 90,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 7,
+                "y": 0,
+                "z": 39
+              }
+            }
+          },
+          {
+            "bandwidth": 2,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_seedcol_1",
+            "buildingName": "",
+            "buildingType": 6,
+            "coms": [
+              {
+                "comPos": 18,
+                "comType": 9,
+                "formulaMan": {
+                  "curMode": "normal"
+                }
+              }
+            ],
+            "nodeId": 55,
+            "powerConsume": 10,
+            "productIcon": "item_plant_grass_seed_2",
+            "templateId": "seedcollector_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 9.5,
+                  "y": 0,
+                  "z": 15.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 180,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 11,
+                "y": 0,
+                "z": 17
+              }
+            }
+          },
+          {
+            "bandwidth": 2,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_planter_1",
+            "buildingName": "",
+            "buildingType": 6,
+            "coms": [
+              {
+                "comPos": 18,
+                "comType": 9,
+                "formulaMan": {
+                  "curMode": "liquid"
+                }
+              }
+            ],
+            "nodeId": 56,
+            "powerConsume": 20,
+            "productIcon": "item_plant_grass_2",
+            "templateId": "planter_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 9.5,
+                  "y": 0,
+                  "z": 21.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 180,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 11,
+                "y": 0,
+                "z": 23
+              }
+            }
+          },
+          {
+            "bandwidth": 2,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_planter_1",
+            "buildingName": "",
+            "buildingType": 6,
+            "coms": [
+              {
+                "comPos": 18,
+                "comType": 9,
+                "formulaMan": {
+                  "curMode": "liquid"
+                }
+              }
+            ],
+            "nodeId": 57,
+            "powerConsume": 20,
+            "productIcon": "item_plant_grass_2",
+            "templateId": "planter_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 9.5,
+                  "y": 0,
+                  "z": 34.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 180,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 11,
+                "y": 0,
+                "z": 36
+              }
+            }
+          },
+          {
+            "bandwidth": 2,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_seedcol_1",
+            "buildingName": "",
+            "buildingType": 6,
+            "coms": [
+              {
+                "comPos": 18,
+                "comType": 9,
+                "formulaMan": {
+                  "curMode": "normal"
+                }
+              }
+            ],
+            "nodeId": 58,
+            "powerConsume": 10,
+            "productIcon": "item_plant_grass_seed_2",
+            "templateId": "seedcollector_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 9.5,
+                  "y": 0,
+                  "z": 28.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 180,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 11,
+                "y": 0,
+                "z": 30
+              }
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 59,
+            "productIcon": "",
+            "templateId": "log_pipe_splitter",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 12.5,
+                  "y": 0,
+                  "z": 18.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 90,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 12,
+                "y": 0,
+                "z": 18
+              }
+            }
+          },
+          {
+            "bandwidth": 1,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_power_pole_2",
+            "buildingName": "",
+            "buildingType": 23,
+            "coms": [],
+            "nodeId": 60,
+            "powerConsume": 0,
+            "productIcon": "",
+            "templateId": "power_diffuser_2",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 13,
+                  "y": 0,
+                  "z": 38
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 90,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 12,
+                "y": 0,
+                "z": 38
+              }
+            }
+          },
+          {
+            "bandwidth": 1,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_power_pole_2",
+            "buildingName": "",
+            "buildingType": 23,
+            "coms": [],
+            "nodeId": 61,
+            "powerConsume": 0,
+            "productIcon": "",
+            "templateId": "power_diffuser_2",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 15,
+                  "y": 0,
+                  "z": 25
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 90,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 14,
+                "y": 0,
+                "z": 25
+              }
+            }
+          },
+          {
+            "bandwidth": 1,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_power_pole_2",
+            "buildingName": "",
+            "buildingType": 23,
+            "coms": [],
+            "nodeId": 62,
+            "powerConsume": 0,
+            "productIcon": "",
+            "templateId": "power_diffuser_2",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 15,
+                  "y": 0,
+                  "z": 11
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 90,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 14,
+                "y": 0,
+                "z": 11
+              }
+            }
+          },
+          {
+            "bandwidth": 2,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_seedcol_1",
+            "buildingName": "",
+            "buildingType": 6,
+            "coms": [
+              {
+                "comPos": 18,
+                "comType": 9,
+                "formulaMan": {
+                  "curMode": "normal"
+                }
+              }
+            ],
+            "nodeId": 63,
+            "powerConsume": 10,
+            "productIcon": "item_plant_grass_seed_2",
+            "templateId": "seedcollector_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 15.5,
+                  "y": 0,
+                  "z": 28.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 180,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 17,
+                "y": 0,
+                "z": 30
+              }
+            }
+          },
+          {
+            "bandwidth": 2,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_planter_1",
+            "buildingName": "",
+            "buildingType": 6,
+            "coms": [
+              {
+                "comPos": 18,
+                "comType": 9,
+                "formulaMan": {
+                  "curMode": "liquid"
+                }
+              }
+            ],
+            "nodeId": 64,
+            "powerConsume": 20,
+            "productIcon": "item_plant_grass_2",
+            "templateId": "planter_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 15.5,
+                  "y": 0,
+                  "z": 34.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 180,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 17,
+                "y": 0,
+                "z": 36
+              }
+            }
+          },
+          {
+            "bandwidth": 2,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_seedcol_1",
+            "buildingName": "",
+            "buildingType": 6,
+            "coms": [
+              {
+                "comPos": 18,
+                "comType": 9,
+                "formulaMan": {
+                  "curMode": "normal"
+                }
+              }
+            ],
+            "nodeId": 65,
+            "powerConsume": 10,
+            "productIcon": "item_plant_grass_seed_2",
+            "templateId": "seedcollector_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 15.5,
+                  "y": 0,
+                  "z": 21.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 13,
+                "y": 0,
+                "z": 19
+              }
+            }
+          },
+          {
+            "bandwidth": 2,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_planter_1",
+            "buildingName": "",
+            "buildingType": 6,
+            "coms": [
+              {
+                "comPos": 18,
+                "comType": 9,
+                "formulaMan": {
+                  "curMode": "liquid"
+                }
+              }
+            ],
+            "nodeId": 66,
+            "powerConsume": 20,
+            "productIcon": "item_plant_grass_2",
+            "templateId": "planter_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 15.5,
+                  "y": 0,
+                  "z": 15.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 13,
+                "y": 0,
+                "z": 13
+              }
+            }
+          },
+          {
+            "bandwidth": 1,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_unloader_1",
+            "buildingName": "",
+            "buildingType": 11,
+            "coms": [
+              {
+                "comPos": 15,
+                "comType": 6,
+                "selector": {
+                  "selectedItemId": "item_copper_ore"
+                }
+              }
+            ],
+            "nodeId": 67,
+            "powerConsume": 0,
+            "productIcon": "item_copper_ore",
+            "templateId": "unloader_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 47.5,
+                  "y": 0,
+                  "z": 38.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 90,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 47,
+                "y": 0,
+                "z": 39
+              }
+            }
+          },
+          {
+            "bandwidth": 2,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_furnance_1",
+            "buildingName": "",
+            "buildingType": 6,
+            "coms": [
+              {
+                "comPos": 18,
+                "comType": 9,
+                "formulaMan": {
+                  "curMode": "liquid"
+                }
+              }
+            ],
+            "nodeId": 68,
+            "powerConsume": 5,
+            "productIcon": "item_copper_nugget",
+            "templateId": "furnance_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 41.5,
+                  "y": 0,
+                  "z": 31.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 90,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 40,
+                "y": 0,
+                "z": 32
+              }
+            }
+          },
+          {
+            "bandwidth": 1,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_unloader_1",
+            "buildingName": "",
+            "buildingType": 11,
+            "coms": [
+              {
+                "comPos": 15,
+                "comType": 6,
+                "selector": {
+                  "selectedItemId": "item_copper_ore"
+                }
+              }
+            ],
+            "nodeId": 69,
+            "powerConsume": 0,
+            "productIcon": "item_copper_ore",
+            "templateId": "unloader_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 47.5,
+                  "y": 0,
+                  "z": 32.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 90,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 47,
+                "y": 0,
+                "z": 33
+              }
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 70,
+            "productIcon": "",
+            "templateId": "log_pipe_converger",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 39.5,
+                  "y": 0,
+                  "z": 12.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 39,
+                "y": 0,
+                "z": 12
+              }
+            }
+          },
+          {
+            "bandwidth": 2,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_storager_1",
+            "buildingName": "",
+            "buildingType": 4,
+            "coms": [],
+            "nodeId": 71,
+            "powerConsume": 5,
+            "productIcon": "",
+            "templateId": "storager_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 33.5,
+                  "y": 0,
+                  "z": 30.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 90,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 32,
+                "y": 0,
+                "z": 31
+              }
+            }
+          },
+          {
+            "bandwidth": 2,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_liquid_cleaner_1",
+            "buildingName": "",
+            "buildingType": 28,
+            "coms": [],
+            "nodeId": 72,
+            "powerConsume": 50,
+            "productIcon": "",
+            "templateId": "liquid_cleaner_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 29.5,
+                  "y": 0,
+                  "z": 37.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 180,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 30,
+                "y": 0,
+                "z": 38
+              }
+            }
+          },
+          {
+            "coms": [
+              {
+                "comPos": 141,
+                "comType": 42,
+                "fluidValve": {
+                  "selectedItemId": "item_liquid_water",
+                  "valveEnable": false,
+                  "valvePassed": 0
+                }
+              }
+            ],
+            "nodeId": 73,
+            "productIcon": "item_liquid_water",
+            "templateId": "log_pipe_conditioner",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 27.5,
+                  "y": 3,
+                  "z": 39.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 27,
+                "y": 3,
+                "z": 39
+              }
+            }
+          },
+          {
+            "coms": [
+              {
+                "comPos": 141,
+                "comType": 42,
+                "fluidValve": {
+                  "selectedItemId": "item_liquid_water",
+                  "valveEnable": false,
+                  "valvePassed": 0
+                }
+              }
+            ],
+            "nodeId": 74,
+            "productIcon": "item_liquid_water",
+            "templateId": "log_pipe_conditioner",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 25.5,
+                  "y": 3,
+                  "z": 39.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 25,
+                "y": 3,
+                "z": 39
+              }
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 75,
+            "productIcon": "",
+            "templateId": "log_pipe_splitter",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 25.5,
+                  "y": 0,
+                  "z": 34.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 25,
+                "y": 0,
+                "z": 34
+              }
+            }
+          },
+          {
+            "coms": [
+              {
+                "comPos": 141,
+                "comType": 42,
+                "fluidValve": {
+                  "selectedItemId": "item_liquid_water",
+                  "valveEnable": false,
+                  "valvePassed": 0
+                }
+              }
+            ],
+            "nodeId": 76,
+            "productIcon": "item_liquid_water",
+            "templateId": "log_pipe_conditioner",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 24.5,
+                  "y": 3,
+                  "z": 39.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 24,
+                "y": 3,
+                "z": 39
+              }
+            }
+          },
+          {
+            "bandwidth": 0,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_log_hongs_bus",
+            "buildingName": "",
+            "buildingType": 32,
+            "coms": [],
+            "nodeId": 77,
+            "powerConsume": 0,
+            "productIcon": "",
+            "templateId": "log_hongs_bus",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 20,
+                  "y": 0,
+                  "z": 2
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 90,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 16,
+                "y": 0,
+                "z": 3
+              }
+            }
+          },
+          {
+            "bandwidth": 2,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_planter_1",
+            "buildingName": "",
+            "buildingType": 6,
+            "coms": [
+              {
+                "comPos": 18,
+                "comType": 9,
+                "formulaMan": {
+                  "curMode": "liquid"
+                }
+              }
+            ],
+            "nodeId": 78,
+            "powerConsume": 20,
+            "productIcon": "item_plant_grass_2",
+            "templateId": "planter_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 21.5,
+                  "y": 0,
+                  "z": 34.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 180,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 23,
+                "y": 0,
+                "z": 36
+              }
+            }
+          },
+          {
+            "bandwidth": 2,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_storager_1",
+            "buildingName": "",
+            "buildingType": 4,
+            "coms": [],
+            "nodeId": 79,
+            "powerConsume": 5,
+            "productIcon": "",
+            "templateId": "storager_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 22.5,
+                  "y": 0,
+                  "z": 38.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 270,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 23,
+                "y": 0,
+                "z": 37
+              }
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 80,
+            "productIcon": "",
+            "templateId": "log_pipe_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 44,
+                  "y": 3,
+                  "z": 28
+                },
+                {
+                  "x": 42,
+                  "y": 3,
+                  "z": 28
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 81,
+            "productIcon": "",
+            "templateId": "log_pipe_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 41,
+                  "y": 3,
+                  "z": 29
+                },
+                {
+                  "x": 41,
+                  "y": 3,
+                  "z": 29
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 82,
+            "productIcon": "",
+            "templateId": "log_pipe_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 40,
+                  "y": 3,
+                  "z": 28
+                },
+                {
+                  "x": 39,
+                  "y": 3,
+                  "z": 28
+                },
+                {
+                  "x": 39,
+                  "y": 3,
+                  "z": 32
+                },
+                {
+                  "x": 38,
+                  "y": 3,
+                  "z": 32
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 83,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 42,
+                  "y": 0,
+                  "z": 29
+                },
+                {
+                  "x": 35,
+                  "y": 0,
+                  "z": 29
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 84,
+            "productIcon": "",
+            "templateId": "log_pipe_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 46,
+                  "y": 3,
+                  "z": 38
+                },
+                {
+                  "x": 45,
+                  "y": 3,
+                  "z": 38
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 85,
+            "productIcon": "",
+            "templateId": "log_pipe_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 44,
+                  "y": 3,
+                  "z": 20
+                },
+                {
+                  "x": 43,
+                  "y": 3,
+                  "z": 20
+                },
+                {
+                  "x": 43,
+                  "y": 3,
+                  "z": 19
+                },
+                {
+                  "x": 42,
+                  "y": 3,
+                  "z": 19
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 86,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 46,
+                  "y": 0,
+                  "z": 22
+                },
+                {
+                  "x": 46,
+                  "y": 0,
+                  "z": 22
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 87,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 46,
+                  "y": 0,
+                  "z": 26
+                },
+                {
+                  "x": 46,
+                  "y": 0,
+                  "z": 25
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 88,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 46,
+                  "y": 0,
+                  "z": 29
+                },
+                {
+                  "x": 46,
+                  "y": 0,
+                  "z": 29
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 89,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 46,
+                  "y": 0,
+                  "z": 35
+                },
+                {
+                  "x": 46,
+                  "y": 0,
+                  "z": 35
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 90,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 46,
+                  "y": 0,
+                  "z": 38
+                },
+                {
+                  "x": 45,
+                  "y": 0,
+                  "z": 38
+                },
+                {
+                  "x": 45,
+                  "y": 0,
+                  "z": 39
+                },
+                {
+                  "x": 43,
+                  "y": 0,
+                  "z": 39
+                },
+                {
+                  "x": 43,
+                  "y": 0,
+                  "z": 38
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 91,
+            "productIcon": "",
+            "templateId": "log_pipe_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 47,
+                  "y": 3,
+                  "z": 38
+                },
+                {
+                  "x": 47,
+                  "y": 3,
+                  "z": 33
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 92,
+            "productIcon": "",
+            "templateId": "log_pipe_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 27,
+                  "y": 3,
+                  "z": 38
+                },
+                {
+                  "x": 27,
+                  "y": 3,
+                  "z": 27
+                },
+                {
+                  "x": 32,
+                  "y": 3,
+                  "z": 27
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 93,
+            "productIcon": "",
+            "templateId": "log_pipe_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 36,
+                  "y": 3,
+                  "z": 31
+                },
+                {
+                  "x": 36,
+                  "y": 3,
+                  "z": 28
+                },
+                {
+                  "x": 37,
+                  "y": 3,
+                  "z": 28
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 94,
+            "productIcon": "",
+            "templateId": "log_pipe_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 38,
+                  "y": 3,
+                  "z": 27
+                },
+                {
+                  "x": 42,
+                  "y": 3,
+                  "z": 27
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 95,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 40,
+                  "y": 0,
+                  "z": 25
+                },
+                {
+                  "x": 39,
+                  "y": 0,
+                  "z": 25
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 96,
+            "productIcon": "",
+            "templateId": "log_pipe_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 25,
+                  "y": 3,
+                  "z": 38
+                },
+                {
+                  "x": 25,
+                  "y": 3,
+                  "z": 35
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 97,
+            "productIcon": "",
+            "templateId": "log_pipe_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 43,
+                  "y": 3,
+                  "z": 38
+                },
+                {
+                  "x": 43,
+                  "y": 3,
+                  "z": 39
+                },
+                {
+                  "x": 41,
+                  "y": 3,
+                  "z": 39
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 98,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 46,
+                  "y": 0,
+                  "z": 16
+                },
+                {
+                  "x": 46,
+                  "y": 0,
+                  "z": 16
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 99,
+            "productIcon": "",
+            "templateId": "log_pipe_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 46,
+                  "y": 3,
+                  "z": 32
+                },
+                {
+                  "x": 44,
+                  "y": 3,
+                  "z": 32
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 100,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 46,
+                  "y": 0,
+                  "z": 19
+                },
+                {
+                  "x": 39,
+                  "y": 0,
+                  "z": 19
+                },
+                {
+                  "x": 39,
+                  "y": 0,
+                  "z": 17
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 101,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 40,
+                  "y": 0,
+                  "z": 15
+                },
+                {
+                  "x": 39,
+                  "y": 0,
+                  "z": 15
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 102,
+            "productIcon": "",
+            "templateId": "log_pipe_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 35,
+                  "y": 3,
+                  "z": 20
+                },
+                {
+                  "x": 36,
+                  "y": 3,
+                  "z": 20
+                },
+                {
+                  "x": 36,
+                  "y": 3,
+                  "z": 19
+                },
+                {
+                  "x": 37,
+                  "y": 3,
+                  "z": 19
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 103,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 46,
+                  "y": 0,
+                  "z": 10
+                },
+                {
+                  "x": 46,
+                  "y": 0,
+                  "z": 11
+                },
+                {
+                  "x": 40,
+                  "y": 0,
+                  "z": 11
+                },
+                {
+                  "x": 40,
+                  "y": 0,
+                  "z": 14
+                },
+                {
+                  "x": 39,
+                  "y": 0,
+                  "z": 14
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 104,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 19,
+                  "y": 0,
+                  "z": 24
+                },
+                {
+                  "x": 17,
+                  "y": 0,
+                  "z": 24
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 105,
+            "productIcon": "",
+            "templateId": "log_pipe_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 42,
+                  "y": 3,
+                  "z": 5
+                },
+                {
+                  "x": 40,
+                  "y": 3,
+                  "z": 5
+                },
+                {
+                  "x": 40,
+                  "y": 3,
+                  "z": 7
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 106,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 17,
+                  "y": 0,
+                  "z": 12
+                },
+                {
+                  "x": 19,
+                  "y": 0,
+                  "z": 12
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 107,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 16,
+                  "y": 0,
+                  "z": 37
+                },
+                {
+                  "x": 16,
+                  "y": 0,
+                  "z": 39
+                },
+                {
+                  "x": 20,
+                  "y": 0,
+                  "z": 39
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 108,
+            "productIcon": "",
+            "templateId": "log_pipe_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 33,
+                  "y": 3,
+                  "z": 26
+                },
+                {
+                  "x": 33,
+                  "y": 3,
+                  "z": 19
+                },
+                {
+                  "x": 35,
+                  "y": 3,
+                  "z": 19
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 109,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 9,
+                  "y": 0,
+                  "z": 18
+                },
+                {
+                  "x": 9,
+                  "y": 0,
+                  "z": 18
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 110,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 15,
+                  "y": 0,
+                  "z": 18
+                },
+                {
+                  "x": 15,
+                  "y": 0,
+                  "z": 18
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 111,
+            "productIcon": "",
+            "templateId": "log_pipe_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 12,
+                  "y": 3,
+                  "z": 17
+                },
+                {
+                  "x": 12,
+                  "y": 3,
+                  "z": 15
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 112,
+            "productIcon": "",
+            "templateId": "log_pipe_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 25,
+                  "y": 3,
+                  "z": 33
+                },
+                {
+                  "x": 25,
+                  "y": 3,
+                  "z": 21
+                },
+                {
+                  "x": 24,
+                  "y": 3,
+                  "z": 21
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 113,
+            "productIcon": "",
+            "templateId": "log_pipe_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 24,
+                  "y": 3,
+                  "z": 33
+                },
+                {
+                  "x": 24,
+                  "y": 3,
+                  "z": 31
+                },
+                {
+                  "x": 19,
+                  "y": 3,
+                  "z": 31
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 114,
+            "productIcon": "",
+            "templateId": "log_pipe_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 18,
+                  "y": 3,
+                  "z": 32
+                },
+                {
+                  "x": 18,
+                  "y": 3,
+                  "z": 34
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 115,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 46,
+                  "y": 0,
+                  "z": 32
+                },
+                {
+                  "x": 43,
+                  "y": 0,
+                  "z": 32
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 116,
+            "productIcon": "",
+            "templateId": "log_pipe_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 44,
+                  "y": 3,
+                  "z": 34
+                },
+                {
+                  "x": 42,
+                  "y": 3,
+                  "z": 34
+                },
+                {
+                  "x": 42,
+                  "y": 3,
+                  "z": 35
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 117,
+            "productIcon": "",
+            "templateId": "log_pipe_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 40,
+                  "y": 3,
+                  "z": 35
+                },
+                {
+                  "x": 37,
+                  "y": 3,
+                  "z": 35
+                },
+                {
+                  "x": 37,
+                  "y": 3,
+                  "z": 33
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 118,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 42,
+                  "y": 0,
+                  "z": 35
+                },
+                {
+                  "x": 42,
+                  "y": 0,
+                  "z": 34
+                },
+                {
+                  "x": 40,
+                  "y": 0,
+                  "z": 34
+                },
+                {
+                  "x": 40,
+                  "y": 0,
+                  "z": 35
+                },
+                {
+                  "x": 39,
+                  "y": 0,
+                  "z": 35
+                },
+                {
+                  "x": 39,
+                  "y": 0,
+                  "z": 37
+                },
+                {
+                  "x": 38,
+                  "y": 0,
+                  "z": 37
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 119,
+            "productIcon": "",
+            "templateId": "log_pipe_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 31,
+                  "y": 3,
+                  "z": 35
+                },
+                {
+                  "x": 31,
+                  "y": 3,
+                  "z": 36
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 120,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 39,
+                  "y": 0,
+                  "z": 31
+                },
+                {
+                  "x": 35,
+                  "y": 0,
+                  "z": 31
+                },
+                {
+                  "x": 35,
+                  "y": 0,
+                  "z": 35
+                },
+                {
+                  "x": 38,
+                  "y": 0,
+                  "z": 35
+                },
+                {
+                  "x": 38,
+                  "y": 0,
+                  "z": 36
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 121,
+            "productIcon": "",
+            "templateId": "log_pipe_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 35,
+                  "y": 3,
+                  "z": 32
+                },
+                {
+                  "x": 31,
+                  "y": 3,
+                  "z": 32
+                },
+                {
+                  "x": 31,
+                  "y": 3,
+                  "z": 33
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 122,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 21,
+                  "y": 0,
+                  "z": 6
+                },
+                {
+                  "x": 21,
+                  "y": 0,
+                  "z": 12
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 123,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 36,
+                  "y": 0,
+                  "z": 11
+                },
+                {
+                  "x": 34,
+                  "y": 0,
+                  "z": 11
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 124,
+            "productIcon": "",
+            "templateId": "log_pipe_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 37,
+                  "y": 3,
+                  "z": 12
+                },
+                {
+                  "x": 38,
+                  "y": 3,
+                  "z": 12
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 125,
+            "productIcon": "",
+            "templateId": "log_pipe_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 24,
+                  "y": 3,
+                  "z": 38
+                },
+                {
+                  "x": 24,
+                  "y": 3,
+                  "z": 35
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 126,
+            "productIcon": "",
+            "templateId": "log_pipe_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 42,
+                  "y": 3,
+                  "z": 20
+                },
+                {
+                  "x": 40,
+                  "y": 3,
+                  "z": 20
+                },
+                {
+                  "x": 40,
+                  "y": 3,
+                  "z": 12
+                },
+                {
+                  "x": 43,
+                  "y": 3,
+                  "z": 12
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 127,
+            "productIcon": "",
+            "templateId": "log_pipe_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 45,
+                  "y": 3,
+                  "z": 33
+                },
+                {
+                  "x": 41,
+                  "y": 3,
+                  "z": 33
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 128,
+            "productIcon": "",
+            "templateId": "log_pipe_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 26,
+                  "y": 3,
+                  "z": 38
+                },
+                {
+                  "x": 26,
+                  "y": 3,
+                  "z": 18
+                },
+                {
+                  "x": 13,
+                  "y": 3,
+                  "z": 18
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 129,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 46,
+                  "y": 0,
+                  "z": 13
+                },
+                {
+                  "x": 46,
+                  "y": 0,
+                  "z": 14
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 130,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 9,
+                  "y": 0,
+                  "z": 24
+                },
+                {
+                  "x": 9,
+                  "y": 0,
+                  "z": 25
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 131,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 10,
+                  "y": 0,
+                  "z": 37
+                },
+                {
+                  "x": 10,
+                  "y": 0,
+                  "z": 37
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 132,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 9,
+                  "y": 0,
+                  "z": 31
+                },
+                {
+                  "x": 9,
+                  "y": 0,
+                  "z": 31
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 133,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 11,
+                  "y": 0,
+                  "z": 37
+                },
+                {
+                  "x": 11,
+                  "y": 0,
+                  "z": 38
+                },
+                {
+                  "x": 10,
+                  "y": 0,
+                  "z": 38
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 134,
+            "productIcon": "",
+            "templateId": "log_pipe_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 12,
+                  "y": 3,
+                  "z": 19
+                },
+                {
+                  "x": 12,
+                  "y": 3,
+                  "z": 21
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 135,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 13,
+                  "y": 0,
+                  "z": 12
+                },
+                {
+                  "x": 11,
+                  "y": 0,
+                  "z": 12
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 136,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 11,
+                  "y": 0,
+                  "z": 24
+                },
+                {
+                  "x": 13,
+                  "y": 0,
+                  "z": 24
+                },
+                {
+                  "x": 13,
+                  "y": 0,
+                  "z": 25
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 137,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 15,
+                  "y": 0,
+                  "z": 31
+                },
+                {
+                  "x": 15,
+                  "y": 0,
+                  "z": 31
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 138,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 14,
+                  "y": 0,
+                  "z": 37
+                },
+                {
+                  "x": 14,
+                  "y": 0,
+                  "z": 39
+                },
+                {
+                  "x": 10,
+                  "y": 0,
+                  "z": 39
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 139,
+            "productIcon": "",
+            "templateId": "log_pipe_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 17,
+                  "y": 3,
+                  "z": 31
+                },
+                {
+                  "x": 12,
+                  "y": 3,
+                  "z": 31
+                },
+                {
+                  "x": 12,
+                  "y": 3,
+                  "z": 34
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 140,
+            "productIcon": "",
+            "templateId": "log_pipe_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 44,
+                  "y": 3,
+                  "z": 11
+                },
+                {
+                  "x": 44,
+                  "y": 3,
+                  "z": 11
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 141,
+            "productIcon": "",
+            "templateId": "log_pipe_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 44,
+                  "y": 3,
+                  "z": 5
+                },
+                {
+                  "x": 46,
+                  "y": 3,
+                  "z": 5
+                },
+                {
+                  "x": 46,
+                  "y": 3,
+                  "z": 19
+                },
+                {
+                  "x": 44,
+                  "y": 3,
+                  "z": 19
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 142,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 36,
+                  "y": 0,
+                  "z": 5
+                },
+                {
+                  "x": 36,
+                  "y": 0,
+                  "z": 5
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 143,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 33,
+                  "y": 0,
+                  "z": 16
+                },
+                {
+                  "x": 32,
+                  "y": 0,
+                  "z": 16
+                },
+                {
+                  "x": 32,
+                  "y": 0,
+                  "z": 11
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 144,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 33,
+                  "y": 0,
+                  "z": 14
+                },
+                {
+                  "x": 33,
+                  "y": 0,
+                  "z": 11
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 145,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 21,
+                  "y": 0,
+                  "z": 31
+                },
+                {
+                  "x": 21,
+                  "y": 0,
+                  "z": 31
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 146,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 21,
+                  "y": 0,
+                  "z": 18
+                },
+                {
+                  "x": 21,
+                  "y": 0,
+                  "z": 18
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 147,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 21,
+                  "y": 0,
+                  "z": 24
+                },
+                {
+                  "x": 21,
+                  "y": 0,
+                  "z": 25
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 148,
+            "productIcon": "",
+            "templateId": "log_pipe_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 34,
+                  "y": 3,
+                  "z": 7
+                },
+                {
+                  "x": 33,
+                  "y": 3,
+                  "z": 7
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 149,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 20,
+                  "y": 0,
+                  "z": 37
+                },
+                {
+                  "x": 20,
+                  "y": 0,
+                  "z": 37
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 150,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 19,
+                  "y": 0,
+                  "z": 37
+                },
+                {
+                  "x": 19,
+                  "y": 0,
+                  "z": 38
+                },
+                {
+                  "x": 20,
+                  "y": 0,
+                  "z": 38
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 151,
+            "productIcon": "",
+            "templateId": "log_pipe_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 34,
+                  "y": 3,
+                  "z": 27
+                },
+                {
+                  "x": 35,
+                  "y": 3,
+                  "z": 27
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 152,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 39,
+                  "y": 0,
+                  "z": 38
+                },
+                {
+                  "x": 38,
+                  "y": 0,
+                  "z": 38
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 153,
+            "productIcon": "",
+            "templateId": "log_pipe_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 39,
+                  "y": 3,
+                  "z": 11
+                },
+                {
+                  "x": 42,
+                  "y": 3,
+                  "z": 11
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 154,
+            "productIcon": "",
+            "templateId": "log_pipe_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 37,
+                  "y": 3,
+                  "z": 20
+                },
+                {
+                  "x": 39,
+                  "y": 3,
+                  "z": 20
+                },
+                {
+                  "x": 39,
+                  "y": 3,
+                  "z": 13
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 155,
+            "productIcon": "",
+            "templateId": "log_pipe_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 47,
+                  "y": 3,
+                  "z": 27
+                },
+                {
+                  "x": 44,
+                  "y": 3,
+                  "z": 27
+                }
+              ]
+            }
+          }
+        ],
+        "reviewStatus": 2,
+        "tags": [],
+        "xSize": 48,
+        "zSize": 40
+      },
+      "query": {
+        "code": "EF0170iUeUi6855u2O0Ai"
+      }
+    }
+  }
+}

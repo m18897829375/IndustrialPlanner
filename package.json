@@ -17,6 +17,7 @@
     "test:e2e": "playwright test",
     "test:watch": "vitest",
     "blueprint:convert": "tsx --tsconfig tsconfig.app.json src/scripts/convert-legacy-blueprint.ts",
+    "blueprint:dump-official": "tsx --tsconfig tsconfig.app.json src/scripts/dump-official-blueprint-conversion.ts",
     "draw-device-blueprint-svg": "tsx --tsconfig tsconfig.app.json src/scripts/draw-device-blueprint-svg.mjs",
     "compare-exported-devices": "node src/scripts/compare-exported-devices.mjs",
     "audit-item-names": "node .agents/skills/unpack-data-analysis/scripts/audit-item-names.mjs",

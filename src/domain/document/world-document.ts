@@ -10,6 +10,7 @@ import type {
   LinkType,
 } from "../shared/slot-link";
 import type { RegionAnnotation } from "./region-annotation";
+import type { ExplicitEdgeTable } from "./explicit-edges";
 
 export type { SlotLinkDefinition, CacheLinkEndpointDefinition, LinkType };
 
@@ -61,6 +62,11 @@ export interface WorldDocument {
   entityOrder: string[];
   slotLinks: SlotLinkDefinition[];
   regions: readonly RegionAnnotation[];
+  /**
+   * 显式物流边表（可选；由官方蓝图导入产生并随蓝图带入）。
+   * 在场即编译权威；与实体失配（编辑器改动后 ID 漂移）时整体回退几何推断并报诊断。
+   */
+  logisticsEdges?: ExplicitEdgeTable;
   documentSettings: WorldDocumentSettings;
 }
 

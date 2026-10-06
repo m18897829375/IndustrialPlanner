@@ -1,0 +1,1600 @@
+{
+  "code": 0,
+  "message": "成功",
+  "data": {
+    "cache": false,
+    "data": {
+      "bluePrintData": {
+        "creatorRoleId": "1010581975",
+        "creatorUserId": "1610400735",
+        "desc": "",
+        "icon": "item_xiranite_poly",
+        "iconColor": 101,
+        "name": "17*17壤晶",
+        "nodes": [
+          {
+            "bandwidth": 2,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_mix_pool_1",
+            "buildingName": "",
+            "buildingType": 27,
+            "coms": [
+              {
+                "comPos": 62,
+                "comType": 6,
+                "selector": {
+                  "selectedItemId": "item_liquid_sewage"
+                }
+              },
+              {
+                "comPos": 61,
+                "comType": 6,
+                "selector": {
+                  "selectedItemId": "item_xiranite_poly"
+                }
+              },
+              {
+                "comPos": 18,
+                "comType": 9,
+                "formulaMan": {
+                  "curMode": "liquid"
+                }
+              },
+              {
+                "comPos": 64,
+                "comType": 6,
+                "selector": {
+                  "selectedItemId": ""
+                }
+              },
+              {
+                "comPos": 63,
+                "comType": 6,
+                "selector": {
+                  "selectedItemId": ""
+                }
+              }
+            ],
+            "nodeId": 1,
+            "powerConsume": 50,
+            "productIcon": "",
+            "templateId": "mix_pool_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 3.5,
+                  "y": 0,
+                  "z": 7.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 270,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 5,
+                "y": 0,
+                "z": 5
+              }
+            }
+          },
+          {
+            "bandwidth": 2,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_grinder_1",
+            "buildingName": "",
+            "buildingType": 6,
+            "coms": [
+              {
+                "comPos": 18,
+                "comType": 9,
+                "formulaMan": {
+                  "curMode": "normal"
+                }
+              }
+            ],
+            "nodeId": 2,
+            "powerConsume": 5,
+            "productIcon": "item_iron_powder",
+            "templateId": "grinder_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 2.5,
+                  "y": 0,
+                  "z": 11.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 90,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 1,
+                "y": 0,
+                "z": 12
+              }
+            }
+          },
+          {
+            "bandwidth": 2,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_mix_pool_1",
+            "buildingName": "",
+            "buildingType": 27,
+            "coms": [
+              {
+                "comPos": 62,
+                "comType": 6,
+                "selector": {
+                  "selectedItemId": "item_liquid_xiranite_poly"
+                }
+              },
+              {
+                "comPos": 61,
+                "comType": 6,
+                "selector": {
+                  "selectedItemId": ""
+                }
+              },
+              {
+                "comPos": 18,
+                "comType": 9,
+                "formulaMan": {
+                  "curMode": "liquid"
+                }
+              },
+              {
+                "comPos": 64,
+                "comType": 6,
+                "selector": {
+                  "selectedItemId": ""
+                }
+              },
+              {
+                "comPos": 63,
+                "comType": 6,
+                "selector": {
+                  "selectedItemId": "item_liquid_xiranite_lowpoly"
+                }
+              }
+            ],
+            "nodeId": 3,
+            "powerConsume": 50,
+            "productIcon": "",
+            "templateId": "mix_pool_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 6.5,
+                  "y": 0,
+                  "z": 2.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 180,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 8,
+                "y": 0,
+                "z": 4
+              }
+            }
+          },
+          {
+            "bandwidth": 2,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_liquid_cleaner_1",
+            "buildingName": "",
+            "buildingType": 28,
+            "coms": [],
+            "nodeId": 4,
+            "powerConsume": 50,
+            "productIcon": "",
+            "templateId": "liquid_cleaner_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 1.5,
+                  "y": 0,
+                  "z": 15.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 180,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 2,
+                "y": 0,
+                "z": 16
+              }
+            }
+          },
+          {
+            "bandwidth": 2,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_liquid_cleaner_1",
+            "buildingName": "",
+            "buildingType": 28,
+            "coms": [],
+            "nodeId": 5,
+            "powerConsume": 50,
+            "productIcon": "",
+            "templateId": "liquid_cleaner_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 1.5,
+                  "y": 0,
+                  "z": 2.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 180,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 2,
+                "y": 0,
+                "z": 3
+              }
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 6,
+            "productIcon": "",
+            "templateId": "log_pipe_converger",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 2.5,
+                  "y": 0,
+                  "z": 4.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 180,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 2,
+                "y": 0,
+                "z": 4
+              }
+            }
+          },
+          {
+            "bandwidth": 1,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_unloader_1",
+            "buildingName": "",
+            "buildingType": 11,
+            "coms": [
+              {
+                "comPos": 15,
+                "comType": 6,
+                "selector": {
+                  "selectedItemId": "item_copper_ore"
+                }
+              }
+            ],
+            "nodeId": 7,
+            "powerConsume": 0,
+            "productIcon": "item_copper_ore",
+            "templateId": "unloader_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 16.5,
+                  "y": 0,
+                  "z": 7.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 90,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 16,
+                "y": 0,
+                "z": 8
+              }
+            }
+          },
+          {
+            "bandwidth": 1,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_unloader_1",
+            "buildingName": "",
+            "buildingType": 11,
+            "coms": [
+              {
+                "comPos": 15,
+                "comType": 6,
+                "selector": {
+                  "selectedItemId": "item_xiranite_powder"
+                }
+              }
+            ],
+            "nodeId": 8,
+            "powerConsume": 0,
+            "productIcon": "item_xiranite_powder",
+            "templateId": "unloader_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 16.5,
+                  "y": 0,
+                  "z": 13.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 90,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 16,
+                "y": 0,
+                "z": 14
+              }
+            }
+          },
+          {
+            "bandwidth": 1,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_loader_1",
+            "buildingName": "",
+            "buildingType": 10,
+            "coms": [],
+            "nodeId": 9,
+            "powerConsume": 0,
+            "productIcon": "",
+            "templateId": "loader_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 16.5,
+                  "y": 0,
+                  "z": 4.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 270,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 16,
+                "y": 0,
+                "z": 3
+              }
+            }
+          },
+          {
+            "bandwidth": 2,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_mix_pool_1",
+            "buildingName": "",
+            "buildingType": 27,
+            "coms": [
+              {
+                "comPos": 61,
+                "comType": 6,
+                "selector": {
+                  "selectedItemId": ""
+                }
+              },
+              {
+                "comPos": 18,
+                "comType": 9,
+                "formulaMan": {
+                  "curMode": "liquid"
+                }
+              },
+              {
+                "comPos": 64,
+                "comType": 6,
+                "selector": {
+                  "selectedItemId": ""
+                }
+              },
+              {
+                "comPos": 63,
+                "comType": 6,
+                "selector": {
+                  "selectedItemId": "item_liquid_xiranite_poly"
+                }
+              },
+              {
+                "comPos": 62,
+                "comType": 6,
+                "selector": {
+                  "selectedItemId": "item_liquid_xiranite_lowpoly"
+                }
+              }
+            ],
+            "nodeId": 10,
+            "powerConsume": 50,
+            "productIcon": "",
+            "templateId": "mix_pool_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 6.5,
+                  "y": 0,
+                  "z": 14.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 180,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 8,
+                "y": 0,
+                "z": 16
+              }
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 11,
+            "productIcon": "",
+            "templateId": "log_pipe_splitter",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 15.5,
+                  "y": 0,
+                  "z": 15.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 15,
+                "y": 0,
+                "z": 15
+              }
+            }
+          },
+          {
+            "bandwidth": 1,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_unloader_1",
+            "buildingName": "",
+            "buildingType": 11,
+            "coms": [
+              {
+                "comPos": 15,
+                "comType": 6,
+                "selector": {
+                  "selectedItemId": "item_iron_ore"
+                }
+              }
+            ],
+            "nodeId": 12,
+            "powerConsume": 0,
+            "productIcon": "item_iron_ore",
+            "templateId": "unloader_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 16.5,
+                  "y": 0,
+                  "z": 10.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 90,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 16,
+                "y": 0,
+                "z": 11
+              }
+            }
+          },
+          {
+            "bandwidth": 1,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_unloader_1",
+            "buildingName": "",
+            "buildingType": 11,
+            "coms": [
+              {
+                "comPos": 15,
+                "comType": 6,
+                "selector": {
+                  "selectedItemId": "item_xiranite_powder"
+                }
+              }
+            ],
+            "nodeId": 13,
+            "powerConsume": 0,
+            "productIcon": "item_xiranite_powder",
+            "templateId": "unloader_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 16.5,
+                  "y": 0,
+                  "z": 1.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 90,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 16,
+                "y": 0,
+                "z": 2
+              }
+            }
+          },
+          {
+            "bandwidth": 2,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_furnance_1",
+            "buildingName": "",
+            "buildingType": 6,
+            "coms": [
+              {
+                "comPos": 18,
+                "comType": 9,
+                "formulaMan": {
+                  "curMode": "normal"
+                }
+              }
+            ],
+            "nodeId": 14,
+            "powerConsume": 5,
+            "productIcon": "item_iron_nugget",
+            "templateId": "furnance_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 10.5,
+                  "y": 0,
+                  "z": 9.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 90,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 9,
+                "y": 0,
+                "z": 10
+              }
+            }
+          },
+          {
+            "bandwidth": 2,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_furnance_1",
+            "buildingName": "",
+            "buildingType": 6,
+            "coms": [
+              {
+                "comPos": 18,
+                "comType": 9,
+                "formulaMan": {
+                  "curMode": "liquid"
+                }
+              }
+            ],
+            "nodeId": 15,
+            "powerConsume": 5,
+            "productIcon": "item_copper_nugget",
+            "templateId": "furnance_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 13.5,
+                  "y": 0,
+                  "z": 8.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 90,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 12,
+                "y": 0,
+                "z": 9
+              }
+            }
+          },
+          {
+            "bandwidth": 2,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_storager_1",
+            "buildingName": "",
+            "buildingType": 4,
+            "coms": [],
+            "nodeId": 16,
+            "powerConsume": 5,
+            "productIcon": "",
+            "templateId": "storager_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 7.5,
+                  "y": 0,
+                  "z": 6.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 6,
+                "y": 0,
+                "z": 5
+              }
+            }
+          },
+          {
+            "bandwidth": 2,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_mix_pool_1",
+            "buildingName": "",
+            "buildingType": 27,
+            "coms": [
+              {
+                "comPos": 64,
+                "comType": 6,
+                "selector": {
+                  "selectedItemId": ""
+                }
+              },
+              {
+                "comPos": 63,
+                "comType": 6,
+                "selector": {
+                  "selectedItemId": "item_liquid_xiranite"
+                }
+              },
+              {
+                "comPos": 62,
+                "comType": 6,
+                "selector": {
+                  "selectedItemId": ""
+                }
+              },
+              {
+                "comPos": 61,
+                "comType": 6,
+                "selector": {
+                  "selectedItemId": ""
+                }
+              },
+              {
+                "comPos": 18,
+                "comType": 9,
+                "formulaMan": {
+                  "curMode": "liquid"
+                }
+              }
+            ],
+            "nodeId": 17,
+            "powerConsume": 50,
+            "productIcon": "",
+            "templateId": "mix_pool_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 12.5,
+                  "y": 0,
+                  "z": 3.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 180,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 14,
+                "y": 0,
+                "z": 5
+              }
+            }
+          },
+          {
+            "bandwidth": 1,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_power_pole_2",
+            "buildingName": "",
+            "buildingType": 23,
+            "coms": [],
+            "nodeId": 18,
+            "powerConsume": 0,
+            "productIcon": "",
+            "templateId": "power_diffuser_2",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 8,
+                  "y": 0,
+                  "z": 9
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 90,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 7,
+                "y": 0,
+                "z": 9
+              }
+            }
+          },
+          {
+            "bandwidth": 2,
+            "buildingDesc": "",
+            "buildingIcon": "icon_port_mix_pool_1",
+            "buildingName": "",
+            "buildingType": 27,
+            "coms": [
+              {
+                "comPos": 61,
+                "comType": 6,
+                "selector": {
+                  "selectedItemId": ""
+                }
+              },
+              {
+                "comPos": 18,
+                "comType": 9,
+                "formulaMan": {
+                  "curMode": "liquid"
+                }
+              },
+              {
+                "comPos": 64,
+                "comType": 6,
+                "selector": {
+                  "selectedItemId": ""
+                }
+              },
+              {
+                "comPos": 63,
+                "comType": 6,
+                "selector": {
+                  "selectedItemId": ""
+                }
+              },
+              {
+                "comPos": 62,
+                "comType": 6,
+                "selector": {
+                  "selectedItemId": "item_liquid_xiranite"
+                }
+              }
+            ],
+            "nodeId": 19,
+            "powerConsume": 50,
+            "productIcon": "",
+            "templateId": "mix_pool_1",
+            "transform": {
+              "direction": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "interactiveParam": {
+                "position": {
+                  "x": 12.5,
+                  "y": 0,
+                  "z": 14.5
+                },
+                "properties": {},
+                "rotation": {
+                  "x": 0,
+                  "y": 180,
+                  "z": 0
+                }
+              },
+              "points": [],
+              "position": {
+                "x": 14,
+                "y": 0,
+                "z": 16
+              }
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 20,
+            "productIcon": "",
+            "templateId": "log_pipe_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 9,
+                  "y": 3,
+                  "z": 15
+                },
+                {
+                  "x": 9,
+                  "y": 3,
+                  "z": 15
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 21,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 15,
+                  "y": 0,
+                  "z": 7
+                },
+                {
+                  "x": 15,
+                  "y": 0,
+                  "z": 7
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 22,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 15,
+                  "y": 0,
+                  "z": 13
+                },
+                {
+                  "x": 15,
+                  "y": 0,
+                  "z": 11
+                },
+                {
+                  "x": 13,
+                  "y": 0,
+                  "z": 11
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 23,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "z": 10
+                },
+                {
+                  "x": 0,
+                  "y": 0,
+                  "z": 8
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 24,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 8,
+                  "y": 0,
+                  "z": 10
+                },
+                {
+                  "x": 4,
+                  "y": 0,
+                  "z": 10
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 25,
+            "productIcon": "",
+            "templateId": "log_pipe_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 4,
+                  "y": 3,
+                  "z": 10
+                },
+                {
+                  "x": 4,
+                  "y": 3,
+                  "z": 11
+                },
+                {
+                  "x": 9,
+                  "y": 3,
+                  "z": 11
+                },
+                {
+                  "x": 9,
+                  "y": 3,
+                  "z": 13
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 26,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 6,
+                  "y": 0,
+                  "z": 8
+                },
+                {
+                  "x": 6,
+                  "y": 0,
+                  "z": 8
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 27,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 11,
+                  "y": 0,
+                  "z": 7
+                },
+                {
+                  "x": 11,
+                  "y": 0,
+                  "z": 6
+                },
+                {
+                  "x": 15,
+                  "y": 0,
+                  "z": 6
+                },
+                {
+                  "x": 15,
+                  "y": 0,
+                  "z": 4
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 28,
+            "productIcon": "",
+            "templateId": "log_pipe_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 13,
+                  "y": 3,
+                  "z": 6
+                },
+                {
+                  "x": 9,
+                  "y": 3,
+                  "z": 6
+                },
+                {
+                  "x": 9,
+                  "y": 3,
+                  "z": 3
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 29,
+            "productIcon": "",
+            "templateId": "log_pipe_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 16,
+                  "y": 3,
+                  "z": 15
+                },
+                {
+                  "x": 16,
+                  "y": 3,
+                  "z": 4
+                },
+                {
+                  "x": 15,
+                  "y": 3,
+                  "z": 4
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 30,
+            "productIcon": "",
+            "templateId": "log_pipe_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 15,
+                  "y": 3,
+                  "z": 14
+                },
+                {
+                  "x": 15,
+                  "y": 3,
+                  "z": 10
+                },
+                {
+                  "x": 13,
+                  "y": 3,
+                  "z": 10
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 31,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 15,
+                  "y": 0,
+                  "z": 1
+                },
+                {
+                  "x": 15,
+                  "y": 0,
+                  "z": 0
+                },
+                {
+                  "x": 13,
+                  "y": 0,
+                  "z": 0
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 32,
+            "productIcon": "",
+            "templateId": "grid_belt_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 15,
+                  "y": 0,
+                  "z": 10
+                },
+                {
+                  "x": 12,
+                  "y": 0,
+                  "z": 10
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 33,
+            "productIcon": "",
+            "templateId": "log_pipe_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 15,
+                  "y": 3,
+                  "z": 16
+                },
+                {
+                  "x": 15,
+                  "y": 3,
+                  "z": 16
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 34,
+            "productIcon": "",
+            "templateId": "log_pipe_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 3,
+                  "y": 3,
+                  "z": 15
+                },
+                {
+                  "x": 3,
+                  "y": 3,
+                  "z": 15
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 35,
+            "productIcon": "",
+            "templateId": "log_pipe_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 3,
+                  "y": 3,
+                  "z": 13
+                },
+                {
+                  "x": 0,
+                  "y": 3,
+                  "z": 13
+                },
+                {
+                  "x": 0,
+                  "y": 3,
+                  "z": 4
+                },
+                {
+                  "x": 1,
+                  "y": 3,
+                  "z": 4
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 36,
+            "productIcon": "",
+            "templateId": "log_pipe_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 3,
+                  "y": 3,
+                  "z": 1
+                },
+                {
+                  "x": 3,
+                  "y": 3,
+                  "z": 2
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 37,
+            "productIcon": "",
+            "templateId": "log_pipe_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 3,
+                  "y": 3,
+                  "z": 3
+                },
+                {
+                  "x": 3,
+                  "y": 3,
+                  "z": 4
+                }
+              ]
+            }
+          },
+          {
+            "coms": [],
+            "nodeId": 38,
+            "productIcon": "",
+            "templateId": "log_pipe_01",
+            "transform": {
+              "directionIn": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "directionOut": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+              },
+              "points": [
+                {
+                  "x": 9,
+                  "y": 3,
+                  "z": 2
+                },
+                {
+                  "x": 9,
+                  "y": 3,
+                  "z": 1
+                }
+              ]
+            }
+          }
+        ],
+        "reviewStatus": 2,
+        "tags": [
+          202,
+          314
+        ],
+        "xSize": 17,
+        "zSize": 17
+      },
+      "query": {
+        "code": "EF0108131aE82iAIE179"
+      }
+    }
+  }
+}

@@ -1,5 +1,6 @@
 import type { GridPoint } from "../shared/grid";
 import { createUuid } from "../shared/uuid";
+import type { ExplicitEdgeTable } from "./explicit-edges";
 import type {
 	SlotLinkDefinition,
 	WorldEntity,
@@ -24,6 +25,11 @@ export interface BlueprintDocument {
 	entityOrder: string[];
 	slotLinks: SlotLinkDefinition[];
 	regions: readonly RegionAnnotation[];
+	/**
+	 * 显式物流边表（可选；官方蓝图导入时写入，仿真编译在场即权威）。
+	 * 与编辑器手工改动失配时编译器整体回退几何推断并报诊断。
+	 */
+	logisticsEdges?: ExplicitEdgeTable;
 	createdAt: string;
 	updatedAt: string;
 }
@@ -39,6 +45,7 @@ export interface CreateBlueprintDocumentInput {
 	entityOrder: string[];
 	slotLinks: SlotLinkDefinition[];
 	regions?: readonly RegionAnnotation[];
+	logisticsEdges?: ExplicitEdgeTable;
 	createdAt?: string;
 	updatedAt?: string;
 }
@@ -63,6 +70,7 @@ export function createBlueprintDocument(
 			...region,
 			rects: region.rects.map((rect) => ({ ...rect })),
 		})),
+		...(input.logisticsEdges !== undefined ? { logisticsEdges: input.logisticsEdges } : {}),
 		createdAt: timestamp,
 		updatedAt: input.updatedAt ?? timestamp,
 	};

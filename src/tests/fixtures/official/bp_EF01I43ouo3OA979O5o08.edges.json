@@ -1,0 +1,3045 @@
+{
+  "format": "bphub/blueprint-edges@1",
+  "blueprintCode": "EF01I43ouo3OA979O5o08",
+  "sourceHash": "sha256:4e46ba4104ab1a3c416d1b360f532c301a3728a9c96e459168ef0a2590f1c4f0",
+  "grid": {
+    "zMax": 42
+  },
+  "edges": [
+    {
+      "id": "e0001",
+      "kind": "belt",
+      "from": {
+        "entityId": "grinder_1:0",
+        "port": {
+          "group": "item_output",
+          "id": "out_n_1",
+          "direction": "output"
+        },
+        "cell": {
+          "x": 16,
+          "y": 1
+        },
+        "outside": {
+          "x": 17,
+          "y": 1
+        }
+      },
+      "to": {
+        "entityId": "logistics-draft:belt:17:1",
+        "port": {
+          "group": "item_input",
+          "id": "in_w",
+          "direction": "input"
+        },
+        "cell": {
+          "x": 17,
+          "y": 1
+        },
+        "outside": {
+          "x": 16,
+          "y": 1
+        }
+      },
+      "provenance": "inferred"
+    },
+    {
+      "id": "e0002",
+      "kind": "belt",
+      "from": {
+        "entityId": "grinder_1:1",
+        "port": {
+          "group": "item_output",
+          "id": "out_n_1",
+          "direction": "output"
+        },
+        "cell": {
+          "x": 16,
+          "y": 4
+        },
+        "outside": {
+          "x": 17,
+          "y": 4
+        }
+      },
+      "to": {
+        "entityId": "logistics-draft:belt:17:4",
+        "port": {
+          "group": "item_input",
+          "id": "in_n",
+          "direction": "input"
+        },
+        "cell": {
+          "x": 17,
+          "y": 4
+        },
+        "outside": {
+          "x": 16,
+          "y": 4
+        }
+      },
+      "provenance": "inferred"
+    },
+    {
+      "id": "e0003",
+      "kind": "belt",
+      "from": {
+        "entityId": "grinder_1:2",
+        "port": {
+          "group": "item_output",
+          "id": "out_n_0",
+          "direction": "output"
+        },
+        "cell": {
+          "x": 16,
+          "y": 6
+        },
+        "outside": {
+          "x": 17,
+          "y": 6
+        }
+      },
+      "to": {
+        "entityId": "logistics-draft:belt:17:6",
+        "port": {
+          "group": "item_input",
+          "id": "in_n",
+          "direction": "input"
+        },
+        "cell": {
+          "x": 17,
+          "y": 6
+        },
+        "outside": {
+          "x": 16,
+          "y": 6
+        }
+      },
+      "provenance": "inferred"
+    },
+    {
+      "id": "e0004",
+      "kind": "belt",
+      "from": {
+        "entityId": "log_admission:0",
+        "port": {
+          "group": "item_output",
+          "id": "out_e",
+          "direction": "output"
+        },
+        "cell": {
+          "x": 13,
+          "y": 22
+        },
+        "outside": {
+          "x": 14,
+          "y": 22
+        }
+      },
+      "to": {
+        "entityId": "winder_1:0",
+        "port": {
+          "group": "item_input",
+          "id": "in_s_4",
+          "direction": "input"
+        },
+        "cell": {
+          "x": 14,
+          "y": 22
+        },
+        "outside": {
+          "x": 13,
+          "y": 22
+        }
+      },
+      "provenance": "inferred"
+    },
+    {
+      "id": "e0005",
+      "kind": "belt",
+      "from": {
+        "entityId": "log_splitter:0",
+        "port": {
+          "group": "item_output",
+          "id": "out_s",
+          "direction": "output"
+        },
+        "cell": {
+          "x": 13,
+          "y": 29
+        },
+        "outside": {
+          "x": 14,
+          "y": 29
+        }
+      },
+      "to": {
+        "entityId": "power_sta_1:0",
+        "port": {
+          "group": "item_input",
+          "id": "in_s_1",
+          "direction": "input"
+        },
+        "cell": {
+          "x": 14,
+          "y": 29
+        },
+        "outside": {
+          "x": 13,
+          "y": 29
+        }
+      },
+      "provenance": "inferred"
+    },
+    {
+      "id": "e0006",
+      "kind": "belt",
+      "from": {
+        "entityId": "log_splitter:0",
+        "port": {
+          "group": "item_output",
+          "id": "out_w",
+          "direction": "output"
+        },
+        "cell": {
+          "x": 13,
+          "y": 29
+        },
+        "outside": {
+          "x": 13,
+          "y": 30
+        }
+      },
+      "to": {
+        "entityId": "logistics-draft:belt:13:30",
+        "port": {
+          "group": "item_input",
+          "id": "in_n",
+          "direction": "input"
+        },
+        "cell": {
+          "x": 13,
+          "y": 30
+        },
+        "outside": {
+          "x": 13,
+          "y": 29
+        }
+      },
+      "provenance": "inferred"
+    },
+    {
+      "id": "e0007",
+      "kind": "belt",
+      "from": {
+        "entityId": "logistics-draft:belt:13:1",
+        "port": {
+          "group": "item_output",
+          "id": "out_e",
+          "direction": "output"
+        },
+        "cell": {
+          "x": 13,
+          "y": 1
+        },
+        "outside": {
+          "x": 14,
+          "y": 1
+        }
+      },
+      "to": {
+        "entityId": "grinder_1:0",
+        "port": {
+          "group": "item_input",
+          "id": "in_s_1",
+          "direction": "input"
+        },
+        "cell": {
+          "x": 14,
+          "y": 1
+        },
+        "outside": {
+          "x": 13,
+          "y": 1
+        }
+      },
+      "provenance": "inferred"
+    },
+    {
+      "id": "e0008",
+      "kind": "belt",
+      "from": {
+        "entityId": "logistics-draft:belt:13:10",
+        "port": {
+          "group": "item_output",
+          "id": "out_e",
+          "direction": "output"
+        },
+        "cell": {
+          "x": 13,
+          "y": 10
+        },
+        "outside": {
+          "x": 14,
+          "y": 10
+        }
+      },
+      "to": {
+        "entityId": "logistics-draft:belt:14:10",
+        "port": {
+          "group": "item_input",
+          "id": "in_w",
+          "direction": "input"
+        },
+        "cell": {
+          "x": 14,
+          "y": 10
+        },
+        "outside": {
+          "x": 13,
+          "y": 10
+        }
+      },
+      "provenance": "inferred"
+    },
+    {
+      "id": "e0009",
+      "kind": "belt",
+      "from": {
+        "entityId": "logistics-draft:belt:13:13",
+        "port": {
+          "group": "item_output",
+          "id": "out_e",
+          "direction": "output"
+        },
+        "cell": {
+          "x": 13,
+          "y": 13
+        },
+        "outside": {
+          "x": 12,
+          "y": 13
+        }
+      },
+      "to": {
+        "entityId": "loader_1:1",
+        "port": {
+          "group": "item_input",
+          "id": "p_in_mid",
+          "direction": "input"
+        },
+        "cell": {
+          "x": 12,
+          "y": 13
+        },
+        "outside": {
+          "x": 13,
+          "y": 13
+        }
+      },
+      "provenance": "inferred"
+    },
+    {
+      "id": "e0010",
+      "kind": "belt",
+      "from": {
+        "entityId": "logistics-draft:belt:13:16",
+        "port": {
+          "group": "item_output",
+          "id": "out_e",
+          "direction": "output"
+        },
+        "cell": {
+          "x": 13,
+          "y": 16
+        },
+        "outside": {
+          "x": 14,
+          "y": 16
+        }
+      },
+      "to": {
+        "entityId": "logistics-draft:belt:14:16",
+        "port": {
+          "group": "item_input",
+          "id": "in_w",
+          "direction": "input"
+        },
+        "cell": {
+          "x": 14,
+          "y": 16
+        },
+        "outside": {
+          "x": 13,
+          "y": 16
+        }
+      },
+      "provenance": "inferred"
+    },
+    {
+      "id": "e0011",
+      "kind": "belt",
+      "from": {
+        "entityId": "logistics-draft:belt:13:19",
+        "port": {
+          "group": "item_output",
+          "id": "out_e",
+          "direction": "output"
+        },
+        "cell": {
+          "x": 13,
+          "y": 19
+        },
+        "outside": {
+          "x": 14,
+          "y": 19
+        }
+      },
+      "to": {
+        "entityId": "winder_1:0",
+        "port": {
+          "group": "item_input",
+          "id": "in_s_1",
+          "direction": "input"
+        },
+        "cell": {
+          "x": 14,
+          "y": 19
+        },
+        "outside": {
+          "x": 13,
+          "y": 19
+        }
+      },
+      "provenance": "inferred"
+    },
+    {
+      "id": "e0012",
+      "kind": "belt",
+      "from": {
+        "entityId": "logistics-draft:belt:13:25",
+        "port": {
+          "group": "item_output",
+          "id": "out_e",
+          "direction": "output"
+        },
+        "cell": {
+          "x": 13,
+          "y": 25
+        },
+        "outside": {
+          "x": 12,
+          "y": 25
+        }
+      },
+      "to": {
+        "entityId": "loader_1:0",
+        "port": {
+          "group": "item_input",
+          "id": "p_in_mid",
+          "direction": "input"
+        },
+        "cell": {
+          "x": 12,
+          "y": 25
+        },
+        "outside": {
+          "x": 13,
+          "y": 25
+        }
+      },
+      "provenance": "inferred"
+    },
+    {
+      "id": "e0013",
+      "kind": "belt",
+      "from": {
+        "entityId": "logistics-draft:belt:13:30",
+        "port": {
+          "group": "item_output",
+          "id": "out_e",
+          "direction": "output"
+        },
+        "cell": {
+          "x": 13,
+          "y": 30
+        },
+        "outside": {
+          "x": 14,
+          "y": 30
+        }
+      },
+      "to": {
+        "entityId": "power_sta_1:1",
+        "port": {
+          "group": "item_input",
+          "id": "in_s_0",
+          "direction": "input"
+        },
+        "cell": {
+          "x": 14,
+          "y": 30
+        },
+        "outside": {
+          "x": 13,
+          "y": 30
+        }
+      },
+      "provenance": "inferred"
+    },
+    {
+      "id": "e0014",
+      "kind": "belt",
+      "from": {
+        "entityId": "logistics-draft:belt:13:32",
+        "port": {
+          "group": "item_output",
+          "id": "out_e",
+          "direction": "output"
+        },
+        "cell": {
+          "x": 13,
+          "y": 32
+        },
+        "outside": {
+          "x": 14,
+          "y": 32
+        }
+      },
+      "to": {
+        "entityId": "power_sta_1:2",
+        "port": {
+          "group": "item_input",
+          "id": "in_s_0",
+          "direction": "input"
+        },
+        "cell": {
+          "x": 14,
+          "y": 32
+        },
+        "outside": {
+          "x": 13,
+          "y": 32
+        }
+      },
+      "provenance": "inferred"
+    },
+    {
+      "id": "e0015",
+      "kind": "belt",
+      "from": {
+        "entityId": "logistics-draft:belt:13:4",
+        "port": {
+          "group": "item_output",
+          "id": "out_e",
+          "direction": "output"
+        },
+        "cell": {
+          "x": 13,
+          "y": 4
+        },
+        "outside": {
+          "x": 14,
+          "y": 4
+        }
+      },
+      "to": {
+        "entityId": "grinder_1:1",
+        "port": {
+          "group": "item_input",
+          "id": "in_s_1",
+          "direction": "input"
+        },
+        "cell": {
+          "x": 14,
+          "y": 4
+        },
+        "outside": {
+          "x": 13,
+          "y": 4
+        }
+      },
+      "provenance": "inferred"
+    },
+    {
+      "id": "e0016",
+      "kind": "belt",
+      "from": {
+        "entityId": "logistics-draft:belt:13:7",
+        "port": {
+          "group": "item_output",
+          "id": "out_e",
+          "direction": "output"
+        },
+        "cell": {
+          "x": 13,
+          "y": 7
+        },
+        "outside": {
+          "x": 14,
+          "y": 7
+        }
+      },
+      "to": {
+        "entityId": "grinder_1:2",
+        "port": {
+          "group": "item_input",
+          "id": "in_s_1",
+          "direction": "input"
+        },
+        "cell": {
+          "x": 14,
+          "y": 7
+        },
+        "outside": {
+          "x": 13,
+          "y": 7
+        }
+      },
+      "provenance": "inferred"
+    },
+    {
+      "id": "e0017",
+      "kind": "belt",
+      "from": {
+        "entityId": "logistics-draft:belt:14:10",
+        "port": {
+          "group": "item_output",
+          "id": "out_e",
+          "direction": "output"
+        },
+        "cell": {
+          "x": 14,
+          "y": 10
+        },
+        "outside": {
+          "x": 15,
+          "y": 10
+        }
+      },
+      "to": {
+        "entityId": "logistics-draft:belt:15:10",
+        "port": {
+          "group": "item_input",
+          "id": "in_w",
+          "direction": "input"
+        },
+        "cell": {
+          "x": 15,
+          "y": 10
+        },
+        "outside": {
+          "x": 14,
+          "y": 10
+        }
+      },
+      "provenance": "inferred"
+    },
+    {
+      "id": "e0018",
+      "kind": "belt",
+      "from": {
+        "entityId": "logistics-draft:belt:14:13",
+        "port": {
+          "group": "item_output",
+          "id": "out_e",
+          "direction": "output"
+        },
+        "cell": {
+          "x": 14,
+          "y": 13
+        },
+        "outside": {
+          "x": 13,
+          "y": 13
+        }
+      },
+      "to": {
+        "entityId": "logistics-draft:belt:13:13",
+        "port": {
+          "group": "item_input",
+          "id": "in_w",
+          "direction": "input"
+        },
+        "cell": {
+          "x": 13,
+          "y": 13
+        },
+        "outside": {
+          "x": 14,
+          "y": 13
+        }
+      },
+      "provenance": "inferred"
+    },
+    {
+      "id": "e0019",
+      "kind": "belt",
+      "from": {
+        "entityId": "logistics-draft:belt:14:16",
+        "port": {
+          "group": "item_output",
+          "id": "out_e",
+          "direction": "output"
+        },
+        "cell": {
+          "x": 14,
+          "y": 16
+        },
+        "outside": {
+          "x": 15,
+          "y": 16
+        }
+      },
+      "to": {
+        "entityId": "logistics-draft:belt:15:16",
+        "port": {
+          "group": "item_input",
+          "id": "in_w",
+          "direction": "input"
+        },
+        "cell": {
+          "x": 15,
+          "y": 16
+        },
+        "outside": {
+          "x": 14,
+          "y": 16
+        }
+      },
+      "provenance": "inferred"
+    },
+    {
+      "id": "e0020",
+      "kind": "belt",
+      "from": {
+        "entityId": "logistics-draft:belt:14:25",
+        "port": {
+          "group": "item_output",
+          "id": "out_e",
+          "direction": "output"
+        },
+        "cell": {
+          "x": 14,
+          "y": 25
+        },
+        "outside": {
+          "x": 13,
+          "y": 25
+        }
+      },
+      "to": {
+        "entityId": "logistics-draft:belt:13:25",
+        "port": {
+          "group": "item_input",
+          "id": "in_w",
+          "direction": "input"
+        },
+        "cell": {
+          "x": 13,
+          "y": 25
+        },
+        "outside": {
+          "x": 14,
+          "y": 25
+        }
+      },
+      "provenance": "inferred"
+    },
+    {
+      "id": "e0021",
+      "kind": "belt",
+      "from": {
+        "entityId": "logistics-draft:belt:15:10",
+        "port": {
+          "group": "item_output",
+          "id": "out_e",
+          "direction": "output"
+        },
+        "cell": {
+          "x": 15,
+          "y": 10
+        },
+        "outside": {
+          "x": 16,
+          "y": 10
+        }
+      },
+      "to": {
+        "entityId": "logistics-draft:belt:16:10",
+        "port": {
+          "group": "item_input",
+          "id": "in_w",
+          "direction": "input"
+        },
+        "cell": {
+          "x": 16,
+          "y": 10
+        },
+        "outside": {
+          "x": 15,
+          "y": 10
+        }
+      },
+      "provenance": "inferred"
+    },
+    {
+      "id": "e0022",
+      "kind": "belt",
+      "from": {
+        "entityId": "logistics-draft:belt:15:13",
+        "port": {
+          "group": "item_output",
+          "id": "out_e",
+          "direction": "output"
+        },
+        "cell": {
+          "x": 15,
+          "y": 13
+        },
+        "outside": {
+          "x": 14,
+          "y": 13
+        }
+      },
+      "to": {
+        "entityId": "logistics-draft:belt:14:13",
+        "port": {
+          "group": "item_input",
+          "id": "in_w",
+          "direction": "input"
+        },
+        "cell": {
+          "x": 14,
+          "y": 13
+        },
+        "outside": {
+          "x": 15,
+          "y": 13
+        }
+      },
+      "provenance": "inferred"
+    },
+    {
+      "id": "e0023",
+      "kind": "belt",
+      "from": {
+        "entityId": "logistics-draft:belt:15:16",
+        "port": {
+          "group": "item_output",
+          "id": "out_e",
+          "direction": "output"
+        },
+        "cell": {
+          "x": 15,
+          "y": 16
+        },
+        "outside": {
+          "x": 16,
+          "y": 16
+        }
+      },
+      "to": {
+        "entityId": "logistics-draft:belt:16:16",
+        "port": {
+          "group": "item_input",
+          "id": "in_w",
+          "direction": "input"
+        },
+        "cell": {
+          "x": 16,
+          "y": 16
+        },
+        "outside": {
+          "x": 15,
+          "y": 16
+        }
+      },
+      "provenance": "inferred"
+    },
+    {
+      "id": "e0024",
+      "kind": "belt",
+      "from": {
+        "entityId": "logistics-draft:belt:15:25",
+        "port": {
+          "group": "item_output",
+          "id": "out_e",
+          "direction": "output"
+        },
+        "cell": {
+          "x": 15,
+          "y": 25
+        },
+        "outside": {
+          "x": 14,
+          "y": 25
+        }
+      },
+      "to": {
+        "entityId": "logistics-draft:belt:14:25",
+        "port": {
+          "group": "item_input",
+          "id": "in_w",
+          "direction": "input"
+        },
+        "cell": {
+          "x": 14,
+          "y": 25
+        },
+        "outside": {
+          "x": 15,
+          "y": 25
+        }
+      },
+      "provenance": "inferred"
+    },
+    {
+      "id": "e0025",
+      "kind": "belt",
+      "from": {
+        "entityId": "logistics-draft:belt:16:10",
+        "port": {
+          "group": "item_output",
+          "id": "out_e",
+          "direction": "output"
+        },
+        "cell": {
+          "x": 16,
+          "y": 10
+        },
+        "outside": {
+          "x": 17,
+          "y": 10
+        }
+      },
+      "to": {
+        "entityId": "logistics-draft:belt:17:10",
+        "port": {
+          "group": "item_input",
+          "id": "in_e",
+          "direction": "input"
+        },
+        "cell": {
+          "x": 17,
+          "y": 10
+        },
+        "outside": {
+          "x": 16,
+          "y": 10
+        }
+      },
+      "provenance": "inferred"
+    },
+    {
+      "id": "e0026",
+      "kind": "belt",
+      "from": {
+        "entityId": "logistics-draft:belt:16:13",
+        "port": {
+          "group": "item_output",
+          "id": "out_e",
+          "direction": "output"
+        },
+        "cell": {
+          "x": 16,
+          "y": 13
+        },
+        "outside": {
+          "x": 15,
+          "y": 13
+        }
+      },
+      "to": {
+        "entityId": "logistics-draft:belt:15:13",
+        "port": {
+          "group": "item_input",
+          "id": "in_w",
+          "direction": "input"
+        },
+        "cell": {
+          "x": 15,
+          "y": 13
+        },
+        "outside": {
+          "x": 16,
+          "y": 13
+        }
+      },
+      "provenance": "inferred"
+    },
+    {
+      "id": "e0027",
+      "kind": "belt",
+      "from": {
+        "entityId": "logistics-draft:belt:16:16",
+        "port": {
+          "group": "item_output",
+          "id": "out_e",
+          "direction": "output"
+        },
+        "cell": {
+          "x": 16,
+          "y": 16
+        },
+        "outside": {
+          "x": 17,
+          "y": 16
+        }
+      },
+      "to": {
+        "entityId": "logistics-draft:belt:17:16",
+        "port": {
+          "group": "item_input",
+          "id": "in_w",
+          "direction": "input"
+        },
+        "cell": {
+          "x": 17,
+          "y": 16
+        },
+        "outside": {
+          "x": 16,
+          "y": 16
+        }
+      },
+      "provenance": "inferred"
+    },
+    {
+      "id": "e0028",
+      "kind": "belt",
+      "from": {
+        "entityId": "logistics-draft:belt:16:25",
+        "port": {
+          "group": "item_output",
+          "id": "out_e",
+          "direction": "output"
+        },
+        "cell": {
+          "x": 16,
+          "y": 25
+        },
+        "outside": {
+          "x": 15,
+          "y": 25
+        }
+      },
+      "to": {
+        "entityId": "logistics-draft:belt:15:25",
+        "port": {
+          "group": "item_input",
+          "id": "in_w",
+          "direction": "input"
+        },
+        "cell": {
+          "x": 15,
+          "y": 25
+        },
+        "outside": {
+          "x": 16,
+          "y": 25
+        }
+      },
+      "provenance": "inferred"
+    },
+    {
+      "id": "e0029",
+      "kind": "belt",
+      "from": {
+        "entityId": "logistics-draft:belt:17:1",
+        "port": {
+          "group": "item_output",
+          "id": "out_e",
+          "direction": "output"
+        },
+        "cell": {
+          "x": 17,
+          "y": 1
+        },
+        "outside": {
+          "x": 18,
+          "y": 1
+        }
+      },
+      "to": {
+        "entityId": "thickener_1:0",
+        "port": {
+          "group": "item_input",
+          "id": "in_s_1",
+          "direction": "input"
+        },
+        "cell": {
+          "x": 18,
+          "y": 1
+        },
+        "outside": {
+          "x": 17,
+          "y": 1
+        }
+      },
+      "provenance": "inferred"
+    },
+    {
+      "id": "e0030",
+      "kind": "belt",
+      "from": {
+        "entityId": "logistics-draft:belt:17:10",
+        "port": {
+          "group": "item_output",
+          "id": "out_s",
+          "direction": "output"
+        },
+        "cell": {
+          "x": 17,
+          "y": 10
+        },
+        "outside": {
+          "x": 17,
+          "y": 9
+        }
+      },
+      "to": {
+        "entityId": "logistics-draft:belt:17:9",
+        "port": {
+          "group": "item_input",
+          "id": "in_n",
+          "direction": "input"
+        },
+        "cell": {
+          "x": 17,
+          "y": 9
+        },
+        "outside": {
+          "x": 17,
+          "y": 10
+        }
+      },
+      "provenance": "inferred"
+    },
+    {
+      "id": "e0031",
+      "kind": "belt",
+      "from": {
+        "entityId": "logistics-draft:belt:17:13",
+        "port": {
+          "group": "item_output",
+          "id": "out_e",
+          "direction": "output"
+        },
+        "cell": {
+          "x": 17,
+          "y": 13
+        },
+        "outside": {
+          "x": 16,
+          "y": 13
+        }
+      },
+      "to": {
+        "entityId": "logistics-draft:belt:16:13",
+        "port": {
+          "group": "item_input",
+          "id": "in_w",
+          "direction": "input"
+        },
+        "cell": {
+          "x": 16,
+          "y": 13
+        },
+        "outside": {
+          "x": 17,
+          "y": 13
+        }
+      },
+      "provenance": "inferred"
+    },
+    {
+      "id": "e0032",
+      "kind": "belt",
+      "from": {
+        "entityId": "logistics-draft:belt:17:16",
+        "port": {
+          "group": "item_output",
+          "id": "out_e",
+          "direction": "output"
+        },
+        "cell": {
+          "x": 17,
+          "y": 16
+        },
+        "outside": {
+          "x": 18,
+          "y": 16
+        }
+      },
+      "to": {
+        "entityId": "logistics-draft:belt:18:16",
+        "port": {
+          "group": "item_input",
+          "id": "in_w",
+          "direction": "input"
+        },
+        "cell": {
+          "x": 18,
+          "y": 16
+        },
+        "outside": {
+          "x": 17,
+          "y": 16
+        }
+      },
+      "provenance": "inferred"
+    },
+    {
+      "id": "e0033",
+      "kind": "belt",
+      "from": {
+        "entityId": "logistics-draft:belt:17:25",
+        "port": {
+          "group": "item_output",
+          "id": "out_e",
+          "direction": "output"
+        },
+        "cell": {
+          "x": 17,
+          "y": 25
+        },
+        "outside": {
+          "x": 16,
+          "y": 25
+        }
+      },
+      "to": {
+        "entityId": "logistics-draft:belt:16:25",
+        "port": {
+          "group": "item_input",
+          "id": "in_w",
+          "direction": "input"
+        },
+        "cell": {
+          "x": 16,
+          "y": 25
+        },
+        "outside": {
+          "x": 17,
+          "y": 25
+        }
+      },
+      "provenance": "inferred"
+    },
+    {
+      "id": "e0034",
+      "kind": "belt",
+      "from": {
+        "entityId": "logistics-draft:belt:17:5",
+        "port": {
+          "group": "item_output",
+          "id": "out_n",
+          "direction": "output"
+        },
+        "cell": {
+          "x": 17,
+          "y": 5
+        },
+        "outside": {
+          "x": 18,
+          "y": 5
+        }
+      },
+      "to": {
+        "entityId": "thickener_1:0",
+        "port": {
+          "group": "item_input",
+          "id": "in_s_5",
+          "direction": "input"
+        },
+        "cell": {
+          "x": 18,
+          "y": 5
+        },
+        "outside": {
+          "x": 17,
+          "y": 5
+        }
+      },
+      "provenance": "inferred"
+    },
+    {
+      "id": "e0035",
+      "kind": "belt",
+      "from": {
+        "entityId": "logistics-draft:belt:17:6",
+        "port": {
+          "group": "item_output",
+          "id": "out_e",
+          "direction": "output"
+        },
+        "cell": {
+          "x": 17,
+          "y": 6
+        },
+        "outside": {
+          "x": 17,
+          "y": 5
+        }
+      },
+      "to": {
+        "entityId": "logistics-draft:belt:17:5",
+        "port": {
+          "group": "item_input",
+          "id": "in_e",
+          "direction": "input"
+        },
+        "cell": {
+          "x": 17,
+          "y": 5
+        },
+        "outside": {
+          "x": 17,
+          "y": 6
+        }
+      },
+      "provenance": "inferred"
+    },
+    {
+      "id": "e0036",
+      "kind": "belt",
+      "from": {
+        "entityId": "logistics-draft:belt:17:8",
+        "port": {
+          "group": "item_output",
+          "id": "out_n",
+          "direction": "output"
+        },
+        "cell": {
+          "x": 17,
+          "y": 8
+        },
+        "outside": {
+          "x": 18,
+          "y": 8
+        }
+      },
+      "to": {
+        "entityId": "logistics-draft:belt:18:8",
+        "port": {
+          "group": "item_input",
+          "id": "in_w",
+          "direction": "input"
+        },
+        "cell": {
+          "x": 18,
+          "y": 8
+        },
+        "outside": {
+          "x": 17,
+          "y": 8
+        }
+      },
+      "provenance": "inferred"
+    },
+    {
+      "id": "e0037",
+      "kind": "belt",
+      "from": {
+        "entityId": "logistics-draft:belt:17:9",
+        "port": {
+          "group": "item_output",
+          "id": "out_s",
+          "direction": "output"
+        },
+        "cell": {
+          "x": 17,
+          "y": 9
+        },
+        "outside": {
+          "x": 17,
+          "y": 8
+        }
+      },
+      "to": {
+        "entityId": "logistics-draft:belt:17:8",
+        "port": {
+          "group": "item_input",
+          "id": "in_e",
+          "direction": "input"
+        },
+        "cell": {
+          "x": 17,
+          "y": 8
+        },
+        "outside": {
+          "x": 17,
+          "y": 9
+        }
+      },
+      "provenance": "inferred"
+    },
+    {
+      "id": "e0038",
+      "kind": "belt",
+      "from": {
+        "entityId": "logistics-draft:belt:18:16",
+        "port": {
+          "group": "item_output",
+          "id": "out_e",
+          "direction": "output"
+        },
+        "cell": {
+          "x": 18,
+          "y": 16
+        },
+        "outside": {
+          "x": 19,
+          "y": 16
+        }
+      },
+      "to": {
+        "entityId": "logistics-draft:belt:19:16",
+        "port": {
+          "group": "item_input",
+          "id": "in_w",
+          "direction": "input"
+        },
+        "cell": {
+          "x": 19,
+          "y": 16
+        },
+        "outside": {
+          "x": 18,
+          "y": 16
+        }
+      },
+      "provenance": "inferred"
+    },
+    {
+      "id": "e0039",
+      "kind": "belt",
+      "from": {
+        "entityId": "logistics-draft:belt:18:23",
+        "port": {
+          "group": "item_output",
+          "id": "out_n",
+          "direction": "output"
+        },
+        "cell": {
+          "x": 18,
+          "y": 23
+        },
+        "outside": {
+          "x": 18,
+          "y": 24
+        }
+      },
+      "to": {
+        "entityId": "logistics-draft:belt:18:24",
+        "port": {
+          "group": "item_input",
+          "id": "in_w",
+          "direction": "input"
+        },
+        "cell": {
+          "x": 18,
+          "y": 24
+        },
+        "outside": {
+          "x": 18,
+          "y": 23
+        }
+      },
+      "provenance": "inferred"
+    },
+    {
+      "id": "e0040",
+      "kind": "belt",
+      "from": {
+        "entityId": "logistics-draft:belt:18:24",
+        "port": {
+          "group": "item_output",
+          "id": "out_e",
+          "direction": "output"
+        },
+        "cell": {
+          "x": 18,
+          "y": 24
+        },
+        "outside": {
+          "x": 18,
+          "y": 25
+        }
+      },
+      "to": {
+        "entityId": "logistics-draft:belt:18:25",
+        "port": {
+          "group": "item_input",
+          "id": "in_e",
+          "direction": "input"
+        },
+        "cell": {
+          "x": 18,
+          "y": 25
+        },
+        "outside": {
+          "x": 18,
+          "y": 24
+        }
+      },
+      "provenance": "inferred"
+    },
+    {
+      "id": "e0041",
+      "kind": "belt",
+      "from": {
+        "entityId": "logistics-draft:belt:18:25",
+        "port": {
+          "group": "item_output",
+          "id": "out_n",
+          "direction": "output"
+        },
+        "cell": {
+          "x": 18,
+          "y": 25
+        },
+        "outside": {
+          "x": 17,
+          "y": 25
+        }
+      },
+      "to": {
+        "entityId": "logistics-draft:belt:17:25",
+        "port": {
+          "group": "item_input",
+          "id": "in_w",
+          "direction": "input"
+        },
+        "cell": {
+          "x": 17,
+          "y": 25
+        },
+        "outside": {
+          "x": 18,
+          "y": 25
+        }
+      },
+      "provenance": "inferred"
+    },
+    {
+      "id": "e0042",
+      "kind": "belt",
+      "from": {
+        "entityId": "logistics-draft:belt:18:8",
+        "port": {
+          "group": "item_output",
+          "id": "out_e",
+          "direction": "output"
+        },
+        "cell": {
+          "x": 18,
+          "y": 8
+        },
+        "outside": {
+          "x": 19,
+          "y": 8
+        }
+      },
+      "to": {
+        "entityId": "logistics-draft:belt:19:8",
+        "port": {
+          "group": "item_input",
+          "id": "in_w",
+          "direction": "input"
+        },
+        "cell": {
+          "x": 19,
+          "y": 8
+        },
+        "outside": {
+          "x": 18,
+          "y": 8
+        }
+      },
+      "provenance": "inferred"
+    },
+    {
+      "id": "e0043",
+      "kind": "belt",
+      "from": {
+        "entityId": "logistics-draft:belt:19:16",
+        "port": {
+          "group": "item_output",
+          "id": "out_e",
+          "direction": "output"
+        },
+        "cell": {
+          "x": 19,
+          "y": 16
+        },
+        "outside": {
+          "x": 20,
+          "y": 16
+        }
+      },
+      "to": {
+        "entityId": "logistics-draft:belt:20:16",
+        "port": {
+          "group": "item_input",
+          "id": "in_w",
+          "direction": "input"
+        },
+        "cell": {
+          "x": 20,
+          "y": 16
+        },
+        "outside": {
+          "x": 19,
+          "y": 16
+        }
+      },
+      "provenance": "inferred"
+    },
+    {
+      "id": "e0044",
+      "kind": "belt",
+      "from": {
+        "entityId": "logistics-draft:belt:19:8",
+        "port": {
+          "group": "item_output",
+          "id": "out_e",
+          "direction": "output"
+        },
+        "cell": {
+          "x": 19,
+          "y": 8
+        },
+        "outside": {
+          "x": 20,
+          "y": 8
+        }
+      },
+      "to": {
+        "entityId": "logistics-draft:belt:20:8",
+        "port": {
+          "group": "item_input",
+          "id": "in_w",
+          "direction": "input"
+        },
+        "cell": {
+          "x": 20,
+          "y": 8
+        },
+        "outside": {
+          "x": 19,
+          "y": 8
+        }
+      },
+      "provenance": "inferred"
+    },
+    {
+      "id": "e0045",
+      "kind": "belt",
+      "from": {
+        "entityId": "logistics-draft:belt:20:16",
+        "port": {
+          "group": "item_output",
+          "id": "out_e",
+          "direction": "output"
+        },
+        "cell": {
+          "x": 20,
+          "y": 16
+        },
+        "outside": {
+          "x": 21,
+          "y": 16
+        }
+      },
+      "to": {
+        "entityId": "logistics-draft:belt:21:16",
+        "port": {
+          "group": "item_input",
+          "id": "in_w",
+          "direction": "input"
+        },
+        "cell": {
+          "x": 21,
+          "y": 16
+        },
+        "outside": {
+          "x": 20,
+          "y": 16
+        }
+      },
+      "provenance": "inferred"
+    },
+    {
+      "id": "e0046",
+      "kind": "belt",
+      "from": {
+        "entityId": "logistics-draft:belt:20:8",
+        "port": {
+          "group": "item_output",
+          "id": "out_e",
+          "direction": "output"
+        },
+        "cell": {
+          "x": 20,
+          "y": 8
+        },
+        "outside": {
+          "x": 21,
+          "y": 8
+        }
+      },
+      "to": {
+        "entityId": "logistics-draft:belt:21:8",
+        "port": {
+          "group": "item_input",
+          "id": "in_w",
+          "direction": "input"
+        },
+        "cell": {
+          "x": 21,
+          "y": 8
+        },
+        "outside": {
+          "x": 20,
+          "y": 8
+        }
+      },
+      "provenance": "inferred"
+    },
+    {
+      "id": "e0047",
+      "kind": "belt",
+      "from": {
+        "entityId": "logistics-draft:belt:21:16",
+        "port": {
+          "group": "item_output",
+          "id": "out_e",
+          "direction": "output"
+        },
+        "cell": {
+          "x": 21,
+          "y": 16
+        },
+        "outside": {
+          "x": 22,
+          "y": 16
+        }
+      },
+      "to": {
+        "entityId": "logistics-draft:belt:22:16",
+        "port": {
+          "group": "item_input",
+          "id": "in_n",
+          "direction": "input"
+        },
+        "cell": {
+          "x": 22,
+          "y": 16
+        },
+        "outside": {
+          "x": 21,
+          "y": 16
+        }
+      },
+      "provenance": "inferred"
+    },
+    {
+      "id": "e0048",
+      "kind": "belt",
+      "from": {
+        "entityId": "logistics-draft:belt:21:8",
+        "port": {
+          "group": "item_output",
+          "id": "out_e",
+          "direction": "output"
+        },
+        "cell": {
+          "x": 21,
+          "y": 8
+        },
+        "outside": {
+          "x": 22,
+          "y": 8
+        }
+      },
+      "to": {
+        "entityId": "logistics-draft:belt:22:8",
+        "port": {
+          "group": "item_input",
+          "id": "in_e",
+          "direction": "input"
+        },
+        "cell": {
+          "x": 22,
+          "y": 8
+        },
+        "outside": {
+          "x": 21,
+          "y": 8
+        }
+      },
+      "provenance": "inferred"
+    },
+    {
+      "id": "e0049",
+      "kind": "belt",
+      "from": {
+        "entityId": "logistics-draft:belt:22:0",
+        "port": {
+          "group": "item_output",
+          "id": "out_e",
+          "direction": "output"
+        },
+        "cell": {
+          "x": 22,
+          "y": 0
+        },
+        "outside": {
+          "x": 23,
+          "y": 0
+        }
+      },
+      "to": {
+        "entityId": "logistics-draft:belt:23:0",
+        "port": {
+          "group": "item_input",
+          "id": "in_e",
+          "direction": "input"
+        },
+        "cell": {
+          "x": 23,
+          "y": 0
+        },
+        "outside": {
+          "x": 22,
+          "y": 0
+        }
+      },
+      "provenance": "inferred"
+    },
+    {
+      "id": "e0050",
+      "kind": "belt",
+      "from": {
+        "entityId": "logistics-draft:belt:22:12",
+        "port": {
+          "group": "item_output",
+          "id": "out_e",
+          "direction": "output"
+        },
+        "cell": {
+          "x": 22,
+          "y": 12
+        },
+        "outside": {
+          "x": 21,
+          "y": 12
+        }
+      },
+      "to": {
+        "entityId": "tools_asm_mc_1:0",
+        "port": {
+          "group": "item_input",
+          "id": "in_s_2",
+          "direction": "input"
+        },
+        "cell": {
+          "x": 21,
+          "y": 12
+        },
+        "outside": {
+          "x": 22,
+          "y": 12
+        }
+      },
+      "provenance": "inferred"
+    },
+    {
+      "id": "e0051",
+      "kind": "belt",
+      "from": {
+        "entityId": "logistics-draft:belt:22:14",
+        "port": {
+          "group": "item_output",
+          "id": "out_e",
+          "direction": "output"
+        },
+        "cell": {
+          "x": 22,
+          "y": 14
+        },
+        "outside": {
+          "x": 21,
+          "y": 14
+        }
+      },
+      "to": {
+        "entityId": "tools_asm_mc_1:0",
+        "port": {
+          "group": "item_input",
+          "id": "in_s_0",
+          "direction": "input"
+        },
+        "cell": {
+          "x": 21,
+          "y": 14
+        },
+        "outside": {
+          "x": 22,
+          "y": 14
+        }
+      },
+      "provenance": "inferred"
+    },
+    {
+      "id": "e0052",
+      "kind": "belt",
+      "from": {
+        "entityId": "logistics-draft:belt:22:15",
+        "port": {
+          "group": "item_output",
+          "id": "out_e",
+          "direction": "output"
+        },
+        "cell": {
+          "x": 22,
+          "y": 15
+        },
+        "outside": {
+          "x": 22,
+          "y": 14
+        }
+      },
+      "to": {
+        "entityId": "logistics-draft:belt:22:14",
+        "port": {
+          "group": "item_input",
+          "id": "in_n",
+          "direction": "input"
+        },
+        "cell": {
+          "x": 22,
+          "y": 14
+        },
+        "outside": {
+          "x": 22,
+          "y": 15
+        }
+      },
+      "provenance": "inferred"
+    },
+    {
+      "id": "e0053",
+      "kind": "belt",
+      "from": {
+        "entityId": "logistics-draft:belt:22:16",
+        "port": {
+          "group": "item_output",
+          "id": "out_e",
+          "direction": "output"
+        },
+        "cell": {
+          "x": 22,
+          "y": 16
+        },
+        "outside": {
+          "x": 22,
+          "y": 15
+        }
+      },
+      "to": {
+        "entityId": "logistics-draft:belt:22:15",
+        "port": {
+          "group": "item_input",
+          "id": "in_w",
+          "direction": "input"
+        },
+        "cell": {
+          "x": 22,
+          "y": 15
+        },
+        "outside": {
+          "x": 22,
+          "y": 16
+        }
+      },
+      "provenance": "inferred"
+    },
+    {
+      "id": "e0054",
+      "kind": "belt",
+      "from": {
+        "entityId": "logistics-draft:belt:22:8",
+        "port": {
+          "group": "item_output",
+          "id": "out_n",
+          "direction": "output"
+        },
+        "cell": {
+          "x": 22,
+          "y": 8
+        },
+        "outside": {
+          "x": 22,
+          "y": 9
+        }
+      },
+      "to": {
+        "entityId": "logistics-draft:belt:22:9",
+        "port": {
+          "group": "item_input",
+          "id": "in_e",
+          "direction": "input"
+        },
+        "cell": {
+          "x": 22,
+          "y": 9
+        },
+        "outside": {
+          "x": 22,
+          "y": 8
+        }
+      },
+      "provenance": "inferred"
+    },
+    {
+      "id": "e0055",
+      "kind": "belt",
+      "from": {
+        "entityId": "logistics-draft:belt:22:9",
+        "port": {
+          "group": "item_output",
+          "id": "out_n",
+          "direction": "output"
+        },
+        "cell": {
+          "x": 22,
+          "y": 9
+        },
+        "outside": {
+          "x": 21,
+          "y": 9
+        }
+      },
+      "to": {
+        "entityId": "tools_asm_mc_1:0",
+        "port": {
+          "group": "item_input",
+          "id": "in_s_5",
+          "direction": "input"
+        },
+        "cell": {
+          "x": 21,
+          "y": 9
+        },
+        "outside": {
+          "x": 22,
+          "y": 9
+        }
+      },
+      "provenance": "inferred"
+    },
+    {
+      "id": "e0056",
+      "kind": "belt",
+      "from": {
+        "entityId": "logistics-draft:belt:23:0",
+        "port": {
+          "group": "item_output",
+          "id": "out_n",
+          "direction": "output"
+        },
+        "cell": {
+          "x": 23,
+          "y": 0
+        },
+        "outside": {
+          "x": 23,
+          "y": 1
+        }
+      },
+      "to": {
+        "entityId": "logistics-draft:belt:23:1",
+        "port": {
+          "group": "item_input",
+          "id": "in_w",
+          "direction": "input"
+        },
+        "cell": {
+          "x": 23,
+          "y": 1
+        },
+        "outside": {
+          "x": 23,
+          "y": 0
+        }
+      },
+      "provenance": "inferred"
+    },
+    {
+      "id": "e0057",
+      "kind": "belt",
+      "from": {
+        "entityId": "logistics-draft:belt:23:1",
+        "port": {
+          "group": "item_output",
+          "id": "out_e",
+          "direction": "output"
+        },
+        "cell": {
+          "x": 23,
+          "y": 1
+        },
+        "outside": {
+          "x": 23,
+          "y": 2
+        }
+      },
+      "to": {
+        "entityId": "logistics-draft:belt:23:2",
+        "port": {
+          "group": "item_input",
+          "id": "in_w",
+          "direction": "input"
+        },
+        "cell": {
+          "x": 23,
+          "y": 2
+        },
+        "outside": {
+          "x": 23,
+          "y": 1
+        }
+      },
+      "provenance": "inferred"
+    },
+    {
+      "id": "e0058",
+      "kind": "belt",
+      "from": {
+        "entityId": "logistics-draft:belt:23:10",
+        "port": {
+          "group": "item_output",
+          "id": "out_e",
+          "direction": "output"
+        },
+        "cell": {
+          "x": 23,
+          "y": 10
+        },
+        "outside": {
+          "x": 23,
+          "y": 11
+        }
+      },
+      "to": {
+        "entityId": "logistics-draft:belt:23:11",
+        "port": {
+          "group": "item_input",
+          "id": "in_w",
+          "direction": "input"
+        },
+        "cell": {
+          "x": 23,
+          "y": 11
+        },
+        "outside": {
+          "x": 23,
+          "y": 10
+        }
+      },
+      "provenance": "inferred"
+    },
+    {
+      "id": "e0059",
+      "kind": "belt",
+      "from": {
+        "entityId": "logistics-draft:belt:23:11",
+        "port": {
+          "group": "item_output",
+          "id": "out_e",
+          "direction": "output"
+        },
+        "cell": {
+          "x": 23,
+          "y": 11
+        },
+        "outside": {
+          "x": 23,
+          "y": 12
+        }
+      },
+      "to": {
+        "entityId": "logistics-draft:belt:23:12",
+        "port": {
+          "group": "item_input",
+          "id": "in_e",
+          "direction": "input"
+        },
+        "cell": {
+          "x": 23,
+          "y": 12
+        },
+        "outside": {
+          "x": 23,
+          "y": 11
+        }
+      },
+      "provenance": "inferred"
+    },
+    {
+      "id": "e0060",
+      "kind": "belt",
+      "from": {
+        "entityId": "logistics-draft:belt:23:12",
+        "port": {
+          "group": "item_output",
+          "id": "out_n",
+          "direction": "output"
+        },
+        "cell": {
+          "x": 23,
+          "y": 12
+        },
+        "outside": {
+          "x": 22,
+          "y": 12
+        }
+      },
+      "to": {
+        "entityId": "logistics-draft:belt:22:12",
+        "port": {
+          "group": "item_input",
+          "id": "in_w",
+          "direction": "input"
+        },
+        "cell": {
+          "x": 22,
+          "y": 12
+        },
+        "outside": {
+          "x": 23,
+          "y": 12
+        }
+      },
+      "provenance": "inferred"
+    },
+    {
+      "id": "e0061",
+      "kind": "belt",
+      "from": {
+        "entityId": "logistics-draft:belt:23:2",
+        "port": {
+          "group": "item_output",
+          "id": "out_e",
+          "direction": "output"
+        },
+        "cell": {
+          "x": 23,
+          "y": 2
+        },
+        "outside": {
+          "x": 23,
+          "y": 3
+        }
+      },
+      "to": {
+        "entityId": "logistics-draft:belt:23:3",
+        "port": {
+          "group": "item_input",
+          "id": "in_w",
+          "direction": "input"
+        },
+        "cell": {
+          "x": 23,
+          "y": 3
+        },
+        "outside": {
+          "x": 23,
+          "y": 2
+        }
+      },
+      "provenance": "inferred"
+    },
+    {
+      "id": "e0062",
+      "kind": "belt",
+      "from": {
+        "entityId": "logistics-draft:belt:23:3",
+        "port": {
+          "group": "item_output",
+          "id": "out_e",
+          "direction": "output"
+        },
+        "cell": {
+          "x": 23,
+          "y": 3
+        },
+        "outside": {
+          "x": 23,
+          "y": 4
+        }
+      },
+      "to": {
+        "entityId": "logistics-draft:belt:23:4",
+        "port": {
+          "group": "item_input",
+          "id": "in_w",
+          "direction": "input"
+        },
+        "cell": {
+          "x": 23,
+          "y": 4
+        },
+        "outside": {
+          "x": 23,
+          "y": 3
+        }
+      },
+      "provenance": "inferred"
+    },
+    {
+      "id": "e0063",
+      "kind": "belt",
+      "from": {
+        "entityId": "logistics-draft:belt:23:4",
+        "port": {
+          "group": "item_output",
+          "id": "out_e",
+          "direction": "output"
+        },
+        "cell": {
+          "x": 23,
+          "y": 4
+        },
+        "outside": {
+          "x": 23,
+          "y": 5
+        }
+      },
+      "to": {
+        "entityId": "logistics-draft:belt:23:5",
+        "port": {
+          "group": "item_input",
+          "id": "in_w",
+          "direction": "input"
+        },
+        "cell": {
+          "x": 23,
+          "y": 5
+        },
+        "outside": {
+          "x": 23,
+          "y": 4
+        }
+      },
+      "provenance": "inferred"
+    },
+    {
+      "id": "e0064",
+      "kind": "belt",
+      "from": {
+        "entityId": "logistics-draft:belt:23:5",
+        "port": {
+          "group": "item_output",
+          "id": "out_e",
+          "direction": "output"
+        },
+        "cell": {
+          "x": 23,
+          "y": 5
+        },
+        "outside": {
+          "x": 23,
+          "y": 6
+        }
+      },
+      "to": {
+        "entityId": "logistics-draft:belt:23:6",
+        "port": {
+          "group": "item_input",
+          "id": "in_w",
+          "direction": "input"
+        },
+        "cell": {
+          "x": 23,
+          "y": 6
+        },
+        "outside": {
+          "x": 23,
+          "y": 5
+        }
+      },
+      "provenance": "inferred"
+    },
+    {
+      "id": "e0065",
+      "kind": "belt",
+      "from": {
+        "entityId": "logistics-draft:belt:23:6",
+        "port": {
+          "group": "item_output",
+          "id": "out_e",
+          "direction": "output"
+        },
+        "cell": {
+          "x": 23,
+          "y": 6
+        },
+        "outside": {
+          "x": 23,
+          "y": 7
+        }
+      },
+      "to": {
+        "entityId": "logistics-draft:belt:23:7",
+        "port": {
+          "group": "item_input",
+          "id": "in_w",
+          "direction": "input"
+        },
+        "cell": {
+          "x": 23,
+          "y": 7
+        },
+        "outside": {
+          "x": 23,
+          "y": 6
+        }
+      },
+      "provenance": "inferred"
+    },
+    {
+      "id": "e0066",
+      "kind": "belt",
+      "from": {
+        "entityId": "logistics-draft:belt:23:7",
+        "port": {
+          "group": "item_output",
+          "id": "out_e",
+          "direction": "output"
+        },
+        "cell": {
+          "x": 23,
+          "y": 7
+        },
+        "outside": {
+          "x": 23,
+          "y": 8
+        }
+      },
+      "to": {
+        "entityId": "logistics-draft:belt:23:8",
+        "port": {
+          "group": "item_input",
+          "id": "in_w",
+          "direction": "input"
+        },
+        "cell": {
+          "x": 23,
+          "y": 8
+        },
+        "outside": {
+          "x": 23,
+          "y": 7
+        }
+      },
+      "provenance": "inferred"
+    },
+    {
+      "id": "e0067",
+      "kind": "belt",
+      "from": {
+        "entityId": "logistics-draft:belt:23:8",
+        "port": {
+          "group": "item_output",
+          "id": "out_e",
+          "direction": "output"
+        },
+        "cell": {
+          "x": 23,
+          "y": 8
+        },
+        "outside": {
+          "x": 23,
+          "y": 9
+        }
+      },
+      "to": {
+        "entityId": "logistics-draft:belt:23:9",
+        "port": {
+          "group": "item_input",
+          "id": "in_w",
+          "direction": "input"
+        },
+        "cell": {
+          "x": 23,
+          "y": 9
+        },
+        "outside": {
+          "x": 23,
+          "y": 8
+        }
+      },
+      "provenance": "inferred"
+    },
+    {
+      "id": "e0068",
+      "kind": "belt",
+      "from": {
+        "entityId": "logistics-draft:belt:23:9",
+        "port": {
+          "group": "item_output",
+          "id": "out_e",
+          "direction": "output"
+        },
+        "cell": {
+          "x": 23,
+          "y": 9
+        },
+        "outside": {
+          "x": 23,
+          "y": 10
+        }
+      },
+      "to": {
+        "entityId": "logistics-draft:belt:23:10",
+        "port": {
+          "group": "item_input",
+          "id": "in_w",
+          "direction": "input"
+        },
+        "cell": {
+          "x": 23,
+          "y": 10
+        },
+        "outside": {
+          "x": 23,
+          "y": 9
+        }
+      },
+      "provenance": "inferred"
+    },
+    {
+      "id": "e0069",
+      "kind": "belt",
+      "from": {
+        "entityId": "thickener_1:0",
+        "port": {
+          "group": "item_output",
+          "id": "out_n_0",
+          "direction": "output"
+        },
+        "cell": {
+          "x": 21,
+          "y": 0
+        },
+        "outside": {
+          "x": 22,
+          "y": 0
+        }
+      },
+      "to": {
+        "entityId": "logistics-draft:belt:22:0",
+        "port": {
+          "group": "item_input",
+          "id": "in_w",
+          "direction": "input"
+        },
+        "cell": {
+          "x": 22,
+          "y": 0
+        },
+        "outside": {
+          "x": 21,
+          "y": 0
+        }
+      },
+      "provenance": "inferred"
+    },
+    {
+      "id": "e0070",
+      "kind": "belt",
+      "from": {
+        "entityId": "tools_asm_mc_1:0",
+        "port": {
+          "group": "item_output",
+          "id": "out_n_1",
+          "direction": "output"
+        },
+        "cell": {
+          "x": 18,
+          "y": 13
+        },
+        "outside": {
+          "x": 17,
+          "y": 13
+        }
+      },
+      "to": {
+        "entityId": "logistics-draft:belt:17:13",
+        "port": {
+          "group": "item_input",
+          "id": "in_w",
+          "direction": "input"
+        },
+        "cell": {
+          "x": 17,
+          "y": 13
+        },
+        "outside": {
+          "x": 18,
+          "y": 13
+        }
+      },
+      "provenance": "inferred"
+    },
+    {
+      "id": "e0071",
+      "kind": "belt",
+      "from": {
+        "entityId": "tools_asm_mc_1:0",
+        "port": {
+          "group": "item_output",
+          "id": "out_n_4",
+          "direction": "output"
+        },
+        "cell": {
+          "x": 18,
+          "y": 10
+        },
+        "outside": {
+          "x": 17,
+          "y": 10
+        }
+      },
+      "to": {
+        "entityId": "logistics-draft:belt:17:10",
+        "port": {
+          "group": "item_input",
+          "id": "in_w",
+          "direction": "input"
+        },
+        "cell": {
+          "x": 17,
+          "y": 10
+        },
+        "outside": {
+          "x": 18,
+          "y": 10
+        }
+      },
+      "provenance": "inferred"
+    },
+    {
+      "id": "e0072",
+      "kind": "belt",
+      "from": {
+        "entityId": "tools_asm_mc_1:0",
+        "port": {
+          "group": "item_output",
+          "id": "out_n_5",
+          "direction": "output"
+        },
+        "cell": {
+          "x": 18,
+          "y": 9
+        },
+        "outside": {
+          "x": 17,
+          "y": 9
+        }
+      },
+      "to": {
+        "entityId": "logistics-draft:belt:17:9",
+        "port": {
+          "group": "item_input",
+          "id": "in_w",
+          "direction": "input"
+        },
+        "cell": {
+          "x": 17,
+          "y": 9
+        },
+        "outside": {
+          "x": 18,
+          "y": 9
+        }
+      },
+      "provenance": "inferred"
+    },
+    {
+      "id": "e0073",
+      "kind": "belt",
+      "from": {
+        "entityId": "unloader_1:0",
+        "port": {
+          "group": "item_output",
+          "id": "p_out_mid",
+          "direction": "output"
+        },
+        "cell": {
+          "x": 12,
+          "y": 32
+        },
+        "outside": {
+          "x": 13,
+          "y": 32
+        }
+      },
+      "to": {
+        "entityId": "logistics-draft:belt:13:32",
+        "port": {
+          "group": "item_input",
+          "id": "in_w",
+          "direction": "input"
+        },
+        "cell": {
+          "x": 13,
+          "y": 32
+        },
+        "outside": {
+          "x": 12,
+          "y": 32
+        }
+      },
+      "provenance": "inferred"
+    },
+    {
+      "id": "e0074",
+      "kind": "belt",
+      "from": {
+        "entityId": "unloader_1:1",
+        "port": {
+          "group": "item_output",
+          "id": "p_out_mid",
+          "direction": "output"
+        },
+        "cell": {
+          "x": 12,
+          "y": 7
+        },
+        "outside": {
+          "x": 13,
+          "y": 7
+        }
+      },
+      "to": {
+        "entityId": "logistics-draft:belt:13:7",
+        "port": {
+          "group": "item_input",
+          "id": "in_w",
+          "direction": "input"
+        },
+        "cell": {
+          "x": 13,
+          "y": 7
+        },
+        "outside": {
+          "x": 12,
+          "y": 7
+        }
+      },
+      "provenance": "inferred"
+    },
+    {
+      "id": "e0075",
+      "kind": "belt",
+      "from": {
+        "entityId": "unloader_1:2",
+        "port": {
+          "group": "item_output",
+          "id": "p_out_mid",
+          "direction": "output"
+        },
+        "cell": {
+          "x": 12,
+          "y": 29
+        },
+        "outside": {
+          "x": 13,
+          "y": 29
+        }
+      },
+      "to": {
+        "entityId": "log_splitter:0",
+        "port": {
+          "group": "item_input",
+          "id": "in_n",
+          "direction": "input"
+        },
+        "cell": {
+          "x": 13,
+          "y": 29
+        },
+        "outside": {
+          "x": 12,
+          "y": 29
+        }
+      },
+      "provenance": "inferred"
+    },
+    {
+      "id": "e0076",
+      "kind": "belt",
+      "from": {
+        "entityId": "unloader_1:3",
+        "port": {
+          "group": "item_output",
+          "id": "p_out_mid",
+          "direction": "output"
+        },
+        "cell": {
+          "x": 12,
+          "y": 10
+        },
+        "outside": {
+          "x": 13,
+          "y": 10
+        }
+      },
+      "to": {
+        "entityId": "logistics-draft:belt:13:10",
+        "port": {
+          "group": "item_input",
+          "id": "in_w",
+          "direction": "input"
+        },
+        "cell": {
+          "x": 13,
+          "y": 10
+        },
+        "outside": {
+          "x": 12,
+          "y": 10
+        }
+      },
+      "provenance": "inferred"
+    },
+    {
+      "id": "e0077",
+      "kind": "belt",
+      "from": {
+        "entityId": "unloader_1:4",
+        "port": {
+          "group": "item_output",
+          "id": "p_out_mid",
+          "direction": "output"
+        },
+        "cell": {
+          "x": 12,
+          "y": 16
+        },
+        "outside": {
+          "x": 13,
+          "y": 16
+        }
+      },
+      "to": {
+        "entityId": "logistics-draft:belt:13:16",
+        "port": {
+          "group": "item_input",
+          "id": "in_w",
+          "direction": "input"
+        },
+        "cell": {
+          "x": 13,
+          "y": 16
+        },
+        "outside": {
+          "x": 12,
+          "y": 16
+        }
+      },
+      "provenance": "inferred"
+    },
+    {
+      "id": "e0078",
+      "kind": "belt",
+      "from": {
+        "entityId": "unloader_1:5",
+        "port": {
+          "group": "item_output",
+          "id": "p_out_mid",
+          "direction": "output"
+        },
+        "cell": {
+          "x": 12,
+          "y": 1
+        },
+        "outside": {
+          "x": 13,
+          "y": 1
+        }
+      },
+      "to": {
+        "entityId": "logistics-draft:belt:13:1",
+        "port": {
+          "group": "item_input",
+          "id": "in_w",
+          "direction": "input"
+        },
+        "cell": {
+          "x": 13,
+          "y": 1
+        },
+        "outside": {
+          "x": 12,
+          "y": 1
+        }
+      },
+      "provenance": "inferred"
+    },
+    {
+      "id": "e0079",
+      "kind": "belt",
+      "from": {
+        "entityId": "unloader_1:6",
+        "port": {
+          "group": "item_output",
+          "id": "p_out_mid",
+          "direction": "output"
+        },
+        "cell": {
+          "x": 12,
+          "y": 4
+        },
+        "outside": {
+          "x": 13,
+          "y": 4
+        }
+      },
+      "to": {
+        "entityId": "logistics-draft:belt:13:4",
+        "port": {
+          "group": "item_input",
+          "id": "in_w",
+          "direction": "input"
+        },
+        "cell": {
+          "x": 13,
+          "y": 4
+        },
+        "outside": {
+          "x": 12,
+          "y": 4
+        }
+      },
+      "provenance": "inferred"
+    },
+    {
+      "id": "e0080",
+      "kind": "belt",
+      "from": {
+        "entityId": "unloader_1:7",
+        "port": {
+          "group": "item_output",
+          "id": "p_out_mid",
+          "direction": "output"
+        },
+        "cell": {
+          "x": 12,
+          "y": 19
+        },
+        "outside": {
+          "x": 13,
+          "y": 19
+        }
+      },
+      "to": {
+        "entityId": "logistics-draft:belt:13:19",
+        "port": {
+          "group": "item_input",
+          "id": "in_w",
+          "direction": "input"
+        },
+        "cell": {
+          "x": 13,
+          "y": 19
+        },
+        "outside": {
+          "x": 12,
+          "y": 19
+        }
+      },
+      "provenance": "inferred"
+    },
+    {
+      "id": "e0081",
+      "kind": "belt",
+      "from": {
+        "entityId": "unloader_1:8",
+        "port": {
+          "group": "item_output",
+          "id": "p_out_mid",
+          "direction": "output"
+        },
+        "cell": {
+          "x": 12,
+          "y": 22
+        },
+        "outside": {
+          "x": 13,
+          "y": 22
+        }
+      },
+      "to": {
+        "entityId": "log_admission:0",
+        "port": {
+          "group": "item_input",
+          "id": "in_w",
+          "direction": "input"
+        },
+        "cell": {
+          "x": 13,
+          "y": 22
+        },
+        "outside": {
+          "x": 12,
+          "y": 22
+        }
+      },
+      "provenance": "inferred"
+    },
+    {
+      "id": "e0082",
+      "kind": "belt",
+      "from": {
+        "entityId": "winder_1:0",
+        "port": {
+          "group": "item_output",
+          "id": "out_n_5",
+          "direction": "output"
+        },
+        "cell": {
+          "x": 17,
+          "y": 23
+        },
+        "outside": {
+          "x": 18,
+          "y": 23
+        }
+      },
+      "to": {
+        "entityId": "logistics-draft:belt:18:23",
+        "port": {
+          "group": "item_input",
+          "id": "in_e",
+          "direction": "input"
+        },
+        "cell": {
+          "x": 18,
+          "y": 23
+        },
+        "outside": {
+          "x": 17,
+          "y": 23
+        }
+      },
+      "provenance": "inferred"
+    }
+  ],
+  "disabled": []
+}

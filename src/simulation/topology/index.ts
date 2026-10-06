@@ -1,4 +1,5 @@
 export { createSimulationDocumentHash, compileSimulationTopology } from "./compiler";
+export { reconcileExplicitConnections } from "./explicit-connections";
 export { createSimulationTopologyMigration } from "./migration";
 export {
   prepareCurrentSimulationDocument,

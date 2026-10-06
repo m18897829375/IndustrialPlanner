@@ -78,6 +78,8 @@ type StorageSlotDefinition = StorageSlotGroupDefinition["slots"][number];
 type PortStorageBindingDefinition = EntityDefinition["portStorageBindings"][number];
 type RecipeChannelDefinition = EntityDefinition["recipeChannels"][number];
 
+import { reconcileExplicitConnections } from "./explicit-connections";
+
 interface CompileOptions {
   readonly document: WorldDocument;
   readonly registry: RegistryContract;
@@ -111,6 +113,8 @@ export function createSimulationDocumentHash(document: WorldDocument): string {
     entities: document.entities,
     entityOrder: document.entityOrder,
     slotLinks: document.slotLinks,
+    // 显式边表必须参与哈希：手工改边后文档实体不变，缺了它 Worker 缓存会吞掉修正
+    logisticsEdges: document.logisticsEdges ?? null,
   });
 }
 
@@ -279,11 +283,25 @@ export function compileSimulationTopology(
     links,
   });
 
-  for (const connection of compilePhysicalConnections(
+  // 显式边表（可选）：文档携带时整体权威——几何推断先行（诊断依据与顺序基准），
+  // 再按边表调和（缺边=不连，manual 边经平台约束校验后追加，失配超阈值整体回退）。
+  const geometricConnections = compilePhysicalConnections(
     portOrder.map((portId) => ports[portId]),
     devices,
     (definitionId) => options.registry.queries.isGeneralLogisticsDevice(definitionId),
-  )) {
+  );
+  const explicitEdges = options.document.logisticsEdges?.edges;
+  const connectionsToApply = explicitEdges === undefined
+    ? geometricConnections
+    : reconcileExplicitConnections(
+      explicitEdges,
+      geometricConnections,
+      ports,
+      devices,
+      (definitionId) => options.registry.queries.isGeneralLogisticsDevice(definitionId),
+      diagnostics,
+    );
+  for (const connection of connectionsToApply) {
     physicalConnections[connection.id] = connection;
     physicalConnectionOrder.push(connection.id);
 
@@ -1698,7 +1716,7 @@ function compileRecipeChannels(
   return compiled;
 }
 
-function compilePhysicalConnections(
+export function compilePhysicalConnections(
   maybePorts: readonly (CompiledSimulationPort | undefined)[],
   devices: Record<string, CompiledSimulationDevice>,
   isGeneralLogisticsDevice: (definitionId: string) => boolean,

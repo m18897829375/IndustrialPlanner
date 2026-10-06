@@ -479,6 +479,8 @@ export function createWorldDocumentFromBlueprint(
 			...region,
 			rects: region.rects.map((rect) => ({ ...rect })),
 		})),
+		// 显式边表随蓝图带入世界文档（仿真编译在场即权威）
+		...(blueprint.logisticsEdges !== undefined ? { logisticsEdges: blueprint.logisticsEdges } : {}),
 		documentSettings: {
 			viewport: {
 				center: {

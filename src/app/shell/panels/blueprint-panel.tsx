@@ -24,7 +24,9 @@ import {
   readBlueprintFolder,
 } from "@/shared/storage/blueprint-storage";
 import LucideClipboard from "~icons/lucide/clipboard";
+import LucideQrCode from "~icons/lucide/qr-code";
 import LucideUpload from "~icons/lucide/upload";
+import { OfficialImportDialog } from "./official-import-dialog";
 import styles from "@/app/shell/app-shell.module.scss";
 import { cm } from "@/app/shell/shared/css-module-class";
 
@@ -125,6 +127,7 @@ export const BlueprintPanel = observer(function BlueprintPanel({ appHost }: { ap
   const [isLoading, setIsLoading] = useState(false);
   const [isImporting, setIsImporting] = useState(false);
   const [importCompletedCount, setImportCompletedCount] = useState(0);
+  const [officialImportVisible, setOfficialImportVisible] = useState(false);
   const [errorMessage, setErrorMessage] = useState<string | null>(null);
   const [selectedBlueprintId, setSelectedBlueprintId] = useState<string | null>(null);
   const requestIdRef = useRef(0);
@@ -267,6 +270,12 @@ export const BlueprintPanel = observer(function BlueprintPanel({ appHost }: { ap
       compactLabelKey: "workbench.button.importBlueprintFromClipboardCompact",
       Icon: LucideClipboard,
     },
+    {
+      uiButtonId: "blueprint-action-import-code",
+      labelKey: "workbench.button.importBlueprintFromCode",
+      compactLabelKey: "workbench.button.importBlueprintFromCodeCompact",
+      Icon: LucideQrCode,
+    },
 
   ];
   const visibleOperationButtons = isTouchLayout
@@ -361,6 +370,11 @@ export const BlueprintPanel = observer(function BlueprintPanel({ appHost }: { ap
 
           if (button.uiButtonId === "blueprint-action-import-clipboard") {
             void handleImportClipboardClick();
+            return;
+          }
+
+          if (button.uiButtonId === "blueprint-action-import-code") {
+            setOfficialImportVisible(true);
           }
         }}
         title={label}
@@ -503,6 +517,19 @@ export const BlueprintPanel = observer(function BlueprintPanel({ appHost }: { ap
           translate={t}
         />
       </section>
+      <OfficialImportDialog
+        appHost={appHost}
+        onClose={() => {
+          setOfficialImportVisible(false);
+        }}
+        onImported={() => {
+          setOfficialImportVisible(false);
+          setActiveTab("user");
+          setImportCompletedCount((currentValue) => currentValue + 1);
+        }}
+        targetFolderId={importTargetFolderId}
+        visible={officialImportVisible}
+      />
     </div>
   );
 });
