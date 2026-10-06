@@ -9,6 +9,7 @@ import {
   type ConverterContext,
   type LogisticsKind,
 } from "./official-context";
+import { buildFacingIndex, EDGE_TO_ANGLE } from "./official-facing";
 import type {
   OfficialBlueprintNode,
   QuarterRotation,
@@ -104,26 +105,36 @@ function addLogiCell(
   ctx.logiMeta.set(eid, { kind, x, y });
 }
 
-/** 每格流向（平台角）。多格段按几何；单格段邻接图推断，fallback directionOut。 */
-function flowDirs(
+/** 官方 Y 角 → 平台流向角：平台角 = (90 − y) % 360（单格段声明方向实证映射）。 */
+function officialYToPlatformDir(y: number): QuarterRotation {
+  return (((90 - Math.trunc(y)) % 360) + 360) % 360 as QuarterRotation;
+}
+
+/**
+ * 单格段方向解析（F2 定案：忠实官方声明，不靠猜）。
+ * 优先级：① 声明 (directionIn, directionOut) 完整 → 直接用（含声明转弯）；
+ *         ② 仅 directionOut → straight；③ 无声明 → 邻接推断 → 兜底 E。
+ * 声明方向的下游连通性不归此处裁决——由 auditDeclaredDirections 在全部放置与
+ * 接驳完成后统一审计写入报告（断头不改写声明）。
+ */
+function resolveSingleCellDirs(
   ctx: ConverterContext,
   node: OfficialBlueprintNode,
-  cells: readonly GridPoint[],
+  cell: GridPoint,
   kind: LogisticsKind,
-  fallbackDir: QuarterRotation | null,
-): QuarterRotation[] {
-  if (cells.length > 1) {
-    return cells.map((cell, i) => {
-      const next = cells[i + 1];
-      if (next !== undefined) {
-        return dirAngle(next.x - cell.x, next.y - cell.y) ?? 0;
-      }
-      const prev = cells[i - 1]!;
-      return dirAngle(cell.x - prev.x, cell.y - prev.y) ?? 0;
-    });
+): { dIn: QuarterRotation; dOut: QuarterRotation } {
+  const dInRaw = node.transform?.directionIn?.y;
+  const dOutRaw = node.transform?.directionOut?.y;
+  if (dInRaw !== undefined && dInRaw !== null && dOutRaw !== undefined && dOutRaw !== null) {
+    return { dIn: officialYToPlatformDir(dInRaw), dOut: officialYToPlatformDir(dOutRaw) };
   }
-  const inferred = inferSingleCellDir(ctx, cells[0]!, kind);
-  return [inferred ?? fallbackDir ?? 0];
+  if (dOutRaw !== undefined && dOutRaw !== null) {
+    const d = officialYToPlatformDir(dOutRaw);
+    return { dIn: d, dOut: d };
+  }
+  const inferred = inferSingleCellDir(ctx, cell, kind);
+  const d = inferred ?? 0;
+  return { dIn: d, dOut: d };
 }
 
 export function logisticsNodeCells(
@@ -151,7 +162,14 @@ export function convertLogistics(
       pendingSingle.push({ node, kind, cells });
       continue;
     }
-    const dirs = flowDirs(ctx, node, cells, kind, null);
+    const dirs = cells.map((cell, i) => {
+      const next = cells[i + 1];
+      if (next !== undefined) {
+        return dirAngle(next.x - cell.x, next.y - cell.y) ?? 0;
+      }
+      const prev = cells[i - 1]!;
+      return dirAngle(cell.x - prev.x, cell.y - prev.y) ?? 0;
+    });
     for (let i = 0; i < cells.length; i++) {
       const dIn = i > 0 ? dirs[i - 1]! : dirs[i]!;
       const { shape, rotation } = classifyLogistics(dIn, dirs[i]!);
@@ -159,14 +177,64 @@ export function convertLogistics(
     }
   }
 
-  // 第二遍：单格段（邻接推断 + directionOut fallback）
+  // 第二遍：单格段（忠实官方声明 directionIn/Out；无声明才邻接推断）
   for (const { node, kind, cells } of pendingSingle) {
-    const dOutRaw = node.transform?.directionOut?.y;
-    const fallbackDir = dOutRaw !== undefined && dOutRaw !== null
-      ? (((90 - Math.trunc(dOutRaw)) % 360) + 360) % 360 as QuarterRotation
-      : null;
-    const dirs = flowDirs(ctx, node, cells, kind, fallbackDir);
-    const { shape, rotation } = classifyLogistics(dirs[0]!, dirs[0]!);
+    const { dIn, dOut } = resolveSingleCellDirs(ctx, node, cells[0]!, kind);
+    const { shape, rotation } = classifyLogistics(dIn, dOut);
     addLogiCell(ctx, kind, cells[0]!.x, cells[0]!.y, shape, rotation);
   }
+}
+
+/** 平台流向角 → 格步进。 */
+const DIR_DELTA: Readonly<Record<QuarterRotation, GridPoint>> = {
+  0: { x: 1, y: 0 },
+  90: { x: 0, y: 1 },
+  180: { x: -1, y: 0 },
+  270: { x: 0, y: -1 },
+};
+
+const DIR_NAME: Readonly<Record<QuarterRotation, string>> = {
+  0: "E", 90: "S", 180: "W", 270: "N",
+};
+
+/**
+ * 单格段声明方向下游连通审计（在全部物流放置 + 端口接驳完成后调用）。
+ * 忠实采用声明后，声明出向无对接的格子写入报告（断头不改写声明）：
+ * 下游对接 = 同族物流格占用，或该方向命中设备 input 端口朝向。
+ * 仅供用户知悉"原蓝图可能为断头/装饰带，或平台无法表达的宽容结构"。
+ */
+export function auditDeclaredDirections(
+  ctx: ConverterContext,
+  nodes: readonly OfficialBlueprintNode[],
+): string[] {
+  const facing = buildFacingIndex(ctx);
+  const divergences: string[] = [];
+  for (const node of nodes) {
+    const kind = LOGISTICS_TEMPLATE_KIND[node.templateId];
+    if (kind === undefined) continue;
+    const cells = logisticsNodeCells(ctx, node);
+    if (cells.length !== 1) continue;
+    const dOutRaw = node.transform?.directionOut?.y;
+    if (dOutRaw === undefined || dOutRaw === null) continue;
+    const dOut = officialYToPlatformDir(dOutRaw);
+    const cell = cells[0]!;
+    const delta = DIR_DELTA[dOut];
+    const nx = cell.x + delta.x;
+    const ny = cell.y + delta.y;
+
+    // (a) 同族物流格占用（下游格）
+    if (ctx.cellOwner.has(cellOwnerKey(kind, nx, ny))) continue;
+    // (b) 设备 input 端口朝向本格（端口外侧格=本格，且从本格看设备的方向 = 声明出向）
+    const candidates = facing.get(`${cell.x}:${cell.y}:${kind === "pipe"}`) ?? [];
+    const hitsInput = candidates.some(
+      (c) => c.direction === "input" && EDGE_TO_ANGLE[c.mEdge] === dOut,
+    );
+    if (hitsInput) continue;
+
+    divergences.push(
+      `⚠️ 单格段声明方向下游无对接: (${cell.x},${cell.y}) ${kind} 声明出向=${DIR_NAME[dOut]}(${dOut})`
+      + `（原蓝图可能为断头/装饰带，或属平台无法表达的宽容结构）`,
+    );
+  }
+  return divergences;
 }

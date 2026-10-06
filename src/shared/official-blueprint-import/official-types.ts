@@ -147,6 +147,12 @@ export interface ConvertReport {
     /** 参与连通判定的端口全集（manual 边可解析性校验用）。 */
     readonly ports: readonly EdgeSourcePort[];
   };
+  /**
+   * 单格物流段声明方向的下游连通审计（F2）。
+   * 忠实采用官方声明 (directionIn/Out) 后，声明出向无对接（断头）的格子列表——
+   * 供用户知悉"该格在原蓝图中可能为断头/装饰带或平台无法表达的宽容结构"，不改写声明。
+   */
+  readonly directionDivergences: readonly string[];
   /** 蓝图含 hongs_bus 时提示可选 valley4 基地。 */
   readonly baseIdSuggestion?: string;
 }

@@ -40,8 +40,8 @@ const EXPECTATIONS: readonly FixtureExpectation[] = [
   },
   {
     name: "bp_user",
-    entityCount: 127, deviceCount: 38, logisticsCount: 89, slotLinkCount: 9, connectionCount: 119,
-    adaptationConflicts: 0, unconnectedWarnings: 6,
+    entityCount: 127, deviceCount: 38, logisticsCount: 89, slotLinkCount: 9, connectionCount: 121,
+    adaptationConflicts: 0, unconnectedWarnings: 4,
     supplyOrRecipeWarnings: 0,
     produces: { item_copper_cmpt: 1 }, // Python 基线 120/min
   },
@@ -56,8 +56,8 @@ const EXPECTATIONS: readonly FixtureExpectation[] = [
   },
   {
     name: "bp_EF01I43ouo3OA979O5o08", // 武陵2
-    entityCount: 93, deviceCount: 30, logisticsCount: 63, slotLinkCount: 9, connectionCount: 82,
-    adaptationConflicts: 0, unconnectedWarnings: 3,
+    entityCount: 93, deviceCount: 30, logisticsCount: 63, slotLinkCount: 9, connectionCount: 83,
+    adaptationConflicts: 0, unconnectedWarnings: 2,
     supplyOrRecipeWarnings: 0,
     produces: { item_originium_powder: 1 }, // Python 基线 60/min
   },

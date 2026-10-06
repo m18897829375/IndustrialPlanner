@@ -23,6 +23,7 @@ import {
 } from "./official-edge-table";
 import { resolveOfficialDefinitionId } from "./official-id-map";
 import {
+  auditDeclaredDirections,
   convertLogistics,
   LOGISTICS_TEMPLATE_KIND,
 } from "./official-logistics";
@@ -73,6 +74,9 @@ export function convertOfficialBlueprint(
 
   // [3.5] T 型汇入升级（设备 output 侧向注入带/管 → converger）
   upgradeTeeJunctions(ctx);
+
+  // [3.6] 单格段声明方向下游连通审计（断头只报告不改写；F2）
+  const directionDivergences = auditDeclaredDirections(ctx, sortedNodes);
 
   // [4] 旋转求解器校验（诊断安全网；不自动改 rotation）
   const rotationResolutions = verifyRotations(ctx);
@@ -136,6 +140,7 @@ export function convertOfficialBlueprint(
     notes: ctx.notes,
     rotationResolutions,
     topologyCheck,
+    directionDivergences,
     ...(hasHongsBus
       ? { baseIdSuggestion: "蓝图含洪斯总线，valley4 基地内置同款；当前使用 wuling_protocol_core" }
       : {}),

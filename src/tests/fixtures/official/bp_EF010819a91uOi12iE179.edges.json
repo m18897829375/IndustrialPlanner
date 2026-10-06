@@ -10,43 +10,6 @@
       "id": "e0001",
       "kind": "belt",
       "from": {
-        "entityId": "grinder_1:0",
-        "port": {
-          "group": "item_output",
-          "id": "out_n_1",
-          "direction": "output"
-        },
-        "cell": {
-          "x": 26,
-          "y": 4
-        },
-        "outside": {
-          "x": 26,
-          "y": 5
-        }
-      },
-      "to": {
-        "entityId": "logistics-draft:belt:26:5",
-        "port": {
-          "group": "item_input",
-          "id": "in_e",
-          "direction": "input"
-        },
-        "cell": {
-          "x": 26,
-          "y": 5
-        },
-        "outside": {
-          "x": 26,
-          "y": 4
-        }
-      },
-      "provenance": "inferred"
-    },
-    {
-      "id": "e0002",
-      "kind": "belt",
-      "from": {
         "entityId": "grinder_1:10",
         "port": {
           "group": "item_output",
@@ -81,7 +44,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0003",
+      "id": "e0002",
       "kind": "belt",
       "from": {
         "entityId": "grinder_1:11",
@@ -103,7 +66,7 @@
         "entityId": "logistics-draft:belt:42:25",
         "port": {
           "group": "item_input",
-          "id": "in_n",
+          "id": "in_w",
           "direction": "input"
         },
         "cell": {
@@ -118,7 +81,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0004",
+      "id": "e0003",
       "kind": "belt",
       "from": {
         "entityId": "grinder_1:12",
@@ -155,7 +118,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0005",
+      "id": "e0004",
       "kind": "belt",
       "from": {
         "entityId": "grinder_1:12",
@@ -192,7 +155,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0006",
+      "id": "e0005",
       "kind": "belt",
       "from": {
         "entityId": "grinder_1:13",
@@ -214,7 +177,7 @@
         "entityId": "logistics-draft:belt:42:19",
         "port": {
           "group": "item_input",
-          "id": "in_e",
+          "id": "in_w",
           "direction": "input"
         },
         "cell": {
@@ -229,81 +192,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0007",
-      "kind": "belt",
-      "from": {
-        "entityId": "grinder_1:16",
-        "port": {
-          "group": "item_output",
-          "id": "out_n_1",
-          "direction": "output"
-        },
-        "cell": {
-          "x": 17,
-          "y": 4
-        },
-        "outside": {
-          "x": 17,
-          "y": 5
-        }
-      },
-      "to": {
-        "entityId": "logistics-draft:belt:17:5",
-        "port": {
-          "group": "item_input",
-          "id": "in_n",
-          "direction": "input"
-        },
-        "cell": {
-          "x": 17,
-          "y": 5
-        },
-        "outside": {
-          "x": 17,
-          "y": 4
-        }
-      },
-      "provenance": "inferred"
-    },
-    {
-      "id": "e0008",
-      "kind": "belt",
-      "from": {
-        "entityId": "grinder_1:18",
-        "port": {
-          "group": "item_output",
-          "id": "out_n_1",
-          "direction": "output"
-        },
-        "cell": {
-          "x": 32,
-          "y": 4
-        },
-        "outside": {
-          "x": 32,
-          "y": 5
-        }
-      },
-      "to": {
-        "entityId": "logistics-draft:belt:32:5",
-        "port": {
-          "group": "item_input",
-          "id": "in_n",
-          "direction": "input"
-        },
-        "cell": {
-          "x": 32,
-          "y": 5
-        },
-        "outside": {
-          "x": 32,
-          "y": 4
-        }
-      },
-      "provenance": "inferred"
-    },
-    {
-      "id": "e0009",
+      "id": "e0006",
       "kind": "belt",
       "from": {
         "entityId": "grinder_1:19",
@@ -340,7 +229,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0010",
+      "id": "e0007",
       "kind": "belt",
       "from": {
         "entityId": "grinder_1:19",
@@ -377,44 +266,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0011",
-      "kind": "belt",
-      "from": {
-        "entityId": "grinder_1:2",
-        "port": {
-          "group": "item_output",
-          "id": "out_n_1",
-          "direction": "output"
-        },
-        "cell": {
-          "x": 11,
-          "y": 4
-        },
-        "outside": {
-          "x": 11,
-          "y": 5
-        }
-      },
-      "to": {
-        "entityId": "logistics-draft:belt:11:5",
-        "port": {
-          "group": "item_input",
-          "id": "in_e",
-          "direction": "input"
-        },
-        "cell": {
-          "x": 11,
-          "y": 5
-        },
-        "outside": {
-          "x": 11,
-          "y": 4
-        }
-      },
-      "provenance": "inferred"
-    },
-    {
-      "id": "e0012",
+      "id": "e0008",
       "kind": "belt",
       "from": {
         "entityId": "grinder_1:3",
@@ -451,7 +303,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0013",
+      "id": "e0009",
       "kind": "belt",
       "from": {
         "entityId": "grinder_1:3",
@@ -488,7 +340,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0014",
+      "id": "e0010",
       "kind": "belt",
       "from": {
         "entityId": "grinder_1:4",
@@ -525,7 +377,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0015",
+      "id": "e0011",
       "kind": "belt",
       "from": {
         "entityId": "grinder_1:5",
@@ -562,7 +414,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0016",
+      "id": "e0012",
       "kind": "belt",
       "from": {
         "entityId": "grinder_1:6",
@@ -584,7 +436,7 @@
         "entityId": "logistics-draft:belt:42:10",
         "port": {
           "group": "item_input",
-          "id": "in_n",
+          "id": "in_w",
           "direction": "input"
         },
         "cell": {
@@ -599,7 +451,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0017",
+      "id": "e0013",
       "kind": "belt",
       "from": {
         "entityId": "grinder_1:7",
@@ -636,7 +488,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0018",
+      "id": "e0014",
       "kind": "belt",
       "from": {
         "entityId": "grinder_1:7",
@@ -673,7 +525,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0019",
+      "id": "e0015",
       "kind": "belt",
       "from": {
         "entityId": "grinder_1:8",
@@ -695,7 +547,7 @@
         "entityId": "logistics-draft:belt:42:4",
         "port": {
           "group": "item_input",
-          "id": "in_e",
+          "id": "in_w",
           "direction": "input"
         },
         "cell": {
@@ -710,7 +562,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0020",
+      "id": "e0016",
       "kind": "belt",
       "from": {
         "entityId": "grinder_1:9",
@@ -747,7 +599,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0021",
+      "id": "e0017",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:1:1",
@@ -784,7 +636,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0022",
+      "id": "e0018",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:1:10",
@@ -821,7 +673,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0023",
+      "id": "e0019",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:1:11",
@@ -858,7 +710,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0024",
+      "id": "e0020",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:1:12",
@@ -895,7 +747,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0025",
+      "id": "e0021",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:1:13",
@@ -932,7 +784,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0026",
+      "id": "e0022",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:1:14",
@@ -969,7 +821,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0027",
+      "id": "e0023",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:1:2",
@@ -1006,7 +858,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0028",
+      "id": "e0024",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:1:3",
@@ -1043,7 +895,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0029",
+      "id": "e0025",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:1:4",
@@ -1080,7 +932,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0030",
+      "id": "e0026",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:1:5",
@@ -1117,7 +969,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0031",
+      "id": "e0027",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:10:12",
@@ -1154,7 +1006,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0032",
+      "id": "e0028",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:10:13",
@@ -1191,7 +1043,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0033",
+      "id": "e0029",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:10:14",
@@ -1228,7 +1080,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0034",
+      "id": "e0030",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:11:12",
@@ -1265,7 +1117,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0035",
+      "id": "e0031",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:11:13",
@@ -1302,7 +1154,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0036",
+      "id": "e0032",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:11:14",
@@ -1339,7 +1191,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0037",
+      "id": "e0033",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:12:12",
@@ -1376,7 +1228,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0038",
+      "id": "e0034",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:12:13",
@@ -1413,7 +1265,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0039",
+      "id": "e0035",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:12:14",
@@ -1450,7 +1302,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0040",
+      "id": "e0036",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:12:5",
@@ -1487,7 +1339,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0041",
+      "id": "e0037",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:13:12",
@@ -1524,7 +1376,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0042",
+      "id": "e0038",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:13:13",
@@ -1561,7 +1413,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0043",
+      "id": "e0039",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:13:14",
@@ -1598,7 +1450,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0044",
+      "id": "e0040",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:13:5",
@@ -1635,7 +1487,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0045",
+      "id": "e0041",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:14:12",
@@ -1672,7 +1524,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0046",
+      "id": "e0042",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:14:13",
@@ -1709,7 +1561,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0047",
+      "id": "e0043",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:14:14",
@@ -1746,7 +1598,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0048",
+      "id": "e0044",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:15:12",
@@ -1783,7 +1635,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0049",
+      "id": "e0045",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:15:13",
@@ -1820,7 +1672,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0050",
+      "id": "e0046",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:15:14",
@@ -1857,7 +1709,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0051",
+      "id": "e0047",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:15:5",
@@ -1894,7 +1746,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0052",
+      "id": "e0048",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:16:10",
@@ -1931,7 +1783,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0053",
+      "id": "e0049",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:16:11",
@@ -1968,7 +1820,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0054",
+      "id": "e0050",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:16:12",
@@ -2005,7 +1857,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0055",
+      "id": "e0051",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:16:13",
@@ -2042,7 +1894,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0056",
+      "id": "e0052",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:16:14",
@@ -2079,7 +1931,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0057",
+      "id": "e0053",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:16:5",
@@ -2116,7 +1968,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0058",
+      "id": "e0054",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:17:13",
@@ -2153,7 +2005,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0059",
+      "id": "e0055",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:17:14",
@@ -2190,7 +2042,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0060",
+      "id": "e0056",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:18:13",
@@ -2227,7 +2079,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0061",
+      "id": "e0057",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:18:14",
@@ -2264,7 +2116,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0062",
+      "id": "e0058",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:19:13",
@@ -2301,7 +2153,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0063",
+      "id": "e0059",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:19:14",
@@ -2338,7 +2190,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0064",
+      "id": "e0060",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:2:10",
@@ -2375,7 +2227,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0065",
+      "id": "e0061",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:2:11",
@@ -2412,7 +2264,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0066",
+      "id": "e0062",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:2:12",
@@ -2449,7 +2301,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0067",
+      "id": "e0063",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:2:13",
@@ -2486,7 +2338,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0068",
+      "id": "e0064",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:2:14",
@@ -2523,7 +2375,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0069",
+      "id": "e0065",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:20:13",
@@ -2560,7 +2412,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0070",
+      "id": "e0066",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:20:14",
@@ -2597,7 +2449,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0071",
+      "id": "e0067",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:21:13",
@@ -2634,7 +2486,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0072",
+      "id": "e0068",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:21:14",
@@ -2671,7 +2523,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0073",
+      "id": "e0069",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:22:10",
@@ -2708,7 +2560,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0074",
+      "id": "e0070",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:22:11",
@@ -2745,7 +2597,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0075",
+      "id": "e0071",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:22:12",
@@ -2782,7 +2634,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0076",
+      "id": "e0072",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:22:13",
@@ -2819,7 +2671,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0077",
+      "id": "e0073",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:22:14",
@@ -2856,7 +2708,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0078",
+      "id": "e0074",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:23:14",
@@ -2893,7 +2745,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0079",
+      "id": "e0075",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:24:14",
@@ -2930,7 +2782,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0080",
+      "id": "e0076",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:24:18",
@@ -2967,7 +2819,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0081",
+      "id": "e0077",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:24:19",
@@ -3004,7 +2856,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0082",
+      "id": "e0078",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:24:21",
@@ -3041,7 +2893,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0083",
+      "id": "e0079",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:24:22",
@@ -3078,7 +2930,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0084",
+      "id": "e0080",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:24:26",
@@ -3115,7 +2967,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0085",
+      "id": "e0081",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:24:27",
@@ -3152,7 +3004,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0086",
+      "id": "e0082",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:24:28",
@@ -3189,7 +3041,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0087",
+      "id": "e0083",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:24:29",
@@ -3226,7 +3078,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0088",
+      "id": "e0084",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:24:30",
@@ -3263,7 +3115,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0089",
+      "id": "e0085",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:24:31",
@@ -3300,7 +3152,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0090",
+      "id": "e0086",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:24:32",
@@ -3337,7 +3189,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0091",
+      "id": "e0087",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:24:33",
@@ -3374,7 +3226,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0092",
+      "id": "e0088",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:25:14",
@@ -3411,7 +3263,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0093",
+      "id": "e0089",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:25:21",
@@ -3448,7 +3300,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0094",
+      "id": "e0090",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:25:27",
@@ -3485,7 +3337,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0095",
+      "id": "e0091",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:25:28",
@@ -3522,7 +3374,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0096",
+      "id": "e0092",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:25:33",
@@ -3559,7 +3411,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0097",
+      "id": "e0093",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:26:14",
@@ -3596,7 +3448,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0098",
+      "id": "e0094",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:26:21",
@@ -3633,7 +3485,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0099",
+      "id": "e0095",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:26:25",
@@ -3670,7 +3522,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0100",
+      "id": "e0096",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:26:27",
@@ -3707,7 +3559,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0101",
+      "id": "e0097",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:26:28",
@@ -3744,7 +3596,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0102",
+      "id": "e0098",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:26:29",
@@ -3781,7 +3633,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0103",
+      "id": "e0099",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:26:30",
@@ -3818,7 +3670,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0104",
+      "id": "e0100",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:26:31",
@@ -3855,7 +3707,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0105",
+      "id": "e0101",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:26:32",
@@ -3892,7 +3744,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0106",
+      "id": "e0102",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:26:33",
@@ -3929,7 +3781,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0107",
+      "id": "e0103",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:27:14",
@@ -3966,7 +3818,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0108",
+      "id": "e0104",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:27:21",
@@ -4003,7 +3855,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0109",
+      "id": "e0105",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:27:27",
@@ -4040,7 +3892,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0110",
+      "id": "e0106",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:27:30",
@@ -4077,7 +3929,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0111",
+      "id": "e0107",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:27:31",
@@ -4114,7 +3966,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0112",
+      "id": "e0108",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:27:5",
@@ -4151,7 +4003,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0113",
+      "id": "e0109",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:28:14",
@@ -4188,7 +4040,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0114",
+      "id": "e0110",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:28:18",
@@ -4225,7 +4077,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0115",
+      "id": "e0111",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:28:19",
@@ -4262,7 +4114,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0116",
+      "id": "e0112",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:28:21",
@@ -4299,7 +4151,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0117",
+      "id": "e0113",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:28:22",
@@ -4336,7 +4188,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0118",
+      "id": "e0114",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:28:23",
@@ -4373,7 +4225,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0119",
+      "id": "e0115",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:28:25",
@@ -4410,7 +4262,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0120",
+      "id": "e0116",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:28:26",
@@ -4447,7 +4299,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0121",
+      "id": "e0117",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:28:27",
@@ -4484,7 +4336,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0122",
+      "id": "e0118",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:28:28",
@@ -4521,7 +4373,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0123",
+      "id": "e0119",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:28:29",
@@ -4558,7 +4410,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0124",
+      "id": "e0120",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:28:30",
@@ -4595,7 +4447,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0125",
+      "id": "e0121",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:28:31",
@@ -4632,7 +4484,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0126",
+      "id": "e0122",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:28:32",
@@ -4669,7 +4521,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0127",
+      "id": "e0123",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:28:5",
@@ -4706,7 +4558,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0128",
+      "id": "e0124",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:29:14",
@@ -4743,7 +4595,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0129",
+      "id": "e0125",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:3:10",
@@ -4780,7 +4632,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0130",
+      "id": "e0126",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:3:11",
@@ -4817,7 +4669,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0131",
+      "id": "e0127",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:3:12",
@@ -4854,7 +4706,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0132",
+      "id": "e0128",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:3:13",
@@ -4891,7 +4743,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0133",
+      "id": "e0129",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:3:14",
@@ -4928,7 +4780,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0134",
+      "id": "e0130",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:30:14",
@@ -4965,7 +4817,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0135",
+      "id": "e0131",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:30:5",
@@ -5002,7 +4854,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0136",
+      "id": "e0132",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:31:10",
@@ -5039,7 +4891,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0137",
+      "id": "e0133",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:31:11",
@@ -5076,7 +4928,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0138",
+      "id": "e0134",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:31:12",
@@ -5113,7 +4965,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0139",
+      "id": "e0135",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:31:13",
@@ -5150,7 +5002,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0140",
+      "id": "e0136",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:31:14",
@@ -5187,7 +5039,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0141",
+      "id": "e0137",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:31:5",
@@ -5224,7 +5076,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0142",
+      "id": "e0138",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:33:10",
@@ -5261,7 +5113,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0143",
+      "id": "e0139",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:33:11",
@@ -5298,7 +5150,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0144",
+      "id": "e0140",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:33:12",
@@ -5335,7 +5187,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0145",
+      "id": "e0141",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:33:13",
@@ -5372,7 +5224,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0146",
+      "id": "e0142",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:33:14",
@@ -5409,7 +5261,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0147",
+      "id": "e0143",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:33:15",
@@ -5446,7 +5298,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0148",
+      "id": "e0144",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:33:16",
@@ -5483,7 +5335,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0149",
+      "id": "e0145",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:33:17",
@@ -5520,7 +5372,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0150",
+      "id": "e0146",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:33:18",
@@ -5557,7 +5409,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0151",
+      "id": "e0147",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:33:19",
@@ -5594,7 +5446,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0152",
+      "id": "e0148",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:33:20",
@@ -5631,7 +5483,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0153",
+      "id": "e0149",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:33:21",
@@ -5668,7 +5520,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0154",
+      "id": "e0150",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:33:22",
@@ -5705,7 +5557,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0155",
+      "id": "e0151",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:33:23",
@@ -5742,7 +5594,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0156",
+      "id": "e0152",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:33:24",
@@ -5779,7 +5631,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0157",
+      "id": "e0153",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:33:25",
@@ -5816,7 +5668,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0158",
+      "id": "e0154",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:33:26",
@@ -5853,7 +5705,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0159",
+      "id": "e0155",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:33:27",
@@ -5890,7 +5742,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0160",
+      "id": "e0156",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:33:28",
@@ -5927,7 +5779,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0161",
+      "id": "e0157",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:33:29",
@@ -5964,7 +5816,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0162",
+      "id": "e0158",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:33:30",
@@ -6001,7 +5853,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0163",
+      "id": "e0159",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:33:31",
@@ -6038,7 +5890,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0164",
+      "id": "e0160",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:33:32",
@@ -6075,7 +5927,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0165",
+      "id": "e0161",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:33:33",
@@ -6112,7 +5964,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0166",
+      "id": "e0162",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:33:34",
@@ -6149,7 +6001,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0167",
+      "id": "e0163",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:34:10",
@@ -6186,7 +6038,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0168",
+      "id": "e0164",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:34:14",
@@ -6223,7 +6075,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0169",
+      "id": "e0165",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:34:15",
@@ -6260,7 +6112,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0170",
+      "id": "e0166",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:34:16",
@@ -6297,7 +6149,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0171",
+      "id": "e0167",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:34:17",
@@ -6334,7 +6186,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0172",
+      "id": "e0168",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:34:18",
@@ -6371,7 +6223,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0173",
+      "id": "e0169",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:34:19",
@@ -6408,7 +6260,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0174",
+      "id": "e0170",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:34:20",
@@ -6445,7 +6297,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0175",
+      "id": "e0171",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:34:21",
@@ -6482,7 +6334,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0176",
+      "id": "e0172",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:34:22",
@@ -6519,7 +6371,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0177",
+      "id": "e0173",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:34:23",
@@ -6556,7 +6408,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0178",
+      "id": "e0174",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:34:24",
@@ -6593,7 +6445,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0179",
+      "id": "e0175",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:34:25",
@@ -6630,7 +6482,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0180",
+      "id": "e0176",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:34:26",
@@ -6667,7 +6519,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0181",
+      "id": "e0177",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:34:27",
@@ -6704,7 +6556,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0182",
+      "id": "e0178",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:34:28",
@@ -6741,7 +6593,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0183",
+      "id": "e0179",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:34:29",
@@ -6778,7 +6630,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0184",
+      "id": "e0180",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:34:30",
@@ -6815,7 +6667,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0185",
+      "id": "e0181",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:34:31",
@@ -6852,7 +6704,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0186",
+      "id": "e0182",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:34:32",
@@ -6889,7 +6741,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0187",
+      "id": "e0183",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:34:33",
@@ -6926,7 +6778,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0188",
+      "id": "e0184",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:34:34",
@@ -6963,7 +6815,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0189",
+      "id": "e0185",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:35:10",
@@ -7000,7 +6852,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0190",
+      "id": "e0186",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:35:14",
@@ -7037,7 +6889,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0191",
+      "id": "e0187",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:35:20",
@@ -7074,7 +6926,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0192",
+      "id": "e0188",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:35:21",
@@ -7111,7 +6963,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0193",
+      "id": "e0189",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:35:22",
@@ -7148,7 +7000,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0194",
+      "id": "e0190",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:35:23",
@@ -7185,7 +7037,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0195",
+      "id": "e0191",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:35:24",
@@ -7222,7 +7074,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0196",
+      "id": "e0192",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:35:25",
@@ -7259,7 +7111,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0197",
+      "id": "e0193",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:35:26",
@@ -7296,7 +7148,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0198",
+      "id": "e0194",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:35:27",
@@ -7333,7 +7185,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0199",
+      "id": "e0195",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:35:28",
@@ -7370,7 +7222,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0200",
+      "id": "e0196",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:35:29",
@@ -7407,7 +7259,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0201",
+      "id": "e0197",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:35:30",
@@ -7444,7 +7296,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0202",
+      "id": "e0198",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:35:31",
@@ -7481,7 +7333,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0203",
+      "id": "e0199",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:35:32",
@@ -7518,7 +7370,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0204",
+      "id": "e0200",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:35:33",
@@ -7555,7 +7407,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0205",
+      "id": "e0201",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:35:34",
@@ -7592,7 +7444,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0206",
+      "id": "e0202",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:36:10",
@@ -7629,7 +7481,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0207",
+      "id": "e0203",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:36:14",
@@ -7666,7 +7518,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0208",
+      "id": "e0204",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:36:20",
@@ -7703,7 +7555,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0209",
+      "id": "e0205",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:36:28",
@@ -7740,7 +7592,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0210",
+      "id": "e0206",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:36:29",
@@ -7777,7 +7629,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0211",
+      "id": "e0207",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:36:30",
@@ -7814,7 +7666,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0212",
+      "id": "e0208",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:36:31",
@@ -7851,7 +7703,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0213",
+      "id": "e0209",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:36:32",
@@ -7888,7 +7740,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0214",
+      "id": "e0210",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:36:33",
@@ -7925,7 +7777,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0215",
+      "id": "e0211",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:36:34",
@@ -7962,7 +7814,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0216",
+      "id": "e0212",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:37:10",
@@ -7999,7 +7851,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0217",
+      "id": "e0213",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:37:14",
@@ -8036,7 +7888,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0218",
+      "id": "e0214",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:37:20",
@@ -8073,7 +7925,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0219",
+      "id": "e0215",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:37:28",
@@ -8110,7 +7962,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0220",
+      "id": "e0216",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:37:29",
@@ -8147,7 +7999,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0221",
+      "id": "e0217",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:37:30",
@@ -8184,7 +8036,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0222",
+      "id": "e0218",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:37:31",
@@ -8221,7 +8073,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0223",
+      "id": "e0219",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:37:32",
@@ -8258,7 +8110,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0224",
+      "id": "e0220",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:37:33",
@@ -8295,7 +8147,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0225",
+      "id": "e0221",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:37:34",
@@ -8332,7 +8184,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0226",
+      "id": "e0222",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:37:5",
@@ -8369,7 +8221,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0227",
+      "id": "e0223",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:37:6",
@@ -8406,7 +8258,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0228",
+      "id": "e0224",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:37:7",
@@ -8443,7 +8295,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0229",
+      "id": "e0225",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:37:8",
@@ -8480,7 +8332,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0230",
+      "id": "e0226",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:37:9",
@@ -8517,7 +8369,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0231",
+      "id": "e0227",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:38:29",
@@ -8554,7 +8406,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0232",
+      "id": "e0228",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:39:29",
@@ -8591,7 +8443,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0233",
+      "id": "e0229",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:4:1",
@@ -8628,7 +8480,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0234",
+      "id": "e0230",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:4:10",
@@ -8665,7 +8517,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0235",
+      "id": "e0231",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:4:11",
@@ -8702,7 +8554,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0236",
+      "id": "e0232",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:4:12",
@@ -8739,7 +8591,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0237",
+      "id": "e0233",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:4:13",
@@ -8776,7 +8628,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0238",
+      "id": "e0234",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:4:14",
@@ -8813,7 +8665,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0239",
+      "id": "e0235",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:40:29",
@@ -8850,7 +8702,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0240",
+      "id": "e0236",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:41:29",
@@ -8887,7 +8739,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0241",
+      "id": "e0237",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:42:1",
@@ -8924,7 +8776,44 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0242",
+      "id": "e0238",
+      "kind": "belt",
+      "from": {
+        "entityId": "logistics-draft:belt:42:10",
+        "port": {
+          "group": "item_output",
+          "id": "out_e",
+          "direction": "output"
+        },
+        "cell": {
+          "x": 42,
+          "y": 10
+        },
+        "outside": {
+          "x": 41,
+          "y": 10
+        }
+      },
+      "to": {
+        "entityId": "thickener_1:2",
+        "port": {
+          "group": "item_input",
+          "id": "in_s_4",
+          "direction": "input"
+        },
+        "cell": {
+          "x": 41,
+          "y": 10
+        },
+        "outside": {
+          "x": 42,
+          "y": 10
+        }
+      },
+      "provenance": "inferred"
+    },
+    {
+      "id": "e0239",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:42:13",
@@ -8961,7 +8850,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0243",
+      "id": "e0240",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:42:16",
@@ -8998,7 +8887,44 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0244",
+      "id": "e0241",
+      "kind": "belt",
+      "from": {
+        "entityId": "logistics-draft:belt:42:19",
+        "port": {
+          "group": "item_output",
+          "id": "out_e",
+          "direction": "output"
+        },
+        "cell": {
+          "x": 42,
+          "y": 19
+        },
+        "outside": {
+          "x": 41,
+          "y": 19
+        }
+      },
+      "to": {
+        "entityId": "thickener_1:1",
+        "port": {
+          "group": "item_input",
+          "id": "in_s_1",
+          "direction": "input"
+        },
+        "cell": {
+          "x": 41,
+          "y": 19
+        },
+        "outside": {
+          "x": 42,
+          "y": 19
+        }
+      },
+      "provenance": "inferred"
+    },
+    {
+      "id": "e0242",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:42:20",
@@ -9035,7 +8961,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0245",
+      "id": "e0243",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:42:21",
@@ -9072,7 +8998,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0246",
+      "id": "e0244",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:42:23",
@@ -9109,7 +9035,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0247",
+      "id": "e0245",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:42:24",
@@ -9146,7 +9072,44 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0248",
+      "id": "e0246",
+      "kind": "belt",
+      "from": {
+        "entityId": "logistics-draft:belt:42:25",
+        "port": {
+          "group": "item_output",
+          "id": "out_e",
+          "direction": "output"
+        },
+        "cell": {
+          "x": 42,
+          "y": 25
+        },
+        "outside": {
+          "x": 41,
+          "y": 25
+        }
+      },
+      "to": {
+        "entityId": "thickener_1:4",
+        "port": {
+          "group": "item_input",
+          "id": "in_s_3",
+          "direction": "input"
+        },
+        "cell": {
+          "x": 41,
+          "y": 25
+        },
+        "outside": {
+          "x": 42,
+          "y": 25
+        }
+      },
+      "provenance": "inferred"
+    },
+    {
+      "id": "e0247",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:42:28",
@@ -9183,7 +9146,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0249",
+      "id": "e0248",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:42:29",
@@ -9220,7 +9183,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0250",
+      "id": "e0249",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:42:30",
@@ -9257,7 +9220,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0251",
+      "id": "e0250",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:42:31",
@@ -9294,7 +9257,7 @@
       "provenance": "inferred"
     },
     {
-      "id": "e0252",
+      "id": "e0251",
       "kind": "belt",
       "from": {
         "entityId": "logistics-draft:belt:42:34",
@@ -9326,6 +9289,43 @@
         "outside": {
           "x": 42,
           "y": 34
+        }
+      },
+      "provenance": "inferred"
+    },
+    {
+      "id": "e0252",
+      "kind": "belt",
+      "from": {
+        "entityId": "logistics-draft:belt:42:4",
+        "port": {
+          "group": "item_output",
+          "id": "out_e",
+          "direction": "output"
+        },
+        "cell": {
+          "x": 42,
+          "y": 4
+        },
+        "outside": {
+          "x": 41,
+          "y": 4
+        }
+      },
+      "to": {
+        "entityId": "thickener_1:3",
+        "port": {
+          "group": "item_input",
+          "id": "in_s_1",
+          "direction": "input"
+        },
+        "cell": {
+          "x": 41,
+          "y": 4
+        },
+        "outside": {
+          "x": 42,
+          "y": 4
         }
       },
       "provenance": "inferred"

@@ -19,8 +19,8 @@ const WULING_EXPECTATIONS: readonly FixtureExpectation[] = [
     // 管准入口不主动从仓库取液 → 不产铜锭（Python 基线来自不同运行环境）。
     // 仅断言转换对齐 + 拓扑。
     name: "bp_EF013Eou8uo47auUu0579", // 武陵1
-    entityCount: 367, deviceCount: 53, logisticsCount: 314, slotLinkCount: 10, connectionCount: 359,
-    adaptationConflicts: 0, unconnectedWarnings: 4,
+    entityCount: 367, deviceCount: 53, logisticsCount: 314, slotLinkCount: 10, connectionCount: 361,
+    adaptationConflicts: 0, unconnectedWarnings: 2,
     supplyOrRecipeWarnings: 0,
   },
   {

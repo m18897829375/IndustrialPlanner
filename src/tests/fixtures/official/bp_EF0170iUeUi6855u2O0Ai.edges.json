@@ -309,7 +309,7 @@
         "entityId": "logistics-draft:belt:10:2",
         "port": {
           "group": "item_output",
-          "id": "out_e",
+          "id": "out_s",
           "direction": "output"
         },
         "cell": {
@@ -5616,7 +5616,7 @@
         "entityId": "logistics-draft:belt:10:2",
         "port": {
           "group": "item_input",
-          "id": "in_n",
+          "id": "in_e",
           "direction": "input"
         },
         "cell": {
